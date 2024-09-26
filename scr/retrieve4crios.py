@@ -22,13 +22,13 @@ def parse_arguments():
     Parsing of command line arguments. Using a mix of positional and optional arguments.
     """
     parser = argparse.ArgumentParser(
-            description='Download and save SPICE data. If station is specified, output has to be specified as well.', 
+            description='Download and save SPICE data. If station is specified, output has to be specified as well. If start_ts is not specified, the software enters update mode and will check for updates since the last file was created (not in single station mode).', 
             epilog=' The connection to the remote server is specified in the configuration file. Positional arguments will override potential station lists provided in the configuration file. If no end time is provided, the current time is used. If station is specified in the command line, the destination path and filename is also required.')
     parser.add_argument("-c","--cfg",dest="cfgfile",
             help="Configuration file", required=True)
     parser.add_argument("-s", "--station", dest='station',
             help='Station code in the API. Only used for testing retrieval of one station, else configuration file is used.', required=False)
-    parser.add_argument('start_ts',
+    parser.add_argument('start_ts', nargs="?", default=argparse.SUPPRESS,
             help='Start time in UTC (YYYY-MM-DDTHH:MM:SSZ).')
     parser.add_argument('end_ts', nargs="?", default=argparse.SUPPRESS,
             help='End time in UTC (YYYY-MM-DDTHH:MM:SSZ). Can be excluded and will then be set to now.')
@@ -438,12 +438,6 @@ if __name__ == '__main__':
         end_ts = datetime.datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
     else:
         end_ts = myargs.end_ts
-    # Split requested time period into monthly periods
-    try:
-        myperiods = split_period(mylog, myargs.start_ts, end_ts)
-    except Exception as e:
-        mylog.error("Inconcistency in time specification: %s", e)
-        raise SystemExit("Inconcistency in time specification")
 
     # Loop over stations in the configuration file or do the single stations requested in command line
     sttype = cfgstr['criosapicfg']['sttype']
@@ -452,26 +446,33 @@ if __name__ == '__main__':
         """
         Handling single station requests in one go
         """
-        for p in myperiods:
-            # Retrieve data
-            try:
-                mydata = retrievedata(mylog, sttype, endpoint, myargs.station, myargs.start_ts, end_ts)
-            except Exception as e:
-                raise SystemExit("Retrival and conversion didn't work", e)
-            # Transform to Dataset
-            try:
-                myds = transformdata(mylog, sttype, mydata)
-            except Exception as e:
-                mylog.warning("Something failed in transformdata")
-            # Write to file
-            outfile = cfgstr['output']['destdir']+'/'+mystation+'.nc'
-            try:
-                ds2netcdf(mylog, myds, outfile)
-            except Exception as e:
-                mylog.warning('Something failed when dumping to NetCDF file: %s', e)
-                raise Exception('Something failed when dumping to NetCDF')
+        # Retrieve data
+        try:
+            mydata = retrievedata(mylog, sttype, endpoint, myargs.station, myargs.start_ts, end_ts)
+        except Exception as e:
+            raise SystemExit("Retrival and conversion didn't work", e)
+        # Transform to Dataset
+        try:
+            myds = transformdata(mylog, sttype, mydata)
+        except Exception as e:
+            mylog.warning("Something failed in transformdata")
+        # Write to file
+        try:
+            ds2netcdf(mylog, myds, args.output)
+        except Exception as e:
+            mylog.warning('Something failed when dumping to NetCDF file: %s', e)
+            raise Exception('Something failed when dumping to NetCDF')
     else:
         if 'stations' in cfgstr['criosapicfg']:
+            # If start time is not provided, get it from last generated files
+            # FIXME
+            # Split requested time period into monthly periods
+            try:
+                myperiods = split_period(mylog, myargs.start_ts, end_ts)
+            except Exception as e:
+            mylog.error("Inconcistency in time specification: %s", e)
+            raise SystemExit("Inconcistency in time specification")
+
             for mystation in cfgstr['criosapicfg']['stations'].keys():
                 mymd = {
                         'stid': mystation,
