@@ -4,3 +4,5 @@ Software to retrieve data from an end point and convert these data to CF-NetCDF 
 Supports snow measurements and automatic weather stations.
 Data is segmented into monthly files for each station.
 An identifier is added to each file using the MET identifier setup.
+
+GPL v3 or higher license (to be added more formally).
