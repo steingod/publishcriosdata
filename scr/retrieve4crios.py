@@ -101,6 +101,20 @@ def initialise_logger(outputfile = './log'):
 
     return(mylog)
 
+def check_last_updated(outputdir):
+    """
+    Check the folder where results are dumped, get the last timestamp, substract 3 minutes and create timestamp to use for running updates.
+    """
+    last_update = 0
+    for myfile in os.listdir(outputdir):
+        if myfile.endswith('.nc'):
+            tmptime = os.path.getmtime(outputdir+'/'+myfile)
+            if tmptime > last_update:
+                last_update = tmptime
+
+    #print(datetime.datetime.fromtimestamp(last_update))
+    return datetime.datetime.fromtimestamp(last_update)-datetime.timedelta(hours=0, minutes=1)
+
 def split_period(mylog, start_ts, end_ts):
     """
     Split the requested time period into monthly sections for better granularity in the file system.
@@ -466,12 +480,16 @@ if __name__ == '__main__':
         if 'stations' in cfgstr['criosapicfg']:
             # If start time is not provided, get it from last generated files
             # FIXME
+            if 'start_ts' not in vars(myargs):
+                start_ts = check_last_updated(cfgstr['output']['destdir'])
+            else:
+                start_ts = myargs.start_ts
             # Split requested time period into monthly periods
             try:
-                myperiods = split_period(mylog, myargs.start_ts, end_ts)
+                myperiods = split_period(mylog, start_ts, end_ts)
             except Exception as e:
-            mylog.error("Inconcistency in time specification: %s", e)
-            raise SystemExit("Inconcistency in time specification")
+                mylog.error("Inconcistency in time specification: %s", e)
+                raise SystemExit("Inconcistency in time specification")
 
             for mystation in cfgstr['criosapicfg']['stations'].keys():
                 mymd = {
