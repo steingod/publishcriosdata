@@ -1,0 +1,2446 @@
+2024-09-25 17:15:53,785 - INFO - Configuration of logging is finished.
+2024-09-25 17:17:39,081 - INFO - Configuration of logging is finished.
+2024-09-25 17:52:02,304 - INFO - Configuration of logging is finished.
+2024-09-25 17:52:40,897 - INFO - Configuration of logging is finished.
+2024-09-25 17:53:04,014 - INFO - Configuration of logging is finished.
+2024-09-25 17:56:17,082 - INFO - Configuration of logging is finished.
+2024-09-25 17:56:17,082 - INFO - Processing station: SPICE34
+2024-09-25 17:56:45,450 - INFO - Configuration of logging is finished.
+2024-09-25 17:56:45,450 - INFO - Processing station: SPICE34
+2024-09-25 18:03:27,116 - INFO - Configuration of logging is finished.
+2024-09-25 18:03:48,983 - INFO - Configuration of logging is finished.
+2024-09-25 18:04:11,234 - INFO - Configuration of logging is finished.
+2024-09-25 18:04:45,644 - INFO - Configuration of logging is finished.
+2024-09-25 18:04:45,644 - INFO - Processing station: SPICE34
+2024-09-25 18:05:02,809 - INFO - Configuration of logging is finished.
+2024-09-25 18:05:02,809 - INFO - Processing station: SPICE34
+2024-09-25 18:07:24,614 - INFO - Configuration of logging is finished.
+2024-09-25 18:07:24,614 - INFO - Processing station: SPICE34
+2024-09-25 18:07:24,614 - INFO - Now in retrievespicedata
+2024-09-25 18:08:31,219 - INFO - Configuration of logging is finished.
+2024-09-25 18:08:31,219 - INFO - Processing station: SPICE34
+2024-09-25 18:08:31,219 - INFO - Now in retrievespicedata
+2024-09-25 18:08:43,893 - INFO - Configuration of logging is finished.
+2024-09-25 18:08:43,893 - INFO - Processing station: SPICE34
+2024-09-25 18:08:43,893 - INFO - Now in retrievespicedata
+2024-09-25 18:08:44,359 - WARNING - Could not load data as JSON
+2024-09-25 18:09:21,528 - INFO - Configuration of logging is finished.
+2024-09-25 18:09:21,528 - INFO - Processing station: SPICE34
+2024-09-25 18:09:21,528 - INFO - Now in retrievespicedata
+2024-09-25 18:09:22,088 - WARNING - Could not load data as JSON
+2024-09-25 21:51:11,074 - INFO - Configuration of logging is finished.
+2024-09-25 21:51:11,075 - INFO - Processing station: SPICE34
+2024-09-25 21:51:11,075 - INFO - Now in retrievespicedata
+2024-09-25 21:51:11,435 - INFO - Processing station: SPICE35
+2024-09-25 21:51:11,435 - INFO - Now in retrievespicedata
+2024-09-25 21:51:11,641 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-25 21:53:08,768 - INFO - Configuration of logging is finished.
+2024-09-25 21:53:08,768 - INFO - Processing station: SPICE34
+2024-09-25 21:53:08,768 - INFO - Now in retrievespicedata
+2024-09-25 21:53:09,134 - INFO - Processing station: SPICE35
+2024-09-25 21:53:09,134 - INFO - Now in retrievespicedata
+2024-09-25 21:53:09,342 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-25 21:53:09,343 - INFO - Processing station: SPICE36
+2024-09-25 21:53:09,343 - INFO - Now in retrievespicedata
+2024-09-25 21:53:09,553 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-25 21:53:09,554 - INFO - Processing station: SPICE37
+2024-09-25 21:53:09,554 - INFO - Now in retrievespicedata
+2024-09-25 21:53:09,858 - INFO - Processing station: SPICE38
+2024-09-25 21:53:09,858 - INFO - Now in retrievespicedata
+2024-09-25 21:53:40,926 - INFO - Configuration of logging is finished.
+2024-09-25 21:53:40,926 - INFO - Processing station: SPICE34
+2024-09-25 21:53:40,926 - INFO - Now in retrievespicedata
+2024-09-25 21:53:41,310 - INFO - Processing station: SPICE35
+2024-09-25 21:53:41,310 - INFO - Now in retrievespicedata
+2024-09-25 21:53:41,517 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-25 21:53:41,518 - INFO - Processing station: SPICE36
+2024-09-25 21:53:41,518 - INFO - Now in retrievespicedata
+2024-09-25 21:53:41,726 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-25 21:53:41,727 - INFO - Processing station: SPICE37
+2024-09-25 21:53:41,727 - INFO - Now in retrievespicedata
+2024-09-25 21:53:42,026 - INFO - Processing station: SPICE38
+2024-09-25 21:53:42,026 - INFO - Now in retrievespicedata
+2024-09-25 21:54:09,708 - INFO - Configuration of logging is finished.
+2024-09-25 21:54:09,708 - INFO - 
+2024-09-25 21:54:09,708 - INFO - Processing station: SPICE34
+2024-09-25 21:54:09,708 - INFO - Now in retrievespicedata
+2024-09-25 21:54:10,069 - INFO - 
+2024-09-25 21:54:10,069 - INFO - Processing station: SPICE35
+2024-09-25 21:54:10,069 - INFO - Now in retrievespicedata
+2024-09-25 21:54:10,275 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-25 21:54:10,276 - INFO - 
+2024-09-25 21:54:10,276 - INFO - Processing station: SPICE36
+2024-09-25 21:54:10,276 - INFO - Now in retrievespicedata
+2024-09-25 21:54:10,481 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-25 21:54:10,481 - INFO - 
+2024-09-25 21:54:10,482 - INFO - Processing station: SPICE37
+2024-09-25 21:54:10,482 - INFO - Now in retrievespicedata
+2024-09-25 21:54:10,772 - INFO - 
+2024-09-25 21:54:10,772 - INFO - Processing station: SPICE38
+2024-09-25 21:54:10,772 - INFO - Now in retrievespicedata
+2024-09-25 21:56:03,895 - INFO - Configuration of logging is finished.
+2024-09-25 21:56:03,895 - INFO - 
+2024-09-25 21:56:03,895 - INFO - Processing station: SPICE34
+2024-09-25 21:56:03,895 - INFO - Now in retrievespicedata
+2024-09-25 21:56:04,260 - INFO - 
+2024-09-25 21:56:04,261 - INFO - Processing station: SPICE35
+2024-09-25 21:56:04,261 - INFO - Now in retrievespicedata
+2024-09-25 21:56:04,469 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-25 21:56:04,470 - INFO - 
+2024-09-25 21:56:04,470 - INFO - Processing station: SPICE36
+2024-09-25 21:56:04,470 - INFO - Now in retrievespicedata
+2024-09-25 21:56:04,675 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-25 21:56:04,676 - INFO - 
+2024-09-25 21:56:04,676 - INFO - Processing station: SPICE37
+2024-09-25 21:56:04,677 - INFO - Now in retrievespicedata
+2024-09-25 21:56:04,976 - INFO - 
+2024-09-25 21:56:04,976 - INFO - Processing station: SPICE38
+2024-09-25 21:56:04,976 - INFO - Now in retrievespicedata
+2024-09-25 21:59:58,826 - INFO - Configuration of logging is finished.
+2024-09-25 21:59:58,826 - INFO - 
+2024-09-25 21:59:58,826 - INFO - Processing station: SPICE34
+2024-09-25 21:59:58,826 - INFO - Now in retrievespicedata
+2024-09-25 21:59:59,250 - INFO - Now transforming data
+2024-09-25 21:59:59,250 - WARNING - dfsdfsf
+2024-09-25 21:59:59,250 - WARNING - Something failed in transformdata
+2024-09-25 21:59:59,251 - INFO - 
+2024-09-25 21:59:59,251 - INFO - Processing station: SPICE35
+2024-09-25 21:59:59,251 - INFO - Now in retrievespicedata
+2024-09-25 21:59:59,464 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-25 21:59:59,465 - INFO - Now transforming data
+2024-09-25 21:59:59,466 - WARNING - dfsdfsf
+2024-09-25 21:59:59,466 - WARNING - Something failed in transformdata
+2024-09-25 21:59:59,466 - INFO - 
+2024-09-25 21:59:59,466 - INFO - Processing station: SPICE36
+2024-09-25 21:59:59,466 - INFO - Now in retrievespicedata
+2024-09-25 21:59:59,675 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-25 21:59:59,676 - INFO - Now transforming data
+2024-09-25 21:59:59,686 - WARNING - dfsdfsf
+2024-09-25 21:59:59,686 - WARNING - Something failed in transformdata
+2024-09-25 21:59:59,686 - INFO - 
+2024-09-25 21:59:59,686 - INFO - Processing station: SPICE37
+2024-09-25 21:59:59,686 - INFO - Now in retrievespicedata
+2024-09-25 21:59:59,986 - INFO - Now transforming data
+2024-09-25 21:59:59,986 - WARNING - dfsdfsf
+2024-09-25 21:59:59,986 - WARNING - Something failed in transformdata
+2024-09-25 21:59:59,986 - INFO - 
+2024-09-25 21:59:59,986 - INFO - Processing station: SPICE38
+2024-09-25 21:59:59,986 - INFO - Now in retrievespicedata
+2024-09-25 22:00:00,290 - INFO - Now transforming data
+2024-09-25 22:00:00,290 - WARNING - dfsdfsf
+2024-09-25 22:00:00,290 - WARNING - Something failed in transformdata
+2024-09-25 22:01:59,800 - INFO - Configuration of logging is finished.
+2024-09-25 22:01:59,800 - INFO - 
+2024-09-25 22:01:59,800 - INFO - Processing station: SPICE34
+2024-09-25 22:01:59,800 - INFO - Now in retrievespicedata
+2024-09-25 22:02:00,151 - INFO - Now transforming data for station type spice
+2024-09-25 22:02:00,152 - WARNING - Something failed when converting JSON to XARRAY Dataset name 'json_data' is not defined
+2024-09-25 22:02:00,152 - WARNING - Something failed in transformdata
+2024-09-25 22:02:00,152 - INFO - 
+2024-09-25 22:02:00,152 - INFO - Processing station: SPICE35
+2024-09-25 22:02:00,152 - INFO - Now in retrievespicedata
+2024-09-25 22:02:00,360 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-25 22:02:00,361 - INFO - Now transforming data for station type spice
+2024-09-25 22:02:00,361 - WARNING - Something failed when converting JSON to XARRAY Dataset name 'json_data' is not defined
+2024-09-25 22:02:00,361 - WARNING - Something failed in transformdata
+2024-09-25 22:02:00,361 - INFO - 
+2024-09-25 22:02:00,361 - INFO - Processing station: SPICE36
+2024-09-25 22:02:00,361 - INFO - Now in retrievespicedata
+2024-09-25 22:02:00,569 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-25 22:02:00,570 - INFO - Now transforming data for station type spice
+2024-09-25 22:02:00,570 - WARNING - Something failed when converting JSON to XARRAY Dataset name 'json_data' is not defined
+2024-09-25 22:02:00,570 - WARNING - Something failed in transformdata
+2024-09-25 22:02:00,570 - INFO - 
+2024-09-25 22:02:00,570 - INFO - Processing station: SPICE37
+2024-09-25 22:02:00,570 - INFO - Now in retrievespicedata
+2024-09-25 22:02:00,867 - INFO - Now transforming data for station type spice
+2024-09-25 22:02:00,868 - WARNING - Something failed when converting JSON to XARRAY Dataset name 'json_data' is not defined
+2024-09-25 22:02:00,868 - WARNING - Something failed in transformdata
+2024-09-25 22:02:00,868 - INFO - 
+2024-09-25 22:02:00,868 - INFO - Processing station: SPICE38
+2024-09-25 22:02:00,868 - INFO - Now in retrievespicedata
+2024-09-25 22:02:01,181 - INFO - Now transforming data for station type spice
+2024-09-25 22:02:01,182 - WARNING - Something failed when converting JSON to XARRAY Dataset name 'json_data' is not defined
+2024-09-25 22:02:01,182 - WARNING - Something failed in transformdata
+2024-09-25 22:04:42,457 - INFO - Configuration of logging is finished.
+2024-09-25 22:04:42,457 - INFO - 
+2024-09-25 22:04:42,457 - INFO - Processing station: SPICE34
+2024-09-25 22:04:42,457 - INFO - Now in retrievespicedata
+2024-09-25 22:04:42,819 - INFO - Now transforming data for station type spice
+2024-09-25 22:09:48,772 - INFO - Configuration of logging is finished.
+2024-09-25 22:09:48,772 - INFO - 
+2024-09-25 22:09:48,772 - INFO - Processing station: SPICE34
+2024-09-25 22:09:48,772 - INFO - Now in retrievespicedata
+2024-09-25 22:09:49,068 - INFO - Now transforming data for station type spice
+2024-09-25 22:09:49,103 - WARNING - Something failed when converting SPICE JSON to XARRAY Dataset: name 'spice' is not defined
+2024-09-25 22:09:49,103 - WARNING - Something failed in transformdata
+2024-09-25 22:10:48,579 - INFO - Configuration of logging is finished.
+2024-09-25 22:10:48,579 - INFO - 
+2024-09-25 22:10:48,580 - INFO - Processing station: SPICE34
+2024-09-25 22:10:48,580 - INFO - Now in retrievespicedata
+2024-09-25 22:10:49,004 - INFO - Now transforming data for station type spice
+2024-09-25 22:10:49,014 - WARNING - Something failed when converting SPICE JSON to XARRAY Dataset: name 'spice' is not defined
+2024-09-25 22:10:49,015 - WARNING - Something failed in transformdata
+2024-09-25 22:17:40,325 - INFO - Configuration of logging is finished.
+2024-09-25 22:19:54,598 - INFO - Configuration of logging is finished.
+2024-09-25 22:20:20,731 - INFO - Configuration of logging is finished.
+2024-09-25 22:24:44,011 - INFO - Configuration of logging is finished.
+2024-09-25 22:25:14,297 - INFO - Configuration of logging is finished.
+2024-09-25 22:25:14,297 - INFO - 
+2024-09-25 22:25:14,297 - INFO - Processing station: SPICE34
+2024-09-25 22:25:14,297 - INFO - Now in retrievespicedata
+2024-09-25 22:25:14,712 - INFO - Now transforming data for station type spice
+2024-09-25 22:25:14,721 - WARNING - Something failed when converting SPICE JSON to XARRAY Dataset: name 'stored_positions' is not defined
+2024-09-25 22:25:14,721 - WARNING - Something failed in transformdata
+2024-09-25 22:25:37,940 - INFO - Configuration of logging is finished.
+2024-09-25 22:25:37,940 - INFO - 
+2024-09-25 22:25:37,940 - INFO - Processing station: SPICE34
+2024-09-25 22:25:37,940 - INFO - Now in retrievespicedata
+2024-09-25 22:25:38,289 - INFO - Now transforming data for station type spice
+2024-09-25 22:25:38,307 - INFO - 
+2024-09-25 22:25:38,307 - INFO - Processing station: SPICE35
+2024-09-25 22:25:38,307 - INFO - Now in retrievespicedata
+2024-09-25 22:25:38,506 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-25 22:25:38,507 - INFO - Now transforming data for station type spice
+2024-09-25 22:25:38,507 - WARNING - Something failed when converting SPICE JSON to XARRAY Dataset: 'NoneType' object is not subscriptable
+2024-09-25 22:25:38,507 - WARNING - Something failed in transformdata
+2024-09-25 22:25:38,510 - INFO - 
+2024-09-25 22:25:38,510 - INFO - Processing station: SPICE36
+2024-09-25 22:25:38,510 - INFO - Now in retrievespicedata
+2024-09-25 22:25:38,715 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-25 22:25:38,716 - INFO - Now transforming data for station type spice
+2024-09-25 22:25:38,716 - WARNING - Something failed when converting SPICE JSON to XARRAY Dataset: 'NoneType' object is not subscriptable
+2024-09-25 22:25:38,716 - WARNING - Something failed in transformdata
+2024-09-25 22:25:38,721 - INFO - 
+2024-09-25 22:25:38,721 - INFO - Processing station: SPICE37
+2024-09-25 22:25:38,721 - INFO - Now in retrievespicedata
+2024-09-25 22:25:39,019 - INFO - Now transforming data for station type spice
+2024-09-25 22:25:39,040 - INFO - 
+2024-09-25 22:25:39,040 - INFO - Processing station: SPICE38
+2024-09-25 22:25:39,041 - INFO - Now in retrievespicedata
+2024-09-25 22:25:39,347 - INFO - Now transforming data for station type spice
+2024-09-25 22:25:57,557 - INFO - Configuration of logging is finished.
+2024-09-25 22:25:57,557 - INFO - 
+2024-09-25 22:25:57,557 - INFO - Processing station: SPICE34
+2024-09-25 22:25:57,557 - INFO - Now in retrievespicedata
+2024-09-25 22:25:57,912 - INFO - Now transforming data for station type spice
+2024-09-25 22:25:57,931 - INFO - 
+2024-09-25 22:25:57,931 - INFO - Processing station: SPICE35
+2024-09-25 22:25:57,931 - INFO - Now in retrievespicedata
+2024-09-25 22:25:58,130 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-25 22:25:58,131 - INFO - Now transforming data for station type spice
+2024-09-25 22:25:58,131 - WARNING - Something failed when converting SPICE JSON to XARRAY Dataset: 'NoneType' object is not subscriptable
+2024-09-25 22:25:58,132 - WARNING - Something failed in transformdata
+2024-09-25 22:25:58,136 - INFO - 
+2024-09-25 22:25:58,136 - INFO - Processing station: SPICE36
+2024-09-25 22:25:58,136 - INFO - Now in retrievespicedata
+2024-09-25 22:25:58,340 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-25 22:25:58,341 - INFO - Now transforming data for station type spice
+2024-09-25 22:25:58,341 - WARNING - Something failed when converting SPICE JSON to XARRAY Dataset: 'NoneType' object is not subscriptable
+2024-09-25 22:25:58,341 - WARNING - Something failed in transformdata
+2024-09-25 22:25:58,345 - INFO - 
+2024-09-25 22:25:58,346 - INFO - Processing station: SPICE37
+2024-09-25 22:25:58,346 - INFO - Now in retrievespicedata
+2024-09-25 22:25:58,637 - INFO - Now transforming data for station type spice
+2024-09-25 22:25:58,655 - INFO - 
+2024-09-25 22:25:58,656 - INFO - Processing station: SPICE38
+2024-09-25 22:25:58,656 - INFO - Now in retrievespicedata
+2024-09-25 22:25:58,981 - INFO - Now transforming data for station type spice
+2024-09-25 22:27:35,852 - INFO - Configuration of logging is finished.
+2024-09-25 22:27:35,852 - INFO - 
+2024-09-25 22:27:35,852 - INFO - Processing station: SPICE34
+2024-09-25 22:27:35,852 - INFO - Now in retrievespicedata
+2024-09-25 22:27:36,211 - INFO - Now transforming data for station type spice
+2024-09-25 22:27:36,228 - INFO - 
+2024-09-25 22:27:36,228 - INFO - Processing station: SPICE35
+2024-09-25 22:27:36,228 - INFO - Now in retrievespicedata
+2024-09-25 22:27:36,430 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-25 22:27:36,431 - INFO - Now transforming data for station type spice
+2024-09-25 22:27:36,431 - WARNING - Something failed when converting SPICE JSON to XARRAY Dataset: 'NoneType' object is not subscriptable
+2024-09-25 22:27:36,431 - WARNING - Something failed in transformdata
+2024-09-25 22:27:36,435 - INFO - 
+2024-09-25 22:27:36,435 - INFO - Processing station: SPICE36
+2024-09-25 22:27:36,435 - INFO - Now in retrievespicedata
+2024-09-25 22:27:36,636 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-25 22:27:36,636 - INFO - Now transforming data for station type spice
+2024-09-25 22:27:36,636 - WARNING - Something failed when converting SPICE JSON to XARRAY Dataset: 'NoneType' object is not subscriptable
+2024-09-25 22:27:36,636 - WARNING - Something failed in transformdata
+2024-09-25 22:27:36,640 - INFO - 
+2024-09-25 22:27:36,641 - INFO - Processing station: SPICE37
+2024-09-25 22:27:36,641 - INFO - Now in retrievespicedata
+2024-09-25 22:27:36,931 - INFO - Now transforming data for station type spice
+2024-09-25 22:27:36,949 - INFO - 
+2024-09-25 22:27:36,949 - INFO - Processing station: SPICE38
+2024-09-25 22:27:36,949 - INFO - Now in retrievespicedata
+2024-09-25 22:27:37,252 - INFO - Now transforming data for station type spice
+2024-09-25 22:28:59,943 - INFO - Configuration of logging is finished.
+2024-09-25 22:28:59,943 - INFO - 
+2024-09-25 22:28:59,943 - INFO - Processing station: SPICE34
+2024-09-25 22:28:59,943 - INFO - Now in retrievespicedata
+2024-09-25 22:29:00,298 - INFO - Now transforming data for station type spice
+2024-09-25 22:32:30,878 - INFO - Configuration of logging is finished.
+2024-09-25 22:32:30,878 - INFO - 
+2024-09-25 22:32:30,878 - INFO - Processing station: SPICE34
+2024-09-25 22:32:30,878 - INFO - Now in retrievespicedata
+2024-09-25 22:32:31,242 - INFO - Now transforming data for station type spice
+2024-09-25 22:32:40,180 - INFO - Configuration of logging is finished.
+2024-09-25 22:32:40,180 - INFO - 
+2024-09-25 22:32:40,180 - INFO - Processing station: SPICE34
+2024-09-25 22:32:40,180 - INFO - Now in retrievespicedata
+2024-09-25 22:32:40,487 - INFO - Now transforming data for station type spice
+2024-09-25 22:33:02,583 - INFO - Configuration of logging is finished.
+2024-09-25 22:33:02,583 - INFO - 
+2024-09-25 22:33:02,583 - INFO - Processing station: SPICE34
+2024-09-25 22:33:02,583 - INFO - Now in retrievespicedata
+2024-09-25 22:33:02,948 - INFO - Now transforming data for station type spice
+2024-09-25 22:33:02,965 - WARNING - Something failed when converting SPICE JSON to XARRAY Dataset: 'indent' is an invalid keyword argument for print()
+2024-09-25 22:33:02,965 - WARNING - Something failed in transformdata
+2024-09-25 22:34:12,142 - INFO - Configuration of logging is finished.
+2024-09-25 22:34:12,142 - INFO - 
+2024-09-25 22:34:12,142 - INFO - Processing station: SPICE34
+2024-09-25 22:34:12,142 - INFO - Now in retrievespicedata
+2024-09-25 22:34:12,502 - INFO - Now transforming data for station type spice
+2024-09-25 22:35:06,094 - INFO - Configuration of logging is finished.
+2024-09-25 22:35:06,094 - INFO - 
+2024-09-25 22:35:06,095 - INFO - Processing station: SPICE34
+2024-09-25 22:35:06,095 - INFO - Now in retrievespicedata
+2024-09-25 22:35:06,450 - INFO - Now transforming data for station type spice
+2024-09-25 22:36:40,312 - INFO - Configuration of logging is finished.
+2024-09-25 22:36:40,313 - INFO - 
+2024-09-25 22:36:40,313 - INFO - Processing station: SPICE34
+2024-09-25 22:36:40,313 - INFO - Now in retrievespicedata
+2024-09-25 22:36:40,765 - INFO - Now transforming data for station type spice
+2024-09-25 22:38:01,650 - INFO - Configuration of logging is finished.
+2024-09-25 22:38:01,650 - INFO - 
+2024-09-25 22:38:01,650 - INFO - Processing station: SPICE34
+2024-09-25 22:38:01,650 - INFO - Now in retrievespicedata
+2024-09-25 22:38:02,005 - INFO - Now transforming data for station type spice
+2024-09-25 22:40:23,411 - INFO - Configuration of logging is finished.
+2024-09-25 22:40:23,411 - INFO - 
+2024-09-25 22:40:23,411 - INFO - Processing station: SPICE34
+2024-09-25 22:40:23,411 - INFO - Now in retrievespicedata
+2024-09-25 22:40:23,767 - INFO - Now transforming data for station type spice
+2024-09-25 22:40:55,962 - INFO - Configuration of logging is finished.
+2024-09-25 22:40:55,962 - INFO - 
+2024-09-25 22:40:55,962 - INFO - Processing station: SPICE34
+2024-09-25 22:40:55,962 - INFO - Now in retrievespicedata
+2024-09-25 22:40:56,305 - INFO - Now transforming data for station type spice
+2024-09-25 22:53:24,203 - INFO - Configuration of logging is finished.
+2024-09-25 22:53:24,204 - INFO - 
+2024-09-25 22:53:24,204 - INFO - Processing station: SPICE34
+2024-09-25 22:53:24,204 - INFO - Now in retrievespicedata
+2024-09-25 22:53:24,626 - INFO - Now transforming data for station type spice
+2024-09-25 22:53:24,642 - WARNING - Something failed when converting SPICE JSON to XARRAY Dataset: bad operand type for unary +: 'str'
+2024-09-25 22:53:24,642 - WARNING - Something failed in transformdata
+2024-09-25 22:53:46,959 - INFO - Configuration of logging is finished.
+2024-09-25 22:53:46,959 - INFO - 
+2024-09-25 22:53:46,959 - INFO - Processing station: SPICE34
+2024-09-25 22:53:46,959 - INFO - Now in retrievespicedata
+2024-09-25 22:53:47,314 - INFO - Now transforming data for station type spice
+2024-09-25 22:53:47,328 - WARNING - Something failed when converting SPICE JSON to XARRAY Dataset: bad operand type for unary +: 'str'
+2024-09-25 22:53:47,329 - WARNING - Something failed in transformdata
+2024-09-25 22:54:02,991 - INFO - Configuration of logging is finished.
+2024-09-25 22:54:02,991 - INFO - 
+2024-09-25 22:54:02,991 - INFO - Processing station: SPICE34
+2024-09-25 22:54:02,991 - INFO - Now in retrievespicedata
+2024-09-25 22:54:03,355 - INFO - Now transforming data for station type spice
+2024-09-25 22:54:03,371 - WARNING - Something failed when converting SPICE JSON to XARRAY Dataset: bad operand type for unary +: 'str'
+2024-09-25 22:54:03,372 - WARNING - Something failed in transformdata
+2024-09-25 22:56:04,495 - INFO - Configuration of logging is finished.
+2024-09-25 22:56:04,495 - INFO - 
+2024-09-25 22:56:04,495 - INFO - Processing station: SPICE34
+2024-09-25 22:56:04,495 - INFO - Now in retrievespicedata
+2024-09-25 22:56:04,856 - INFO - Now transforming data for station type spice
+2024-09-25 22:58:45,767 - INFO - Configuration of logging is finished.
+2024-09-25 22:58:45,767 - INFO - 
+2024-09-25 22:58:45,767 - INFO - Processing station: SPICE34
+2024-09-25 22:58:45,767 - INFO - Now in retrievespicedata
+2024-09-25 22:58:46,120 - INFO - Now transforming data for station type spice
+2024-09-25 23:05:38,145 - INFO - Configuration of logging is finished.
+2024-09-25 23:05:38,146 - INFO - 
+2024-09-25 23:05:38,146 - INFO - Processing station: SPICE34
+2024-09-25 23:05:38,146 - INFO - Now in retrievespicedata
+2024-09-25 23:05:38,579 - INFO - Now transforming data for station type spice
+2024-09-25 23:05:49,362 - INFO - Configuration of logging is finished.
+2024-09-25 23:05:49,362 - INFO - 
+2024-09-25 23:05:49,362 - INFO - Processing station: SPICE34
+2024-09-25 23:05:49,362 - INFO - Now in retrievespicedata
+2024-09-25 23:05:49,752 - INFO - Now transforming data for station type spice
+2024-09-25 23:05:49,766 - INFO - 
+2024-09-25 23:05:49,766 - INFO - Processing station: SPICE35
+2024-09-25 23:05:49,766 - INFO - Now in retrievespicedata
+2024-09-25 23:05:49,970 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-25 23:05:49,971 - INFO - Now transforming data for station type spice
+2024-09-25 23:05:49,971 - WARNING - Something failed when converting SPICE JSON to XARRAY Dataset: 'NoneType' object is not subscriptable
+2024-09-25 23:05:49,971 - WARNING - Something failed in transformdata
+2024-09-25 23:05:49,975 - INFO - 
+2024-09-25 23:05:49,975 - INFO - Processing station: SPICE36
+2024-09-25 23:05:49,975 - INFO - Now in retrievespicedata
+2024-09-25 23:05:50,252 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-25 23:05:50,253 - INFO - Now transforming data for station type spice
+2024-09-25 23:05:50,253 - WARNING - Something failed when converting SPICE JSON to XARRAY Dataset: 'NoneType' object is not subscriptable
+2024-09-25 23:05:50,253 - WARNING - Something failed in transformdata
+2024-09-25 23:05:50,258 - INFO - 
+2024-09-25 23:05:50,258 - INFO - Processing station: SPICE37
+2024-09-25 23:05:50,258 - INFO - Now in retrievespicedata
+2024-09-25 23:05:50,555 - INFO - Now transforming data for station type spice
+2024-09-25 23:05:50,573 - INFO - 
+2024-09-25 23:05:50,573 - INFO - Processing station: SPICE38
+2024-09-25 23:05:50,573 - INFO - Now in retrievespicedata
+2024-09-25 23:05:50,869 - INFO - Now transforming data for station type spice
+2024-09-25 23:06:52,896 - INFO - Configuration of logging is finished.
+2024-09-25 23:06:52,896 - INFO - 
+2024-09-25 23:06:52,896 - INFO - Processing station: SPICE34
+2024-09-25 23:06:52,896 - INFO - Now in retrievespicedata
+2024-09-25 23:06:53,266 - INFO - Now transforming data for station type spice
+2024-09-25 23:06:53,285 - INFO - 
+2024-09-25 23:06:53,285 - INFO - Processing station: SPICE35
+2024-09-25 23:06:53,285 - INFO - Now in retrievespicedata
+2024-09-25 23:06:53,609 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-25 23:06:53,610 - INFO - Now transforming data for station type spice
+2024-09-25 23:06:53,610 - WARNING - Something failed when converting SPICE JSON to XARRAY Dataset: 'NoneType' object is not subscriptable
+2024-09-25 23:06:53,610 - WARNING - Something failed in transformdata
+2024-09-25 23:06:53,614 - INFO - 
+2024-09-25 23:06:53,614 - INFO - Processing station: SPICE36
+2024-09-25 23:06:53,614 - INFO - Now in retrievespicedata
+2024-09-25 23:06:53,823 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-25 23:06:53,824 - INFO - Now transforming data for station type spice
+2024-09-25 23:06:53,824 - WARNING - Something failed when converting SPICE JSON to XARRAY Dataset: 'NoneType' object is not subscriptable
+2024-09-25 23:06:53,824 - WARNING - Something failed in transformdata
+2024-09-25 23:06:53,828 - INFO - 
+2024-09-25 23:06:53,828 - INFO - Processing station: SPICE37
+2024-09-25 23:06:53,829 - INFO - Now in retrievespicedata
+2024-09-25 23:06:54,122 - INFO - Now transforming data for station type spice
+2024-09-25 23:06:54,140 - INFO - 
+2024-09-25 23:06:54,140 - INFO - Processing station: SPICE38
+2024-09-25 23:06:54,140 - INFO - Now in retrievespicedata
+2024-09-25 23:06:54,449 - INFO - Now transforming data for station type spice
+2024-09-25 23:07:42,404 - INFO - Configuration of logging is finished.
+2024-09-25 23:07:42,404 - INFO - 
+2024-09-25 23:07:42,404 - INFO - Processing station: SPICE34
+2024-09-25 23:07:42,404 - INFO - Now in retrievespicedata
+2024-09-25 23:07:42,761 - INFO - Now transforming data for station type spice
+2024-09-25 23:07:42,778 - INFO - 
+2024-09-25 23:07:42,778 - INFO - Processing station: SPICE35
+2024-09-25 23:07:42,778 - INFO - Now in retrievespicedata
+2024-09-25 23:07:42,976 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-25 23:07:42,977 - INFO - Now transforming data for station type spice
+2024-09-25 23:07:42,977 - WARNING - Something failed when converting SPICE JSON to XARRAY Dataset: 'NoneType' object is not subscriptable
+2024-09-25 23:07:42,977 - WARNING - Something failed in transformdata
+2024-09-25 23:07:42,977 - INFO - 
+2024-09-25 23:07:42,977 - INFO - Processing station: SPICE36
+2024-09-25 23:07:42,977 - INFO - Now in retrievespicedata
+2024-09-25 23:07:43,188 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-25 23:07:43,189 - INFO - Now transforming data for station type spice
+2024-09-25 23:07:43,189 - WARNING - Something failed when converting SPICE JSON to XARRAY Dataset: 'NoneType' object is not subscriptable
+2024-09-25 23:07:43,189 - WARNING - Something failed in transformdata
+2024-09-25 23:07:43,189 - INFO - 
+2024-09-25 23:07:43,189 - INFO - Processing station: SPICE37
+2024-09-25 23:07:43,189 - INFO - Now in retrievespicedata
+2024-09-25 23:07:43,481 - INFO - Now transforming data for station type spice
+2024-09-25 23:07:43,498 - INFO - 
+2024-09-25 23:07:43,498 - INFO - Processing station: SPICE38
+2024-09-25 23:07:43,498 - INFO - Now in retrievespicedata
+2024-09-25 23:07:43,805 - INFO - Now transforming data for station type spice
+2024-09-25 23:09:12,161 - INFO - Configuration of logging is finished.
+2024-09-25 23:09:12,161 - INFO - 
+2024-09-25 23:09:12,161 - INFO - Processing station: SPICE34
+2024-09-25 23:09:12,161 - INFO - Now in retrievespicedata
+2024-09-25 23:09:12,507 - INFO - Now transforming data for station type spice
+2024-09-25 23:09:12,524 - INFO - 
+2024-09-25 23:09:12,525 - INFO - Processing station: SPICE35
+2024-09-25 23:09:12,525 - INFO - Now in retrievespicedata
+2024-09-25 23:09:12,739 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-25 23:09:12,740 - INFO - Now transforming data for station type spice
+2024-09-25 23:09:12,740 - WARNING - Something failed when converting SPICE JSON to XARRAY Dataset: 'NoneType' object is not subscriptable
+2024-09-25 23:09:12,740 - WARNING - Something failed in transformdata
+2024-09-25 23:09:12,740 - INFO - 
+2024-09-25 23:09:12,741 - INFO - Processing station: SPICE36
+2024-09-25 23:09:12,741 - INFO - Now in retrievespicedata
+2024-09-25 23:09:12,948 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-25 23:09:12,949 - INFO - Now transforming data for station type spice
+2024-09-25 23:09:12,949 - WARNING - Something failed when converting SPICE JSON to XARRAY Dataset: 'NoneType' object is not subscriptable
+2024-09-25 23:09:12,949 - WARNING - Something failed in transformdata
+2024-09-25 23:09:12,949 - INFO - 
+2024-09-25 23:09:12,949 - INFO - Processing station: SPICE37
+2024-09-25 23:09:12,949 - INFO - Now in retrievespicedata
+2024-09-25 23:09:13,239 - INFO - Now transforming data for station type spice
+2024-09-25 23:09:13,255 - INFO - 
+2024-09-25 23:09:13,255 - INFO - Processing station: SPICE38
+2024-09-25 23:09:13,255 - INFO - Now in retrievespicedata
+2024-09-25 23:09:13,553 - INFO - Now transforming data for station type spice
+2024-09-25 23:14:33,086 - INFO - Configuration of logging is finished.
+2024-09-25 23:14:33,086 - INFO - 
+2024-09-25 23:14:33,086 - INFO - Processing station: SPICE34
+2024-09-25 23:14:33,086 - INFO - Now in retrievespicedata
+2024-09-25 23:14:33,378 - INFO - Now transforming data for station type spice
+2024-09-25 23:14:57,728 - INFO - Configuration of logging is finished.
+2024-09-25 23:14:57,728 - INFO - 
+2024-09-25 23:14:57,728 - INFO - Processing station: SPICE34
+2024-09-25 23:14:57,728 - INFO - Now in retrievespicedata
+2024-09-25 23:14:58,084 - INFO - Now transforming data for station type spice
+2024-09-25 23:14:58,101 - INFO - 
+2024-09-25 23:14:58,101 - INFO - Processing station: SPICE35
+2024-09-25 23:14:58,102 - INFO - Now in retrievespicedata
+2024-09-25 23:14:58,303 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-25 23:14:58,304 - INFO - Now transforming data for station type spice
+2024-09-25 23:14:58,304 - WARNING - Something failed when converting SPICE JSON to XARRAY Dataset: 'NoneType' object is not subscriptable
+2024-09-25 23:14:58,304 - WARNING - Something failed in transformdata
+2024-09-25 23:14:58,304 - INFO - 
+2024-09-25 23:14:58,304 - INFO - Processing station: SPICE36
+2024-09-25 23:14:58,304 - INFO - Now in retrievespicedata
+2024-09-25 23:14:58,547 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-25 23:14:58,548 - INFO - Now transforming data for station type spice
+2024-09-25 23:14:58,548 - WARNING - Something failed when converting SPICE JSON to XARRAY Dataset: 'NoneType' object is not subscriptable
+2024-09-25 23:14:58,548 - WARNING - Something failed in transformdata
+2024-09-25 23:14:58,548 - INFO - 
+2024-09-25 23:14:58,548 - INFO - Processing station: SPICE37
+2024-09-25 23:14:58,548 - INFO - Now in retrievespicedata
+2024-09-25 23:14:58,841 - INFO - Now transforming data for station type spice
+2024-09-25 23:14:58,857 - INFO - 
+2024-09-25 23:14:58,857 - INFO - Processing station: SPICE38
+2024-09-25 23:14:58,857 - INFO - Now in retrievespicedata
+2024-09-25 23:14:59,166 - INFO - Now transforming data for station type spice
+2024-09-25 23:15:09,238 - INFO - Configuration of logging is finished.
+2024-09-25 23:15:09,238 - INFO - 
+2024-09-25 23:15:09,238 - INFO - Processing station: SPICE34
+2024-09-25 23:15:09,238 - INFO - Now in retrievespicedata
+2024-09-25 23:15:09,532 - INFO - Now transforming data for station type spice
+2024-09-25 23:15:09,549 - WARNING - Something failed when creating NetCDF file: 'encoding'
+2024-09-25 23:15:09,550 - WARNING - Something failed when dumping to NetCDF file: Something failed when creating NetCDF file
+2024-09-25 23:15:48,257 - INFO - Configuration of logging is finished.
+2024-09-25 23:15:48,257 - INFO - 
+2024-09-25 23:15:48,257 - INFO - Processing station: SPICE34
+2024-09-25 23:15:48,257 - INFO - Now in retrievespicedata
+2024-09-25 23:15:48,669 - INFO - Now transforming data for station type spice
+2024-09-25 23:15:48,687 - WARNING - Something failed when dumping to NetCDF file: 'encoding'
+2024-09-25 23:16:11,725 - INFO - Configuration of logging is finished.
+2024-09-25 23:16:11,725 - INFO - 
+2024-09-25 23:16:11,725 - INFO - Processing station: SPICE34
+2024-09-25 23:16:11,726 - INFO - Now in retrievespicedata
+2024-09-25 23:16:12,080 - INFO - Now transforming data for station type spice
+2024-09-25 23:16:12,096 - INFO - Now dumping data to file
+2024-09-25 23:16:12,096 - WARNING - Something failed when dumping to NetCDF file: 'encoding'
+2024-09-25 23:18:15,985 - INFO - Configuration of logging is finished.
+2024-09-25 23:18:15,985 - INFO - 
+2024-09-25 23:18:15,985 - INFO - Processing station: SPICE34
+2024-09-25 23:18:15,985 - INFO - Now in retrievespicedata
+2024-09-25 23:18:16,268 - INFO - Now transforming data for station type spice
+2024-09-25 23:18:16,284 - INFO - Now dumping data to file
+2024-09-25 23:18:16,350 - INFO - 
+2024-09-25 23:18:16,350 - INFO - Processing station: SPICE35
+2024-09-25 23:18:16,350 - INFO - Now in retrievespicedata
+2024-09-25 23:18:16,551 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-25 23:18:16,552 - INFO - Now transforming data for station type spice
+2024-09-25 23:18:16,552 - WARNING - Something failed when converting SPICE JSON to XARRAY Dataset: 'NoneType' object is not subscriptable
+2024-09-25 23:18:16,552 - WARNING - Something failed in transformdata
+2024-09-25 23:18:16,553 - INFO - Now dumping data to file
+2024-09-25 23:18:16,567 - INFO - 
+2024-09-25 23:18:16,567 - INFO - Processing station: SPICE36
+2024-09-25 23:18:16,567 - INFO - Now in retrievespicedata
+2024-09-25 23:18:16,768 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-25 23:18:16,768 - INFO - Now transforming data for station type spice
+2024-09-25 23:18:16,769 - WARNING - Something failed when converting SPICE JSON to XARRAY Dataset: 'NoneType' object is not subscriptable
+2024-09-25 23:18:16,769 - WARNING - Something failed in transformdata
+2024-09-25 23:18:16,769 - INFO - Now dumping data to file
+2024-09-25 23:18:16,784 - INFO - 
+2024-09-25 23:18:16,784 - INFO - Processing station: SPICE37
+2024-09-25 23:18:16,784 - INFO - Now in retrievespicedata
+2024-09-25 23:18:17,113 - INFO - Now transforming data for station type spice
+2024-09-25 23:18:17,130 - INFO - Now dumping data to file
+2024-09-25 23:18:17,130 - WARNING - Something failed when creating NetCDF file: Invalid value for attr 'geospatial_lat_min': None. For serialization to netCDF files, its value must be of one of the following types: str, Number, ndarray, number, list, tuple
+2024-09-25 23:18:17,130 - WARNING - Something failed when dumping to NetCDF file: Something failed when creating NetCDF file
+2024-09-25 23:19:58,133 - INFO - Configuration of logging is finished.
+2024-09-25 23:19:58,133 - INFO - 
+2024-09-25 23:19:58,133 - INFO - Processing station: SPICE34
+2024-09-25 23:19:58,133 - INFO - Now in retrievespicedata
+2024-09-25 23:19:58,497 - INFO - Now transforming data for station type spice
+2024-09-25 23:19:58,514 - INFO - Now dumping data to file
+2024-09-25 23:19:58,525 - INFO - 
+2024-09-25 23:19:58,525 - INFO - Processing station: SPICE35
+2024-09-25 23:19:58,525 - INFO - Now in retrievespicedata
+2024-09-25 23:19:58,728 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-25 23:19:58,729 - INFO - Now transforming data for station type spice
+2024-09-25 23:19:58,729 - WARNING - Something failed when converting SPICE JSON to XARRAY Dataset: 'NoneType' object is not subscriptable
+2024-09-25 23:19:58,729 - WARNING - Something failed in transformdata
+2024-09-25 23:19:58,729 - INFO - Now dumping data to file
+2024-09-25 23:19:58,745 - INFO - 
+2024-09-25 23:19:58,745 - INFO - Processing station: SPICE36
+2024-09-25 23:19:58,745 - INFO - Now in retrievespicedata
+2024-09-25 23:19:58,989 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-25 23:19:58,990 - INFO - Now transforming data for station type spice
+2024-09-25 23:19:58,990 - WARNING - Something failed when converting SPICE JSON to XARRAY Dataset: 'NoneType' object is not subscriptable
+2024-09-25 23:19:58,990 - WARNING - Something failed in transformdata
+2024-09-25 23:19:58,990 - INFO - Now dumping data to file
+2024-09-25 23:19:59,006 - INFO - 
+2024-09-25 23:19:59,007 - INFO - Processing station: SPICE37
+2024-09-25 23:19:59,007 - INFO - Now in retrievespicedata
+2024-09-25 23:19:59,299 - INFO - Now transforming data for station type spice
+2024-09-25 23:19:59,315 - INFO - Now dumping data to file
+2024-09-25 23:19:59,321 - INFO - 
+2024-09-25 23:19:59,321 - INFO - Processing station: SPICE38
+2024-09-25 23:19:59,321 - INFO - Now in retrievespicedata
+2024-09-25 23:19:59,619 - INFO - Now transforming data for station type spice
+2024-09-25 23:19:59,634 - INFO - Now dumping data to file
+2024-09-25 23:20:20,613 - INFO - Configuration of logging is finished.
+2024-09-25 23:20:20,613 - INFO - 
+2024-09-25 23:20:20,613 - INFO - Processing station: SPICE34
+2024-09-25 23:20:20,613 - INFO - Now in retrievespicedata
+2024-09-25 23:20:20,966 - INFO - Now transforming data for station type spice
+2024-09-25 23:20:20,983 - INFO - Now dumping data to file
+2024-09-25 23:20:20,993 - INFO - 
+2024-09-25 23:20:20,993 - INFO - Processing station: SPICE35
+2024-09-25 23:20:20,993 - INFO - Now in retrievespicedata
+2024-09-25 23:20:21,196 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-25 23:20:21,196 - INFO - Now transforming data for station type spice
+2024-09-25 23:20:21,197 - WARNING - Something failed when converting SPICE JSON to XARRAY Dataset: 'NoneType' object is not subscriptable
+2024-09-25 23:20:21,197 - WARNING - Something failed in transformdata
+2024-09-25 23:20:21,197 - INFO - Now dumping data to file
+2024-09-25 23:20:21,212 - INFO - 
+2024-09-25 23:20:21,212 - INFO - Processing station: SPICE36
+2024-09-25 23:20:21,212 - INFO - Now in retrievespicedata
+2024-09-25 23:20:21,417 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-25 23:20:21,418 - INFO - Now transforming data for station type spice
+2024-09-25 23:20:21,418 - WARNING - Something failed when converting SPICE JSON to XARRAY Dataset: 'NoneType' object is not subscriptable
+2024-09-25 23:20:21,418 - WARNING - Something failed in transformdata
+2024-09-25 23:20:21,418 - INFO - Now dumping data to file
+2024-09-25 23:20:21,433 - INFO - 
+2024-09-25 23:20:21,433 - INFO - Processing station: SPICE37
+2024-09-25 23:20:21,433 - INFO - Now in retrievespicedata
+2024-09-25 23:20:21,713 - INFO - Now transforming data for station type spice
+2024-09-25 23:20:21,728 - INFO - Now dumping data to file
+2024-09-25 23:20:21,733 - INFO - 
+2024-09-25 23:20:21,733 - INFO - Processing station: SPICE38
+2024-09-25 23:20:21,733 - INFO - Now in retrievespicedata
+2024-09-25 23:20:22,048 - INFO - Now transforming data for station type spice
+2024-09-25 23:20:22,062 - INFO - Now dumping data to file
+2024-09-26 11:54:10,433 - INFO - Configuration of logging is finished.
+2024-09-26 11:55:02,736 - INFO - Configuration of logging is finished.
+2024-09-26 11:55:24,507 - INFO - Configuration of logging is finished.
+2024-09-26 11:55:48,980 - INFO - Configuration of logging is finished.
+2024-09-26 12:37:08,371 - INFO - Configuration of logging is finished.
+2024-09-26 12:38:39,752 - INFO - Configuration of logging is finished.
+2024-09-26 12:42:12,465 - INFO - Configuration of logging is finished.
+2024-09-26 12:42:34,629 - INFO - Configuration of logging is finished.
+2024-09-26 12:43:38,084 - INFO - Configuration of logging is finished.
+2024-09-26 12:43:52,868 - INFO - Configuration of logging is finished.
+2024-09-26 12:46:18,497 - INFO - Configuration of logging is finished.
+2024-09-26 12:46:18,497 - INFO - Splitting requested time period into monthly segments
+2024-09-26 12:46:34,260 - INFO - Configuration of logging is finished.
+2024-09-26 12:46:34,260 - INFO - Splitting requested time period into monthly segments
+2024-09-26 12:47:54,311 - INFO - Configuration of logging is finished.
+2024-09-26 12:47:54,311 - INFO - Splitting requested time period into monthly segments
+2024-09-26 12:49:16,550 - INFO - Configuration of logging is finished.
+2024-09-26 12:49:16,550 - INFO - Splitting requested time period into monthly segments
+2024-09-26 12:49:16,551 - WARNING - Conversion of end time string to datetime failed: 
+2024-09-26 12:49:46,151 - INFO - Configuration of logging is finished.
+2024-09-26 12:49:46,151 - INFO - Splitting requested time period into monthly segments
+2024-09-26 12:51:36,988 - INFO - Configuration of logging is finished.
+2024-09-26 12:51:36,988 - INFO - Splitting requested time period into monthly segments
+2024-09-26 12:51:36,989 - ERROR - Inconcistency in time specification: Error in time specification
+2024-09-26 12:52:04,391 - INFO - Configuration of logging is finished.
+2024-09-26 12:52:04,391 - INFO - Splitting requested time period into monthly segments
+2024-09-26 12:52:04,392 - ERROR - Inconcistency in time specification: Error in time specification
+2024-09-26 12:52:10,016 - INFO - Configuration of logging is finished.
+2024-09-26 12:52:10,016 - INFO - Splitting requested time period into monthly segments
+2024-09-26 12:52:10,017 - ERROR - Inconcistency in time specification: Error in time specification
+2024-09-26 12:52:40,100 - INFO - Configuration of logging is finished.
+2024-09-26 12:52:40,100 - INFO - Splitting requested time period into monthly segments
+2024-09-26 12:52:40,100 - ERROR - Inconcistency in time specification: name 'start' is not defined
+2024-09-26 12:53:00,968 - INFO - Configuration of logging is finished.
+2024-09-26 12:53:00,968 - INFO - Splitting requested time period into monthly segments
+2024-09-26 12:56:41,634 - INFO - Configuration of logging is finished.
+2024-09-26 12:56:41,634 - INFO - Splitting requested time period into monthly segments
+2024-09-26 12:58:58,346 - INFO - Configuration of logging is finished.
+2024-09-26 12:58:58,346 - INFO - Splitting requested time period into monthly segments
+2024-09-26 12:58:58,347 - ERROR - Inconcistency in time specification: name 'mystar' is not defined
+2024-09-26 12:59:05,881 - INFO - Configuration of logging is finished.
+2024-09-26 12:59:05,881 - INFO - Splitting requested time period into monthly segments
+2024-09-26 12:59:05,881 - ERROR - Inconcistency in time specification: name 'mend' is not defined
+2024-09-26 12:59:12,631 - INFO - Configuration of logging is finished.
+2024-09-26 12:59:12,631 - INFO - Splitting requested time period into monthly segments
+2024-09-26 13:36:55,736 - INFO - Configuration of logging is finished.
+2024-09-26 13:36:55,737 - INFO - Splitting requested time period into monthly segments
+2024-09-26 13:37:17,754 - INFO - Configuration of logging is finished.
+2024-09-26 13:37:17,754 - INFO - Splitting requested time period into monthly segments
+2024-09-26 13:38:28,783 - INFO - Configuration of logging is finished.
+2024-09-26 13:38:28,783 - INFO - Splitting requested time period into monthly segments
+2024-09-26 13:39:19,145 - INFO - Configuration of logging is finished.
+2024-09-26 13:39:19,145 - INFO - Splitting requested time period into monthly segments
+2024-09-26 13:39:19,145 - ERROR - Inconcistency in time specification: name 'startmonth' is not defined
+2024-09-26 13:39:34,877 - INFO - Configuration of logging is finished.
+2024-09-26 13:39:34,877 - INFO - Splitting requested time period into monthly segments
+2024-09-26 13:40:59,547 - INFO - Configuration of logging is finished.
+2024-09-26 13:40:59,547 - INFO - Splitting requested time period into monthly segments
+2024-09-26 13:41:22,010 - INFO - Configuration of logging is finished.
+2024-09-26 13:41:22,010 - INFO - Splitting requested time period into monthly segments
+2024-09-26 13:41:35,872 - INFO - Configuration of logging is finished.
+2024-09-26 13:41:35,872 - INFO - Splitting requested time period into monthly segments
+2024-09-26 13:42:41,826 - INFO - Configuration of logging is finished.
+2024-09-26 13:42:41,826 - INFO - Splitting requested time period into monthly segments
+2024-09-26 13:43:16,817 - INFO - Configuration of logging is finished.
+2024-09-26 13:43:16,817 - INFO - Splitting requested time period into monthly segments
+2024-09-26 13:44:57,486 - INFO - Configuration of logging is finished.
+2024-09-26 13:44:57,486 - INFO - Splitting requested time period into monthly segments
+2024-09-26 13:46:14,220 - INFO - Configuration of logging is finished.
+2024-09-26 13:46:14,220 - INFO - Splitting requested time period into monthly segments
+2024-09-26 14:11:15,310 - INFO - Configuration of logging is finished.
+2024-09-26 14:11:15,310 - INFO - Splitting requested time period into monthly segments
+2024-09-26 14:18:10,511 - INFO - Configuration of logging is finished.
+2024-09-26 14:18:10,511 - INFO - Splitting requested time period into monthly segments
+2024-09-26 14:18:10,511 - ERROR - Inconcistency in time specification: name 'start' is not defined
+2024-09-26 14:18:26,501 - INFO - Configuration of logging is finished.
+2024-09-26 14:18:26,501 - INFO - Splitting requested time period into monthly segments
+2024-09-26 14:20:29,417 - INFO - Configuration of logging is finished.
+2024-09-26 14:20:29,417 - INFO - Splitting requested time period into monthly segments
+2024-09-26 14:26:41,367 - INFO - Configuration of logging is finished.
+2024-09-26 14:26:41,367 - INFO - Splitting requested time period into monthly segments
+2024-09-26 14:26:41,367 - ERROR - Inconcistency in time specification: 'module' object is not callable
+2024-09-26 14:26:57,174 - INFO - Configuration of logging is finished.
+2024-09-26 14:26:57,174 - INFO - Splitting requested time period into monthly segments
+2024-09-26 14:26:57,175 - ERROR - Inconcistency in time specification: 'tuple' object cannot be interpreted as an integer
+2024-09-26 14:27:35,252 - INFO - Configuration of logging is finished.
+2024-09-26 14:27:35,252 - INFO - Splitting requested time period into monthly segments
+2024-09-26 14:28:20,916 - INFO - Configuration of logging is finished.
+2024-09-26 14:28:20,916 - INFO - Splitting requested time period into monthly segments
+2024-09-26 14:31:02,578 - INFO - Configuration of logging is finished.
+2024-09-26 14:31:02,578 - INFO - Splitting requested time period into monthly segments
+2024-09-26 14:31:02,579 - ERROR - Inconcistency in time specification: unsupported operand type(s) for +: 'datetime.datetime' and 'int'
+2024-09-26 14:33:53,240 - INFO - Configuration of logging is finished.
+2024-09-26 14:33:53,240 - INFO - Splitting requested time period into monthly segments
+2024-09-26 14:36:08,462 - INFO - Configuration of logging is finished.
+2024-09-26 14:36:08,462 - INFO - Splitting requested time period into monthly segments
+2024-09-26 14:36:56,293 - INFO - Configuration of logging is finished.
+2024-09-26 14:36:56,293 - INFO - Splitting requested time period into monthly segments
+2024-09-26 14:37:17,378 - INFO - Configuration of logging is finished.
+2024-09-26 14:37:17,378 - INFO - Splitting requested time period into monthly segments
+2024-09-26 14:37:56,625 - INFO - Configuration of logging is finished.
+2024-09-26 14:37:56,625 - INFO - Splitting requested time period into monthly segments
+2024-09-26 14:38:08,795 - INFO - Configuration of logging is finished.
+2024-09-26 14:38:08,795 - INFO - Splitting requested time period into monthly segments
+2024-09-26 14:38:29,523 - INFO - Configuration of logging is finished.
+2024-09-26 14:38:29,523 - INFO - Splitting requested time period into monthly segments
+2024-09-26 14:38:33,285 - INFO - Configuration of logging is finished.
+2024-09-26 14:38:33,285 - INFO - Splitting requested time period into monthly segments
+2024-09-26 14:39:20,567 - INFO - Configuration of logging is finished.
+2024-09-26 14:39:20,567 - INFO - Splitting requested time period into monthly segments
+2024-09-26 14:39:38,853 - INFO - Configuration of logging is finished.
+2024-09-26 14:39:38,853 - INFO - Splitting requested time period into monthly segments
+2024-09-26 14:45:52,704 - INFO - Configuration of logging is finished.
+2024-09-26 14:45:52,705 - INFO - Splitting requested time period into monthly segments
+2024-09-26 14:46:32,706 - INFO - Configuration of logging is finished.
+2024-09-26 14:46:32,706 - INFO - Splitting requested time period into monthly segments
+2024-09-26 14:47:01,023 - INFO - Configuration of logging is finished.
+2024-09-26 14:47:01,023 - INFO - Splitting requested time period into monthly segments
+2024-09-26 14:47:01,023 - ERROR - Inconcistency in time specification: unsupported operand type(s) for /: 'datetime.datetime' and 'int'
+2024-09-26 14:47:11,959 - INFO - Configuration of logging is finished.
+2024-09-26 14:47:11,959 - INFO - Splitting requested time period into monthly segments
+2024-09-26 14:48:02,751 - INFO - Configuration of logging is finished.
+2024-09-26 14:48:02,751 - INFO - Splitting requested time period into monthly segments
+2024-09-26 14:50:01,790 - INFO - Configuration of logging is finished.
+2024-09-26 14:50:01,790 - INFO - Splitting requested time period into monthly segments
+2024-09-26 14:50:01,791 - ERROR - Inconcistency in time specification: 'module' object is not callable
+2024-09-26 14:51:39,632 - INFO - Configuration of logging is finished.
+2024-09-26 14:51:39,632 - INFO - Splitting requested time period into monthly segments
+2024-09-26 14:51:57,181 - INFO - Configuration of logging is finished.
+2024-09-26 14:51:57,182 - INFO - Splitting requested time period into monthly segments
+2024-09-26 14:52:38,170 - INFO - Configuration of logging is finished.
+2024-09-26 14:52:38,170 - INFO - Splitting requested time period into monthly segments
+2024-09-26 14:52:43,293 - INFO - Configuration of logging is finished.
+2024-09-26 14:52:43,293 - INFO - Splitting requested time period into monthly segments
+2024-09-26 14:53:34,884 - INFO - Configuration of logging is finished.
+2024-09-26 14:53:34,884 - INFO - Splitting requested time period into monthly segments
+2024-09-26 14:54:15,207 - INFO - Configuration of logging is finished.
+2024-09-26 14:54:15,207 - INFO - Splitting requested time period into monthly segments
+2024-09-26 14:54:56,772 - INFO - Configuration of logging is finished.
+2024-09-26 14:54:56,773 - INFO - Splitting requested time period into monthly segments
+2024-09-26 14:55:03,877 - INFO - Configuration of logging is finished.
+2024-09-26 14:55:03,877 - INFO - Splitting requested time period into monthly segments
+2024-09-26 14:55:10,921 - INFO - Configuration of logging is finished.
+2024-09-26 14:55:10,921 - INFO - Splitting requested time period into monthly segments
+2024-09-26 14:55:33,207 - INFO - Configuration of logging is finished.
+2024-09-26 14:55:33,207 - INFO - Splitting requested time period into monthly segments
+2024-09-26 14:56:38,625 - INFO - Configuration of logging is finished.
+2024-09-26 14:56:38,625 - INFO - Splitting requested time period into monthly segments
+2024-09-26 14:57:03,637 - INFO - Configuration of logging is finished.
+2024-09-26 14:57:03,637 - INFO - Splitting requested time period into monthly segments
+2024-09-26 15:00:12,651 - INFO - Configuration of logging is finished.
+2024-09-26 15:00:12,652 - INFO - Splitting requested time period into monthly segments
+2024-09-26 15:00:12,652 - INFO - 
+2024-09-26 15:00:12,653 - INFO - Processing station: SPICE34
+2024-09-26 15:00:12,653 - INFO - 
+2024-09-26 15:00:12,653 - INFO - Processing station: SPICE35
+2024-09-26 15:00:12,653 - INFO - 
+2024-09-26 15:00:12,653 - INFO - Processing station: SPICE36
+2024-09-26 15:00:12,653 - INFO - 
+2024-09-26 15:00:12,653 - INFO - Processing station: SPICE37
+2024-09-26 15:00:12,653 - INFO - 
+2024-09-26 15:00:12,653 - INFO - Processing station: SPICE38
+2024-09-26 15:04:09,547 - INFO - Configuration of logging is finished.
+2024-09-26 15:04:09,547 - INFO - Splitting requested time period into monthly segments
+2024-09-26 15:04:09,548 - INFO - 
+2024-09-26 15:04:09,548 - INFO - Processing station: SPICE34
+2024-09-26 15:04:40,034 - INFO - Configuration of logging is finished.
+2024-09-26 15:04:40,034 - INFO - Splitting requested time period into monthly segments
+2024-09-26 15:04:40,034 - INFO - 
+2024-09-26 15:04:40,034 - INFO - Processing station: SPICE34
+2024-09-26 15:05:13,216 - INFO - Configuration of logging is finished.
+2024-09-26 15:05:13,216 - INFO - Splitting requested time period into monthly segments
+2024-09-26 15:05:13,217 - INFO - 
+2024-09-26 15:05:13,217 - INFO - Processing station: SPICE34
+2024-09-26 15:05:25,520 - INFO - Configuration of logging is finished.
+2024-09-26 15:05:25,520 - INFO - Splitting requested time period into monthly segments
+2024-09-26 15:05:25,520 - INFO - 
+2024-09-26 15:05:25,520 - INFO - Processing station: SPICE34
+2024-09-26 15:05:25,521 - INFO - 
+2024-09-26 15:05:25,521 - INFO - Processing station: SPICE35
+2024-09-26 15:05:25,521 - INFO - 
+2024-09-26 15:05:25,521 - INFO - Processing station: SPICE36
+2024-09-26 15:05:25,521 - INFO - 
+2024-09-26 15:05:25,521 - INFO - Processing station: SPICE37
+2024-09-26 15:05:25,521 - INFO - 
+2024-09-26 15:05:25,521 - INFO - Processing station: SPICE38
+2024-09-26 15:05:50,047 - INFO - Configuration of logging is finished.
+2024-09-26 15:05:50,047 - INFO - Splitting requested time period into monthly segments
+2024-09-26 15:05:50,048 - INFO - 
+2024-09-26 15:05:50,048 - INFO - Processing station: SPICE34
+2024-09-26 15:05:50,048 - INFO - 
+2024-09-26 15:05:50,048 - INFO - Processing station: SPICE35
+2024-09-26 15:05:50,048 - INFO - 
+2024-09-26 15:05:50,048 - INFO - Processing station: SPICE36
+2024-09-26 15:05:50,048 - INFO - 
+2024-09-26 15:05:50,048 - INFO - Processing station: SPICE37
+2024-09-26 15:05:50,048 - INFO - 
+2024-09-26 15:05:50,048 - INFO - Processing station: SPICE38
+2024-09-26 15:06:13,370 - INFO - Configuration of logging is finished.
+2024-09-26 15:06:13,370 - INFO - Splitting requested time period into monthly segments
+2024-09-26 15:06:13,370 - INFO - 
+2024-09-26 15:06:13,370 - INFO - Processing station: SPICE34
+2024-09-26 15:07:25,135 - INFO - Configuration of logging is finished.
+2024-09-26 15:07:25,135 - INFO - Splitting requested time period into monthly segments
+2024-09-26 15:07:25,135 - INFO - 
+2024-09-26 15:07:25,135 - INFO - Processing station: SPICE34
+2024-09-26 15:09:03,712 - INFO - Configuration of logging is finished.
+2024-09-26 15:09:03,712 - INFO - Splitting requested time period into monthly segments
+2024-09-26 15:09:03,712 - INFO - 
+2024-09-26 15:09:03,712 - INFO - Processing station: SPICE34
+2024-09-26 15:09:03,713 - INFO - 
+2024-09-26 15:09:03,713 - INFO - Processing station: SPICE35
+2024-09-26 15:09:03,713 - INFO - 
+2024-09-26 15:09:03,713 - INFO - Processing station: SPICE36
+2024-09-26 15:09:03,713 - INFO - 
+2024-09-26 15:09:03,713 - INFO - Processing station: SPICE37
+2024-09-26 15:09:03,713 - INFO - 
+2024-09-26 15:09:03,713 - INFO - Processing station: SPICE38
+2024-09-26 15:10:02,521 - INFO - Configuration of logging is finished.
+2024-09-26 15:10:02,521 - INFO - Splitting requested time period into monthly segments
+2024-09-26 15:10:02,522 - INFO - 
+2024-09-26 15:10:02,522 - INFO - Processing station: SPICE34
+2024-09-26 15:10:02,522 - WARNING - Something failed when dumping to NetCDF file: name 'myds' is not defined
+2024-09-26 15:10:19,603 - INFO - Configuration of logging is finished.
+2024-09-26 15:10:19,603 - INFO - Splitting requested time period into monthly segments
+2024-09-26 15:10:19,604 - INFO - 
+2024-09-26 15:10:19,604 - INFO - Processing station: SPICE34
+2024-09-26 15:10:19,604 - INFO - Now in retrievespicedata
+2024-09-26 15:10:22,789 - INFO - Now transforming data for station type spice
+2024-09-26 15:10:22,802 - INFO - Now dumping data to file
+2024-09-26 15:10:22,816 - INFO - Now in retrievespicedata
+2024-09-26 15:10:25,934 - INFO - Now transforming data for station type spice
+2024-09-26 15:10:25,943 - INFO - Now dumping data to file
+2024-09-26 15:10:25,948 - INFO - Now in retrievespicedata
+2024-09-26 15:10:28,867 - INFO - Now transforming data for station type spice
+2024-09-26 15:10:28,875 - INFO - Now dumping data to file
+2024-09-26 15:10:28,881 - INFO - Now in retrievespicedata
+2024-09-26 15:10:32,265 - INFO - Now transforming data for station type spice
+2024-09-26 15:10:32,274 - INFO - Now dumping data to file
+2024-09-26 15:10:32,280 - INFO - Now in retrievespicedata
+2024-09-26 15:10:35,224 - INFO - Now transforming data for station type spice
+2024-09-26 15:10:35,232 - INFO - Now dumping data to file
+2024-09-26 15:10:35,237 - INFO - Now in retrievespicedata
+2024-09-26 15:10:38,227 - INFO - Now transforming data for station type spice
+2024-09-26 15:10:38,237 - INFO - Now dumping data to file
+2024-09-26 15:10:38,243 - INFO - Now in retrievespicedata
+2024-09-26 15:12:47,001 - INFO - Configuration of logging is finished.
+2024-09-26 15:12:47,001 - INFO - Splitting requested time period into monthly segments
+2024-09-26 15:12:47,001 - INFO - 
+2024-09-26 15:12:47,001 - INFO - Processing station: SPICE34
+2024-09-26 15:12:47,001 - INFO - Now in retrievespicedata
+2024-09-26 15:12:47,259 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:12:47,259 - INFO - Now transforming data for station type spice
+2024-09-26 15:12:47,259 - WARNING - Something failed when converting SPICE JSON to XARRAY Dataset: 'NoneType' object is not subscriptable
+2024-09-26 15:12:47,260 - WARNING - Something failed in transformdata
+2024-09-26 15:12:47,260 - WARNING - Something failed when dumping to NetCDF file: name 'myds' is not defined
+2024-09-26 15:19:09,519 - INFO - Configuration of logging is finished.
+2024-09-26 15:19:09,519 - INFO - Splitting requested time period into monthly segments
+2024-09-26 15:19:09,520 - INFO - 
+2024-09-26 15:19:09,520 - INFO - Processing station: SPICE34
+2024-09-26 15:19:09,520 - INFO - Now in retrievespicedata
+2024-09-26 15:19:09,790 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:19:09,791 - INFO - Now transforming data for station type spice
+2024-09-26 15:19:09,791 - WARNING - Something failed when converting SPICE JSON to XARRAY Dataset: 'NoneType' object is not subscriptable
+2024-09-26 15:19:09,791 - WARNING - Something failed in transformdata
+2024-09-26 15:19:09,791 - WARNING - Something failed when dumping to NetCDF file: name 'myds' is not defined
+2024-09-26 15:19:45,655 - INFO - Configuration of logging is finished.
+2024-09-26 15:19:45,655 - INFO - Splitting requested time period into monthly segments
+2024-09-26 15:19:45,656 - INFO - 
+2024-09-26 15:19:45,656 - INFO - Processing station: SPICE34
+2024-09-26 15:19:45,656 - INFO - Now in retrievespicedata
+2024-09-26 15:19:45,916 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:19:45,917 - INFO - Now transforming data for station type spice
+2024-09-26 15:19:45,917 - WARNING - Something failed when converting SPICE JSON to XARRAY Dataset: 'NoneType' object is not subscriptable
+2024-09-26 15:19:45,917 - WARNING - Something failed in transformdata
+2024-09-26 15:19:45,917 - WARNING - Something failed when dumping to NetCDF file: name 'myds' is not defined
+2024-09-26 15:20:09,265 - INFO - Configuration of logging is finished.
+2024-09-26 15:20:09,265 - INFO - Splitting requested time period into monthly segments
+2024-09-26 15:20:09,266 - INFO - 
+2024-09-26 15:20:09,266 - INFO - Processing station: SPICE34
+2024-09-26 15:20:09,266 - INFO - Now in retrievespicedata
+2024-09-26 15:20:09,532 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:20:09,532 - INFO - Now transforming data for station type spice
+2024-09-26 15:20:09,532 - WARNING - Something failed when converting SPICE JSON to XARRAY Dataset: 'NoneType' object is not subscriptable
+2024-09-26 15:20:09,533 - WARNING - Something failed in transformdata
+2024-09-26 15:20:09,533 - WARNING - Something failed when dumping to NetCDF file: name 'myds' is not defined
+2024-09-26 15:20:51,324 - INFO - Configuration of logging is finished.
+2024-09-26 15:20:51,324 - INFO - Splitting requested time period into monthly segments
+2024-09-26 15:20:51,325 - INFO - 
+2024-09-26 15:20:51,325 - INFO - Processing station: SPICE34
+2024-09-26 15:20:51,325 - INFO - Now in retrievespicedata
+2024-09-26 15:20:51,734 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:20:51,735 - INFO - Now in retrievespicedata
+2024-09-26 15:20:51,939 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:20:51,939 - INFO - Now in retrievespicedata
+2024-09-26 15:20:52,145 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:20:52,145 - INFO - Now in retrievespicedata
+2024-09-26 15:20:52,354 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:20:52,355 - INFO - Now in retrievespicedata
+2024-09-26 15:20:52,558 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:20:52,558 - INFO - Now in retrievespicedata
+2024-09-26 15:20:52,763 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:20:52,764 - INFO - Now in retrievespicedata
+2024-09-26 15:20:52,967 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:20:52,968 - INFO - Now in retrievespicedata
+2024-09-26 15:20:53,271 - INFO - Now transforming data for station type spice
+2024-09-26 15:20:53,288 - INFO - Now dumping data to file
+2024-09-26 15:20:53,299 - INFO - Now in retrievespicedata
+2024-09-26 15:20:53,659 - INFO - Now transforming data for station type spice
+2024-09-26 15:20:53,665 - INFO - Now dumping data to file
+2024-09-26 15:20:53,670 - INFO - Now in retrievespicedata
+2024-09-26 15:20:54,034 - INFO - Now transforming data for station type spice
+2024-09-26 15:20:54,049 - INFO - Now dumping data to file
+2024-09-26 15:20:54,055 - INFO - Now in retrievespicedata
+2024-09-26 15:20:54,312 - INFO - Now transforming data for station type spice
+2024-09-26 15:20:54,325 - INFO - Now dumping data to file
+2024-09-26 15:20:54,331 - INFO - Now in retrievespicedata
+2024-09-26 15:20:54,640 - INFO - Now transforming data for station type spice
+2024-09-26 15:20:54,645 - INFO - Now dumping data to file
+2024-09-26 15:20:54,650 - INFO - Now in retrievespicedata
+2024-09-26 15:20:54,942 - INFO - Now transforming data for station type spice
+2024-09-26 15:20:54,957 - INFO - Now dumping data to file
+2024-09-26 15:20:54,963 - INFO - Now in retrievespicedata
+2024-09-26 15:20:55,310 - INFO - Now transforming data for station type spice
+2024-09-26 15:20:55,324 - INFO - Now dumping data to file
+2024-09-26 15:20:55,330 - INFO - Now in retrievespicedata
+2024-09-26 15:20:55,674 - INFO - Now transforming data for station type spice
+2024-09-26 15:20:55,680 - INFO - Now dumping data to file
+2024-09-26 15:20:55,684 - INFO - Now in retrievespicedata
+2024-09-26 15:20:56,040 - INFO - Now transforming data for station type spice
+2024-09-26 15:20:56,054 - INFO - Now dumping data to file
+2024-09-26 15:20:56,060 - INFO - Now in retrievespicedata
+2024-09-26 15:20:56,426 - INFO - Now transforming data for station type spice
+2024-09-26 15:20:56,441 - INFO - Now dumping data to file
+2024-09-26 15:20:56,446 - INFO - Now in retrievespicedata
+2024-09-26 15:20:56,802 - INFO - Now transforming data for station type spice
+2024-09-26 15:20:56,808 - INFO - Now dumping data to file
+2024-09-26 15:20:56,813 - INFO - Now in retrievespicedata
+2024-09-26 15:20:57,171 - INFO - Now transforming data for station type spice
+2024-09-26 15:20:57,187 - INFO - Now dumping data to file
+2024-09-26 15:20:57,192 - INFO - Now in retrievespicedata
+2024-09-26 15:20:57,545 - INFO - Now transforming data for station type spice
+2024-09-26 15:20:57,559 - INFO - Now dumping data to file
+2024-09-26 15:20:57,565 - INFO - Now in retrievespicedata
+2024-09-26 15:20:57,928 - INFO - Now transforming data for station type spice
+2024-09-26 15:20:57,941 - INFO - Now dumping data to file
+2024-09-26 15:20:57,946 - INFO - 
+2024-09-26 15:20:57,946 - INFO - Processing station: SPICE35
+2024-09-26 15:20:57,946 - INFO - Now in retrievespicedata
+2024-09-26 15:20:58,153 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:20:58,154 - INFO - Now in retrievespicedata
+2024-09-26 15:20:58,357 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:20:58,358 - INFO - Now in retrievespicedata
+2024-09-26 15:20:58,564 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:20:58,565 - INFO - Now in retrievespicedata
+2024-09-26 15:20:58,759 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:20:58,759 - INFO - Now in retrievespicedata
+2024-09-26 15:20:58,949 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:20:58,949 - INFO - Now in retrievespicedata
+2024-09-26 15:20:59,154 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:20:59,154 - INFO - Now in retrievespicedata
+2024-09-26 15:20:59,358 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:20:59,359 - INFO - Now in retrievespicedata
+2024-09-26 15:20:59,564 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:20:59,565 - INFO - Now in retrievespicedata
+2024-09-26 15:20:59,760 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:20:59,761 - INFO - Now in retrievespicedata
+2024-09-26 15:20:59,960 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:20:59,961 - INFO - Now in retrievespicedata
+2024-09-26 15:21:00,165 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:21:00,166 - INFO - Now in retrievespicedata
+2024-09-26 15:21:00,370 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:21:00,370 - INFO - Now in retrievespicedata
+2024-09-26 15:21:00,575 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:21:00,576 - INFO - Now in retrievespicedata
+2024-09-26 15:21:00,784 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:21:00,784 - INFO - Now in retrievespicedata
+2024-09-26 15:21:00,978 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:21:00,978 - INFO - Now in retrievespicedata
+2024-09-26 15:21:01,336 - INFO - Now transforming data for station type spice
+2024-09-26 15:21:01,343 - INFO - Now dumping data to file
+2024-09-26 15:21:01,348 - INFO - Now in retrievespicedata
+2024-09-26 15:21:01,719 - INFO - Now transforming data for station type spice
+2024-09-26 15:21:01,724 - INFO - Now dumping data to file
+2024-09-26 15:21:01,729 - INFO - Now in retrievespicedata
+2024-09-26 15:21:02,040 - INFO - Now transforming data for station type spice
+2024-09-26 15:21:02,056 - INFO - Now dumping data to file
+2024-09-26 15:21:02,062 - INFO - Now in retrievespicedata
+2024-09-26 15:21:02,265 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:21:02,266 - INFO - Now in retrievespicedata
+2024-09-26 15:21:02,462 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:21:02,463 - INFO - Now in retrievespicedata
+2024-09-26 15:21:02,658 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:21:02,658 - INFO - 
+2024-09-26 15:21:02,659 - INFO - Processing station: SPICE36
+2024-09-26 15:21:02,659 - INFO - Now in retrievespicedata
+2024-09-26 15:21:02,868 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:21:02,869 - INFO - Now in retrievespicedata
+2024-09-26 15:21:03,070 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:21:03,071 - INFO - Now in retrievespicedata
+2024-09-26 15:21:03,281 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:21:03,282 - INFO - Now in retrievespicedata
+2024-09-26 15:21:03,482 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:21:03,483 - INFO - Now in retrievespicedata
+2024-09-26 15:21:03,687 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:21:03,688 - INFO - Now in retrievespicedata
+2024-09-26 15:21:03,898 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:21:03,898 - INFO - Now in retrievespicedata
+2024-09-26 15:21:04,101 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:21:04,102 - INFO - Now in retrievespicedata
+2024-09-26 15:21:04,576 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:21:04,577 - INFO - Now in retrievespicedata
+2024-09-26 15:21:04,781 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:21:04,782 - INFO - Now in retrievespicedata
+2024-09-26 15:21:04,985 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:21:04,986 - INFO - Now in retrievespicedata
+2024-09-26 15:21:05,191 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:21:05,191 - INFO - Now in retrievespicedata
+2024-09-26 15:21:05,471 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:21:05,472 - INFO - Now in retrievespicedata
+2024-09-26 15:21:05,675 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:21:05,676 - INFO - Now in retrievespicedata
+2024-09-26 15:21:05,877 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:21:05,878 - INFO - Now in retrievespicedata
+2024-09-26 15:21:06,075 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:21:06,075 - INFO - Now in retrievespicedata
+2024-09-26 15:21:06,281 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:21:06,282 - INFO - Now in retrievespicedata
+2024-09-26 15:21:06,492 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:21:06,492 - INFO - Now in retrievespicedata
+2024-09-26 15:21:06,700 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:21:06,700 - INFO - Now in retrievespicedata
+2024-09-26 15:21:07,015 - INFO - Now transforming data for station type spice
+2024-09-26 15:21:07,030 - INFO - Now dumping data to file
+2024-09-26 15:21:07,036 - INFO - Now in retrievespicedata
+2024-09-26 15:21:07,396 - INFO - Now transforming data for station type spice
+2024-09-26 15:21:07,404 - INFO - Now dumping data to file
+2024-09-26 15:21:07,409 - INFO - Now in retrievespicedata
+2024-09-26 15:21:07,656 - INFO - Now transforming data for station type spice
+2024-09-26 15:21:07,671 - INFO - Now dumping data to file
+2024-09-26 15:21:07,677 - INFO - 
+2024-09-26 15:21:07,677 - INFO - Processing station: SPICE37
+2024-09-26 15:21:07,677 - INFO - Now in retrievespicedata
+2024-09-26 15:21:07,879 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:21:07,879 - INFO - Now in retrievespicedata
+2024-09-26 15:21:08,087 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:21:08,088 - INFO - Now in retrievespicedata
+2024-09-26 15:21:08,287 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:21:08,288 - INFO - Now in retrievespicedata
+2024-09-26 15:21:08,501 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:21:08,502 - INFO - Now in retrievespicedata
+2024-09-26 15:21:08,713 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:21:08,713 - INFO - Now in retrievespicedata
+2024-09-26 15:21:08,917 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:21:08,917 - INFO - Now in retrievespicedata
+2024-09-26 15:21:09,129 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:21:09,130 - INFO - Now in retrievespicedata
+2024-09-26 15:21:09,334 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:21:09,335 - INFO - Now in retrievespicedata
+2024-09-26 15:21:09,698 - INFO - Now transforming data for station type spice
+2024-09-26 15:21:09,713 - INFO - Now dumping data to file
+2024-09-26 15:21:09,719 - INFO - Now in retrievespicedata
+2024-09-26 15:21:10,077 - INFO - Now transforming data for station type spice
+2024-09-26 15:21:10,091 - INFO - Now dumping data to file
+2024-09-26 15:21:10,097 - INFO - Now in retrievespicedata
+2024-09-26 15:21:10,450 - INFO - Now transforming data for station type spice
+2024-09-26 15:21:10,465 - INFO - Now dumping data to file
+2024-09-26 15:21:10,471 - INFO - Now in retrievespicedata
+2024-09-26 15:21:10,831 - INFO - Now transforming data for station type spice
+2024-09-26 15:21:10,846 - INFO - Now dumping data to file
+2024-09-26 15:21:10,852 - INFO - Now in retrievespicedata
+2024-09-26 15:21:11,142 - INFO - Now transforming data for station type spice
+2024-09-26 15:21:11,156 - INFO - Now dumping data to file
+2024-09-26 15:21:11,162 - INFO - Now in retrievespicedata
+2024-09-26 15:21:11,470 - INFO - Now transforming data for station type spice
+2024-09-26 15:21:11,485 - INFO - Now dumping data to file
+2024-09-26 15:21:11,490 - INFO - Now in retrievespicedata
+2024-09-26 15:21:11,742 - INFO - Now transforming data for station type spice
+2024-09-26 15:21:11,757 - INFO - Now dumping data to file
+2024-09-26 15:21:11,763 - INFO - Now in retrievespicedata
+2024-09-26 15:21:12,073 - INFO - Now transforming data for station type spice
+2024-09-26 15:21:12,080 - INFO - Now dumping data to file
+2024-09-26 15:21:12,085 - INFO - Now in retrievespicedata
+2024-09-26 15:21:12,451 - INFO - Now transforming data for station type spice
+2024-09-26 15:21:12,457 - INFO - Now dumping data to file
+2024-09-26 15:21:12,462 - INFO - Now in retrievespicedata
+2024-09-26 15:21:12,832 - INFO - Now transforming data for station type spice
+2024-09-26 15:21:12,838 - INFO - Now dumping data to file
+2024-09-26 15:21:12,843 - INFO - Now in retrievespicedata
+2024-09-26 15:21:13,243 - INFO - Now transforming data for station type spice
+2024-09-26 15:21:13,258 - INFO - Now dumping data to file
+2024-09-26 15:21:13,264 - INFO - Now in retrievespicedata
+2024-09-26 15:21:13,568 - INFO - Now transforming data for station type spice
+2024-09-26 15:21:13,574 - INFO - Now dumping data to file
+2024-09-26 15:21:13,579 - INFO - Now in retrievespicedata
+2024-09-26 15:21:13,794 - INFO - Now transforming data for station type spice
+2024-09-26 15:21:13,808 - INFO - Now dumping data to file
+2024-09-26 15:21:13,814 - INFO - 
+2024-09-26 15:21:13,814 - INFO - Processing station: SPICE38
+2024-09-26 15:21:13,815 - INFO - Now in retrievespicedata
+2024-09-26 15:21:14,018 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:21:14,018 - INFO - Now in retrievespicedata
+2024-09-26 15:21:14,223 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:21:14,224 - INFO - Now in retrievespicedata
+2024-09-26 15:21:14,428 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:21:14,428 - INFO - Now in retrievespicedata
+2024-09-26 15:21:14,629 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:21:14,630 - INFO - Now in retrievespicedata
+2024-09-26 15:21:14,833 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:21:14,834 - INFO - Now in retrievespicedata
+2024-09-26 15:21:15,039 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:21:15,040 - INFO - Now in retrievespicedata
+2024-09-26 15:21:15,241 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:21:15,242 - INFO - Now in retrievespicedata
+2024-09-26 15:21:15,489 - INFO - Now transforming data for station type spice
+2024-09-26 15:21:15,504 - INFO - Now dumping data to file
+2024-09-26 15:21:15,510 - INFO - Now in retrievespicedata
+2024-09-26 15:21:15,876 - INFO - Now transforming data for station type spice
+2024-09-26 15:21:15,891 - INFO - Now dumping data to file
+2024-09-26 15:21:15,896 - INFO - Now in retrievespicedata
+2024-09-26 15:21:16,257 - INFO - Now transforming data for station type spice
+2024-09-26 15:21:16,272 - INFO - Now dumping data to file
+2024-09-26 15:21:16,277 - INFO - Now in retrievespicedata
+2024-09-26 15:21:16,640 - INFO - Now transforming data for station type spice
+2024-09-26 15:21:16,654 - INFO - Now dumping data to file
+2024-09-26 15:21:16,660 - INFO - Now in retrievespicedata
+2024-09-26 15:21:17,016 - INFO - Now transforming data for station type spice
+2024-09-26 15:21:17,031 - INFO - Now dumping data to file
+2024-09-26 15:21:17,037 - INFO - Now in retrievespicedata
+2024-09-26 15:21:17,346 - INFO - Now transforming data for station type spice
+2024-09-26 15:21:17,361 - INFO - Now dumping data to file
+2024-09-26 15:21:17,367 - INFO - Now in retrievespicedata
+2024-09-26 15:21:17,708 - INFO - Now transforming data for station type spice
+2024-09-26 15:21:17,724 - INFO - Now dumping data to file
+2024-09-26 15:21:17,730 - INFO - Now in retrievespicedata
+2024-09-26 15:21:18,037 - INFO - Now transforming data for station type spice
+2024-09-26 15:21:18,043 - INFO - Now dumping data to file
+2024-09-26 15:21:18,048 - INFO - Now in retrievespicedata
+2024-09-26 15:21:18,471 - INFO - Now transforming data for station type spice
+2024-09-26 15:21:18,486 - INFO - Now dumping data to file
+2024-09-26 15:21:18,492 - INFO - Now in retrievespicedata
+2024-09-26 15:21:18,859 - INFO - Now transforming data for station type spice
+2024-09-26 15:21:18,874 - INFO - Now dumping data to file
+2024-09-26 15:21:18,880 - INFO - Now in retrievespicedata
+2024-09-26 15:21:19,254 - INFO - Now transforming data for station type spice
+2024-09-26 15:21:19,266 - INFO - Now dumping data to file
+2024-09-26 15:21:19,272 - INFO - Now in retrievespicedata
+2024-09-26 15:21:19,639 - INFO - Now transforming data for station type spice
+2024-09-26 15:21:19,653 - INFO - Now dumping data to file
+2024-09-26 15:21:19,659 - INFO - Now in retrievespicedata
+2024-09-26 15:21:20,028 - INFO - Now transforming data for station type spice
+2024-09-26 15:21:20,043 - INFO - Now dumping data to file
+2024-09-26 15:21:20,049 - INFO - Now in retrievespicedata
+2024-09-26 15:21:20,390 - INFO - Now transforming data for station type spice
+2024-09-26 15:21:20,406 - INFO - Now dumping data to file
+2024-09-26 15:25:15,176 - INFO - Configuration of logging is finished.
+2024-09-26 15:25:15,176 - INFO - Splitting requested time period into monthly segments
+2024-09-26 15:25:15,176 - INFO - 
+2024-09-26 15:25:15,176 - INFO - Processing station: SPICE34
+2024-09-26 15:25:15,177 - INFO - Processing period: 2023-01-01T00:00:00Z - 2023-01-31T23:59:59Z
+2024-09-26 15:25:15,177 - INFO - Now in retrievespicedata
+2024-09-26 15:25:15,177 - INFO - Collecting data for 2023-01-01T00:00:00Z - 2023-01-31T23:59:59Z
+2024-09-26 15:25:15,438 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:25:15,438 - INFO - Processing period: 2023-02-01T00:00:00Z - 2023-02-28T23:59:59Z
+2024-09-26 15:25:15,438 - INFO - Now in retrievespicedata
+2024-09-26 15:25:15,438 - INFO - Collecting data for 2023-02-01T00:00:00Z - 2023-02-28T23:59:59Z
+2024-09-26 15:25:15,645 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:25:15,646 - INFO - Processing period: 2023-03-01T00:00:00Z - 2023-03-31T23:59:59Z
+2024-09-26 15:25:15,646 - INFO - Now in retrievespicedata
+2024-09-26 15:25:15,646 - INFO - Collecting data for 2023-03-01T00:00:00Z - 2023-03-31T23:59:59Z
+2024-09-26 15:25:15,846 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:25:15,847 - INFO - Processing period: 2023-04-01T00:00:00Z - 2023-04-30T23:59:59Z
+2024-09-26 15:25:15,847 - INFO - Now in retrievespicedata
+2024-09-26 15:25:15,847 - INFO - Collecting data for 2023-04-01T00:00:00Z - 2023-04-30T23:59:59Z
+2024-09-26 15:25:16,051 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:25:16,052 - INFO - Processing period: 2023-05-01T00:00:00Z - 2023-05-31T23:59:59Z
+2024-09-26 15:25:16,052 - INFO - Now in retrievespicedata
+2024-09-26 15:25:16,052 - INFO - Collecting data for 2023-05-01T00:00:00Z - 2023-05-31T23:59:59Z
+2024-09-26 15:25:16,260 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:25:16,261 - INFO - Processing period: 2023-06-01T00:00:00Z - 2023-06-30T23:59:59Z
+2024-09-26 15:25:16,261 - INFO - Now in retrievespicedata
+2024-09-26 15:25:16,261 - INFO - Collecting data for 2023-06-01T00:00:00Z - 2023-06-30T23:59:59Z
+2024-09-26 15:25:16,475 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:25:16,476 - INFO - Processing period: 2023-07-01T00:00:00Z - 2023-07-31T23:59:59Z
+2024-09-26 15:25:16,476 - INFO - Now in retrievespicedata
+2024-09-26 15:25:16,476 - INFO - Collecting data for 2023-07-01T00:00:00Z - 2023-07-31T23:59:59Z
+2024-09-26 15:25:16,682 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:25:16,683 - INFO - Processing period: 2023-08-01T00:00:00Z - 2023-08-31T23:59:59Z
+2024-09-26 15:25:16,683 - INFO - Now in retrievespicedata
+2024-09-26 15:25:16,683 - INFO - Collecting data for 2023-08-01T00:00:00Z - 2023-08-31T23:59:59Z
+2024-09-26 15:25:16,924 - INFO - Now transforming data for station type spice
+2024-09-26 15:25:16,943 - INFO - Now dumping data to file
+2024-09-26 15:25:16,954 - INFO - Processing period: 2023-09-01T00:00:00Z - 2023-09-30T23:59:59Z
+2024-09-26 15:25:16,954 - INFO - Now in retrievespicedata
+2024-09-26 15:25:16,954 - INFO - Collecting data for 2023-09-01T00:00:00Z - 2023-09-30T23:59:59Z
+2024-09-26 15:25:17,317 - INFO - Now transforming data for station type spice
+2024-09-26 15:25:17,332 - INFO - Now dumping data to file
+2024-09-26 15:25:17,338 - INFO - Processing period: 2023-10-01T00:00:00Z - 2023-10-31T23:59:59Z
+2024-09-26 15:25:17,338 - INFO - Now in retrievespicedata
+2024-09-26 15:25:17,338 - INFO - Collecting data for 2023-10-01T00:00:00Z - 2023-10-31T23:59:59Z
+2024-09-26 15:25:17,702 - INFO - Now transforming data for station type spice
+2024-09-26 15:25:17,715 - INFO - Now dumping data to file
+2024-09-26 15:25:17,720 - INFO - Processing period: 2023-11-01T00:00:00Z - 2023-11-30T23:59:59Z
+2024-09-26 15:25:17,720 - INFO - Now in retrievespicedata
+2024-09-26 15:25:17,721 - INFO - Collecting data for 2023-11-01T00:00:00Z - 2023-11-30T23:59:59Z
+2024-09-26 15:25:17,981 - INFO - Now transforming data for station type spice
+2024-09-26 15:25:17,996 - INFO - Now dumping data to file
+2024-09-26 15:25:18,002 - INFO - Processing period: 2023-12-01T00:00:00Z - 2023-12-31T23:59:59Z
+2024-09-26 15:25:18,003 - INFO - Now in retrievespicedata
+2024-09-26 15:25:18,003 - INFO - Collecting data for 2023-12-01T00:00:00Z - 2023-12-31T23:59:59Z
+2024-09-26 15:25:18,308 - INFO - Now transforming data for station type spice
+2024-09-26 15:25:18,323 - INFO - Now dumping data to file
+2024-09-26 15:25:18,330 - INFO - Processing period: 2024-01-01T00:00:00Z - 2024-01-31T23:59:59Z
+2024-09-26 15:25:18,330 - INFO - Now in retrievespicedata
+2024-09-26 15:25:18,330 - INFO - Collecting data for 2024-01-01T00:00:00Z - 2024-01-31T23:59:59Z
+2024-09-26 15:25:18,624 - INFO - Now transforming data for station type spice
+2024-09-26 15:25:18,640 - INFO - Now dumping data to file
+2024-09-26 15:25:18,646 - INFO - Processing period: 2024-02-01T00:00:00Z - 2024-02-29T23:59:59Z
+2024-09-26 15:25:18,646 - INFO - Now in retrievespicedata
+2024-09-26 15:25:18,646 - INFO - Collecting data for 2024-02-01T00:00:00Z - 2024-02-29T23:59:59Z
+2024-09-26 15:25:18,999 - INFO - Now transforming data for station type spice
+2024-09-26 15:25:19,016 - INFO - Now dumping data to file
+2024-09-26 15:25:19,021 - INFO - Processing period: 2024-03-01T00:00:00Z - 2024-03-31T23:59:59Z
+2024-09-26 15:25:19,022 - INFO - Now in retrievespicedata
+2024-09-26 15:25:19,022 - INFO - Collecting data for 2024-03-01T00:00:00Z - 2024-03-31T23:59:59Z
+2024-09-26 15:25:19,366 - INFO - Now transforming data for station type spice
+2024-09-26 15:25:19,382 - INFO - Now dumping data to file
+2024-09-26 15:25:19,388 - INFO - Processing period: 2024-04-01T00:00:00Z - 2024-04-30T23:59:59Z
+2024-09-26 15:25:19,388 - INFO - Now in retrievespicedata
+2024-09-26 15:25:19,388 - INFO - Collecting data for 2024-04-01T00:00:00Z - 2024-04-30T23:59:59Z
+2024-09-26 15:25:19,785 - INFO - Now transforming data for station type spice
+2024-09-26 15:25:19,800 - INFO - Now dumping data to file
+2024-09-26 15:25:19,806 - INFO - Processing period: 2024-05-01T00:00:00Z - 2024-05-31T23:59:59Z
+2024-09-26 15:25:19,806 - INFO - Now in retrievespicedata
+2024-09-26 15:25:19,807 - INFO - Collecting data for 2024-05-01T00:00:00Z - 2024-05-31T23:59:59Z
+2024-09-26 15:25:20,175 - INFO - Now transforming data for station type spice
+2024-09-26 15:25:20,189 - INFO - Now dumping data to file
+2024-09-26 15:25:20,195 - INFO - Processing period: 2024-06-01T00:00:00Z - 2024-06-30T23:59:59Z
+2024-09-26 15:25:20,195 - INFO - Now in retrievespicedata
+2024-09-26 15:25:20,195 - INFO - Collecting data for 2024-06-01T00:00:00Z - 2024-06-30T23:59:59Z
+2024-09-26 15:25:20,551 - INFO - Now transforming data for station type spice
+2024-09-26 15:25:20,561 - INFO - Now dumping data to file
+2024-09-26 15:25:20,569 - INFO - Processing period: 2024-07-01T00:00:00Z - 2024-07-31T23:59:59Z
+2024-09-26 15:25:20,569 - INFO - Now in retrievespicedata
+2024-09-26 15:25:20,569 - INFO - Collecting data for 2024-07-01T00:00:00Z - 2024-07-31T23:59:59Z
+2024-09-26 15:25:20,921 - INFO - Now transforming data for station type spice
+2024-09-26 15:25:20,935 - INFO - Now dumping data to file
+2024-09-26 15:25:20,941 - INFO - Processing period: 2024-08-01T00:00:00Z - 2024-08-31T23:59:59Z
+2024-09-26 15:25:20,941 - INFO - Now in retrievespicedata
+2024-09-26 15:25:20,941 - INFO - Collecting data for 2024-08-01T00:00:00Z - 2024-08-31T23:59:59Z
+2024-09-26 15:25:21,298 - INFO - Now transforming data for station type spice
+2024-09-26 15:25:21,313 - INFO - Now dumping data to file
+2024-09-26 15:25:21,319 - INFO - Processing period: 2024-09-01T00:00:00Z - 2024-09-30T23:59:59Z
+2024-09-26 15:25:21,319 - INFO - Now in retrievespicedata
+2024-09-26 15:25:21,319 - INFO - Collecting data for 2024-09-01T00:00:00Z - 2024-09-30T23:59:59Z
+2024-09-26 15:25:21,661 - INFO - Now transforming data for station type spice
+2024-09-26 15:25:21,676 - INFO - Now dumping data to file
+2024-09-26 15:25:21,682 - INFO - 
+2024-09-26 15:25:21,682 - INFO - Processing station: SPICE35
+2024-09-26 15:25:21,682 - INFO - Processing period: 2023-01-01T00:00:00Z - 2023-01-31T23:59:59Z
+2024-09-26 15:25:21,682 - INFO - Now in retrievespicedata
+2024-09-26 15:25:21,682 - INFO - Collecting data for 2023-01-01T00:00:00Z - 2023-01-31T23:59:59Z
+2024-09-26 15:25:21,885 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:25:21,886 - INFO - Processing period: 2023-02-01T00:00:00Z - 2023-02-28T23:59:59Z
+2024-09-26 15:25:21,886 - INFO - Now in retrievespicedata
+2024-09-26 15:25:21,886 - INFO - Collecting data for 2023-02-01T00:00:00Z - 2023-02-28T23:59:59Z
+2024-09-26 15:25:22,091 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:25:22,092 - INFO - Processing period: 2023-03-01T00:00:00Z - 2023-03-31T23:59:59Z
+2024-09-26 15:25:22,092 - INFO - Now in retrievespicedata
+2024-09-26 15:25:22,092 - INFO - Collecting data for 2023-03-01T00:00:00Z - 2023-03-31T23:59:59Z
+2024-09-26 15:25:22,298 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:25:22,298 - INFO - Processing period: 2023-04-01T00:00:00Z - 2023-04-30T23:59:59Z
+2024-09-26 15:25:22,298 - INFO - Now in retrievespicedata
+2024-09-26 15:25:22,299 - INFO - Collecting data for 2023-04-01T00:00:00Z - 2023-04-30T23:59:59Z
+2024-09-26 15:25:22,506 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:25:22,506 - INFO - Processing period: 2023-05-01T00:00:00Z - 2023-05-31T23:59:59Z
+2024-09-26 15:25:22,507 - INFO - Now in retrievespicedata
+2024-09-26 15:25:22,507 - INFO - Collecting data for 2023-05-01T00:00:00Z - 2023-05-31T23:59:59Z
+2024-09-26 15:25:22,710 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:25:22,710 - INFO - Processing period: 2023-06-01T00:00:00Z - 2023-06-30T23:59:59Z
+2024-09-26 15:25:22,710 - INFO - Now in retrievespicedata
+2024-09-26 15:25:22,711 - INFO - Collecting data for 2023-06-01T00:00:00Z - 2023-06-30T23:59:59Z
+2024-09-26 15:25:22,917 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:25:22,917 - INFO - Processing period: 2023-07-01T00:00:00Z - 2023-07-31T23:59:59Z
+2024-09-26 15:25:22,917 - INFO - Now in retrievespicedata
+2024-09-26 15:25:22,917 - INFO - Collecting data for 2023-07-01T00:00:00Z - 2023-07-31T23:59:59Z
+2024-09-26 15:25:23,123 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:25:23,124 - INFO - Processing period: 2023-08-01T00:00:00Z - 2023-08-31T23:59:59Z
+2024-09-26 15:25:23,124 - INFO - Now in retrievespicedata
+2024-09-26 15:25:23,124 - INFO - Collecting data for 2023-08-01T00:00:00Z - 2023-08-31T23:59:59Z
+2024-09-26 15:25:23,332 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:25:23,333 - INFO - Processing period: 2023-09-01T00:00:00Z - 2023-09-30T23:59:59Z
+2024-09-26 15:25:23,333 - INFO - Now in retrievespicedata
+2024-09-26 15:25:23,333 - INFO - Collecting data for 2023-09-01T00:00:00Z - 2023-09-30T23:59:59Z
+2024-09-26 15:25:23,539 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:25:23,540 - INFO - Processing period: 2023-10-01T00:00:00Z - 2023-10-31T23:59:59Z
+2024-09-26 15:25:23,540 - INFO - Now in retrievespicedata
+2024-09-26 15:25:23,540 - INFO - Collecting data for 2023-10-01T00:00:00Z - 2023-10-31T23:59:59Z
+2024-09-26 15:25:23,746 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:25:23,747 - INFO - Processing period: 2023-11-01T00:00:00Z - 2023-11-30T23:59:59Z
+2024-09-26 15:25:23,747 - INFO - Now in retrievespicedata
+2024-09-26 15:25:23,747 - INFO - Collecting data for 2023-11-01T00:00:00Z - 2023-11-30T23:59:59Z
+2024-09-26 15:25:23,953 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:25:23,953 - INFO - Processing period: 2023-12-01T00:00:00Z - 2023-12-31T23:59:59Z
+2024-09-26 15:25:23,954 - INFO - Now in retrievespicedata
+2024-09-26 15:25:23,954 - INFO - Collecting data for 2023-12-01T00:00:00Z - 2023-12-31T23:59:59Z
+2024-09-26 15:25:24,158 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:25:24,159 - INFO - Processing period: 2024-01-01T00:00:00Z - 2024-01-31T23:59:59Z
+2024-09-26 15:25:24,159 - INFO - Now in retrievespicedata
+2024-09-26 15:25:24,159 - INFO - Collecting data for 2024-01-01T00:00:00Z - 2024-01-31T23:59:59Z
+2024-09-26 15:25:24,365 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:25:24,365 - INFO - Processing period: 2024-02-01T00:00:00Z - 2024-02-29T23:59:59Z
+2024-09-26 15:25:24,366 - INFO - Now in retrievespicedata
+2024-09-26 15:25:24,366 - INFO - Collecting data for 2024-02-01T00:00:00Z - 2024-02-29T23:59:59Z
+2024-09-26 15:25:24,579 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:25:24,580 - INFO - Processing period: 2024-03-01T00:00:00Z - 2024-03-31T23:59:59Z
+2024-09-26 15:25:24,580 - INFO - Now in retrievespicedata
+2024-09-26 15:25:24,580 - INFO - Collecting data for 2024-03-01T00:00:00Z - 2024-03-31T23:59:59Z
+2024-09-26 15:25:24,784 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:25:24,785 - INFO - Processing period: 2024-04-01T00:00:00Z - 2024-04-30T23:59:59Z
+2024-09-26 15:25:24,785 - INFO - Now in retrievespicedata
+2024-09-26 15:25:24,785 - INFO - Collecting data for 2024-04-01T00:00:00Z - 2024-04-30T23:59:59Z
+2024-09-26 15:25:25,175 - INFO - Now transforming data for station type spice
+2024-09-26 15:25:25,191 - INFO - Now dumping data to file
+2024-09-26 15:25:25,197 - INFO - Processing period: 2024-05-01T00:00:00Z - 2024-05-31T23:59:59Z
+2024-09-26 15:25:25,197 - INFO - Now in retrievespicedata
+2024-09-26 15:25:25,197 - INFO - Collecting data for 2024-05-01T00:00:00Z - 2024-05-31T23:59:59Z
+2024-09-26 15:25:25,574 - INFO - Now transforming data for station type spice
+2024-09-26 15:25:25,580 - INFO - Now dumping data to file
+2024-09-26 15:25:25,585 - INFO - Processing period: 2024-06-01T00:00:00Z - 2024-06-30T23:59:59Z
+2024-09-26 15:25:25,585 - INFO - Now in retrievespicedata
+2024-09-26 15:25:25,585 - INFO - Collecting data for 2024-06-01T00:00:00Z - 2024-06-30T23:59:59Z
+2024-09-26 15:25:25,889 - INFO - Now transforming data for station type spice
+2024-09-26 15:25:25,904 - INFO - Now dumping data to file
+2024-09-26 15:25:25,911 - INFO - Processing period: 2024-07-01T00:00:00Z - 2024-07-31T23:59:59Z
+2024-09-26 15:25:25,911 - INFO - Now in retrievespicedata
+2024-09-26 15:25:25,911 - INFO - Collecting data for 2024-07-01T00:00:00Z - 2024-07-31T23:59:59Z
+2024-09-26 15:25:26,113 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:25:26,114 - INFO - Processing period: 2024-08-01T00:00:00Z - 2024-08-31T23:59:59Z
+2024-09-26 15:25:26,114 - INFO - Now in retrievespicedata
+2024-09-26 15:25:26,114 - INFO - Collecting data for 2024-08-01T00:00:00Z - 2024-08-31T23:59:59Z
+2024-09-26 15:25:26,329 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:25:26,330 - INFO - Processing period: 2024-09-01T00:00:00Z - 2024-09-30T23:59:59Z
+2024-09-26 15:25:26,330 - INFO - Now in retrievespicedata
+2024-09-26 15:25:26,330 - INFO - Collecting data for 2024-09-01T00:00:00Z - 2024-09-30T23:59:59Z
+2024-09-26 15:25:26,541 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:25:26,541 - INFO - 
+2024-09-26 15:25:26,541 - INFO - Processing station: SPICE36
+2024-09-26 15:25:26,542 - INFO - Processing period: 2023-01-01T00:00:00Z - 2023-01-31T23:59:59Z
+2024-09-26 15:25:26,542 - INFO - Now in retrievespicedata
+2024-09-26 15:25:26,542 - INFO - Collecting data for 2023-01-01T00:00:00Z - 2023-01-31T23:59:59Z
+2024-09-26 15:25:26,749 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:25:26,749 - INFO - Processing period: 2023-02-01T00:00:00Z - 2023-02-28T23:59:59Z
+2024-09-26 15:25:26,749 - INFO - Now in retrievespicedata
+2024-09-26 15:25:26,749 - INFO - Collecting data for 2023-02-01T00:00:00Z - 2023-02-28T23:59:59Z
+2024-09-26 15:25:26,953 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:25:26,954 - INFO - Processing period: 2023-03-01T00:00:00Z - 2023-03-31T23:59:59Z
+2024-09-26 15:25:26,954 - INFO - Now in retrievespicedata
+2024-09-26 15:25:26,954 - INFO - Collecting data for 2023-03-01T00:00:00Z - 2023-03-31T23:59:59Z
+2024-09-26 15:25:27,158 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:25:27,159 - INFO - Processing period: 2023-04-01T00:00:00Z - 2023-04-30T23:59:59Z
+2024-09-26 15:25:27,159 - INFO - Now in retrievespicedata
+2024-09-26 15:25:27,159 - INFO - Collecting data for 2023-04-01T00:00:00Z - 2023-04-30T23:59:59Z
+2024-09-26 15:25:27,365 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:25:27,366 - INFO - Processing period: 2023-05-01T00:00:00Z - 2023-05-31T23:59:59Z
+2024-09-26 15:25:27,366 - INFO - Now in retrievespicedata
+2024-09-26 15:25:27,366 - INFO - Collecting data for 2023-05-01T00:00:00Z - 2023-05-31T23:59:59Z
+2024-09-26 15:25:27,574 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:25:27,575 - INFO - Processing period: 2023-06-01T00:00:00Z - 2023-06-30T23:59:59Z
+2024-09-26 15:25:27,575 - INFO - Now in retrievespicedata
+2024-09-26 15:25:27,575 - INFO - Collecting data for 2023-06-01T00:00:00Z - 2023-06-30T23:59:59Z
+2024-09-26 15:25:27,786 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:25:27,786 - INFO - Processing period: 2023-07-01T00:00:00Z - 2023-07-31T23:59:59Z
+2024-09-26 15:25:27,786 - INFO - Now in retrievespicedata
+2024-09-26 15:25:27,787 - INFO - Collecting data for 2023-07-01T00:00:00Z - 2023-07-31T23:59:59Z
+2024-09-26 15:25:27,993 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:25:27,994 - INFO - Processing period: 2023-08-01T00:00:00Z - 2023-08-31T23:59:59Z
+2024-09-26 15:25:27,994 - INFO - Now in retrievespicedata
+2024-09-26 15:25:27,994 - INFO - Collecting data for 2023-08-01T00:00:00Z - 2023-08-31T23:59:59Z
+2024-09-26 15:25:28,195 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:25:28,196 - INFO - Processing period: 2023-09-01T00:00:00Z - 2023-09-30T23:59:59Z
+2024-09-26 15:25:28,196 - INFO - Now in retrievespicedata
+2024-09-26 15:25:28,196 - INFO - Collecting data for 2023-09-01T00:00:00Z - 2023-09-30T23:59:59Z
+2024-09-26 15:25:28,401 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:25:28,402 - INFO - Processing period: 2023-10-01T00:00:00Z - 2023-10-31T23:59:59Z
+2024-09-26 15:25:28,402 - INFO - Now in retrievespicedata
+2024-09-26 15:25:28,402 - INFO - Collecting data for 2023-10-01T00:00:00Z - 2023-10-31T23:59:59Z
+2024-09-26 15:25:28,604 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:25:28,605 - INFO - Processing period: 2023-11-01T00:00:00Z - 2023-11-30T23:59:59Z
+2024-09-26 15:25:28,605 - INFO - Now in retrievespicedata
+2024-09-26 15:25:28,605 - INFO - Collecting data for 2023-11-01T00:00:00Z - 2023-11-30T23:59:59Z
+2024-09-26 15:25:28,811 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:25:28,812 - INFO - Processing period: 2023-12-01T00:00:00Z - 2023-12-31T23:59:59Z
+2024-09-26 15:25:28,812 - INFO - Now in retrievespicedata
+2024-09-26 15:25:28,812 - INFO - Collecting data for 2023-12-01T00:00:00Z - 2023-12-31T23:59:59Z
+2024-09-26 15:25:29,016 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:25:29,017 - INFO - Processing period: 2024-01-01T00:00:00Z - 2024-01-31T23:59:59Z
+2024-09-26 15:25:29,017 - INFO - Now in retrievespicedata
+2024-09-26 15:25:29,017 - INFO - Collecting data for 2024-01-01T00:00:00Z - 2024-01-31T23:59:59Z
+2024-09-26 15:25:29,222 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:25:29,222 - INFO - Processing period: 2024-02-01T00:00:00Z - 2024-02-29T23:59:59Z
+2024-09-26 15:25:29,223 - INFO - Now in retrievespicedata
+2024-09-26 15:25:29,223 - INFO - Collecting data for 2024-02-01T00:00:00Z - 2024-02-29T23:59:59Z
+2024-09-26 15:25:29,425 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:25:29,426 - INFO - Processing period: 2024-03-01T00:00:00Z - 2024-03-31T23:59:59Z
+2024-09-26 15:25:29,426 - INFO - Now in retrievespicedata
+2024-09-26 15:25:29,426 - INFO - Collecting data for 2024-03-01T00:00:00Z - 2024-03-31T23:59:59Z
+2024-09-26 15:25:29,634 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:25:29,634 - INFO - Processing period: 2024-04-01T00:00:00Z - 2024-04-30T23:59:59Z
+2024-09-26 15:25:29,635 - INFO - Now in retrievespicedata
+2024-09-26 15:25:29,635 - INFO - Collecting data for 2024-04-01T00:00:00Z - 2024-04-30T23:59:59Z
+2024-09-26 15:25:29,829 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:25:29,830 - INFO - Processing period: 2024-05-01T00:00:00Z - 2024-05-31T23:59:59Z
+2024-09-26 15:25:29,830 - INFO - Now in retrievespicedata
+2024-09-26 15:25:29,830 - INFO - Collecting data for 2024-05-01T00:00:00Z - 2024-05-31T23:59:59Z
+2024-09-26 15:25:30,036 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:25:30,037 - INFO - Processing period: 2024-06-01T00:00:00Z - 2024-06-30T23:59:59Z
+2024-09-26 15:25:30,037 - INFO - Now in retrievespicedata
+2024-09-26 15:25:30,037 - INFO - Collecting data for 2024-06-01T00:00:00Z - 2024-06-30T23:59:59Z
+2024-09-26 15:25:30,243 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:25:30,243 - INFO - Processing period: 2024-07-01T00:00:00Z - 2024-07-31T23:59:59Z
+2024-09-26 15:25:30,243 - INFO - Now in retrievespicedata
+2024-09-26 15:25:30,244 - INFO - Collecting data for 2024-07-01T00:00:00Z - 2024-07-31T23:59:59Z
+2024-09-26 15:25:30,552 - INFO - Now transforming data for station type spice
+2024-09-26 15:25:30,567 - INFO - Now dumping data to file
+2024-09-26 15:25:30,572 - INFO - Processing period: 2024-08-01T00:00:00Z - 2024-08-31T23:59:59Z
+2024-09-26 15:25:30,573 - INFO - Now in retrievespicedata
+2024-09-26 15:25:30,573 - INFO - Collecting data for 2024-08-01T00:00:00Z - 2024-08-31T23:59:59Z
+2024-09-26 15:25:30,931 - INFO - Now transforming data for station type spice
+2024-09-26 15:25:30,946 - INFO - Now dumping data to file
+2024-09-26 15:25:30,952 - INFO - Processing period: 2024-09-01T00:00:00Z - 2024-09-30T23:59:59Z
+2024-09-26 15:25:30,952 - INFO - Now in retrievespicedata
+2024-09-26 15:25:30,952 - INFO - Collecting data for 2024-09-01T00:00:00Z - 2024-09-30T23:59:59Z
+2024-09-26 15:25:31,195 - INFO - Now transforming data for station type spice
+2024-09-26 15:25:31,210 - INFO - Now dumping data to file
+2024-09-26 15:25:31,217 - INFO - 
+2024-09-26 15:25:31,217 - INFO - Processing station: SPICE37
+2024-09-26 15:25:31,217 - INFO - Processing period: 2023-01-01T00:00:00Z - 2023-01-31T23:59:59Z
+2024-09-26 15:25:31,217 - INFO - Now in retrievespicedata
+2024-09-26 15:25:31,217 - INFO - Collecting data for 2023-01-01T00:00:00Z - 2023-01-31T23:59:59Z
+2024-09-26 15:25:31,419 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:25:31,420 - INFO - Processing period: 2023-02-01T00:00:00Z - 2023-02-28T23:59:59Z
+2024-09-26 15:25:31,420 - INFO - Now in retrievespicedata
+2024-09-26 15:25:31,420 - INFO - Collecting data for 2023-02-01T00:00:00Z - 2023-02-28T23:59:59Z
+2024-09-26 15:25:31,627 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:25:31,628 - INFO - Processing period: 2023-03-01T00:00:00Z - 2023-03-31T23:59:59Z
+2024-09-26 15:25:31,628 - INFO - Now in retrievespicedata
+2024-09-26 15:25:31,628 - INFO - Collecting data for 2023-03-01T00:00:00Z - 2023-03-31T23:59:59Z
+2024-09-26 15:25:31,830 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:25:31,831 - INFO - Processing period: 2023-04-01T00:00:00Z - 2023-04-30T23:59:59Z
+2024-09-26 15:25:31,831 - INFO - Now in retrievespicedata
+2024-09-26 15:25:31,831 - INFO - Collecting data for 2023-04-01T00:00:00Z - 2023-04-30T23:59:59Z
+2024-09-26 15:25:32,038 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:25:32,039 - INFO - Processing period: 2023-05-01T00:00:00Z - 2023-05-31T23:59:59Z
+2024-09-26 15:25:32,039 - INFO - Now in retrievespicedata
+2024-09-26 15:25:32,039 - INFO - Collecting data for 2023-05-01T00:00:00Z - 2023-05-31T23:59:59Z
+2024-09-26 15:25:32,243 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:25:32,243 - INFO - Processing period: 2023-06-01T00:00:00Z - 2023-06-30T23:59:59Z
+2024-09-26 15:25:32,244 - INFO - Now in retrievespicedata
+2024-09-26 15:25:32,244 - INFO - Collecting data for 2023-06-01T00:00:00Z - 2023-06-30T23:59:59Z
+2024-09-26 15:25:32,448 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:25:32,448 - INFO - Processing period: 2023-07-01T00:00:00Z - 2023-07-31T23:59:59Z
+2024-09-26 15:25:32,449 - INFO - Now in retrievespicedata
+2024-09-26 15:25:32,449 - INFO - Collecting data for 2023-07-01T00:00:00Z - 2023-07-31T23:59:59Z
+2024-09-26 15:25:32,647 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:25:32,648 - INFO - Processing period: 2023-08-01T00:00:00Z - 2023-08-31T23:59:59Z
+2024-09-26 15:25:32,648 - INFO - Now in retrievespicedata
+2024-09-26 15:25:32,648 - INFO - Collecting data for 2023-08-01T00:00:00Z - 2023-08-31T23:59:59Z
+2024-09-26 15:25:32,847 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:25:32,847 - INFO - Processing period: 2023-09-01T00:00:00Z - 2023-09-30T23:59:59Z
+2024-09-26 15:25:32,847 - INFO - Now in retrievespicedata
+2024-09-26 15:25:32,847 - INFO - Collecting data for 2023-09-01T00:00:00Z - 2023-09-30T23:59:59Z
+2024-09-26 15:25:36,171 - INFO - Configuration of logging is finished.
+2024-09-26 15:25:36,171 - INFO - Splitting requested time period into monthly segments
+2024-09-26 15:25:36,172 - INFO - 
+2024-09-26 15:25:36,172 - INFO - Processing station: SPICE34
+2024-09-26 15:25:36,172 - INFO - Processing period: 2023-01-01T00:00:00Z - 2023-01-31T23:59:59Z
+2024-09-26 15:25:36,172 - INFO - Now in retrievespicedata
+2024-09-26 15:25:36,172 - INFO - Collecting data for 2023-01-01T00:00:00Z - 2023-01-31T23:59:59Z
+2024-09-26 15:25:36,375 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:25:36,376 - INFO - Processing period: 2023-02-01T00:00:00Z - 2023-02-28T23:59:59Z
+2024-09-26 15:25:36,376 - INFO - Now in retrievespicedata
+2024-09-26 15:25:36,376 - INFO - Collecting data for 2023-02-01T00:00:00Z - 2023-02-28T23:59:59Z
+2024-09-26 15:25:36,580 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:25:36,581 - INFO - Processing period: 2023-03-01T00:00:00Z - 2023-03-31T23:59:59Z
+2024-09-26 15:25:36,581 - INFO - Now in retrievespicedata
+2024-09-26 15:25:36,581 - INFO - Collecting data for 2023-03-01T00:00:00Z - 2023-03-31T23:59:59Z
+2024-09-26 15:25:36,785 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:25:36,785 - INFO - Processing period: 2023-04-01T00:00:00Z - 2023-04-30T23:59:59Z
+2024-09-26 15:25:36,785 - INFO - Now in retrievespicedata
+2024-09-26 15:25:36,785 - INFO - Collecting data for 2023-04-01T00:00:00Z - 2023-04-30T23:59:59Z
+2024-09-26 15:25:37,062 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:25:37,062 - INFO - Processing period: 2023-05-01T00:00:00Z - 2023-05-31T23:59:59Z
+2024-09-26 15:25:37,063 - INFO - Now in retrievespicedata
+2024-09-26 15:25:37,063 - INFO - Collecting data for 2023-05-01T00:00:00Z - 2023-05-31T23:59:59Z
+2024-09-26 15:25:37,266 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:25:37,267 - INFO - Processing period: 2023-06-01T00:00:00Z - 2023-06-30T23:59:59Z
+2024-09-26 15:25:37,267 - INFO - Now in retrievespicedata
+2024-09-26 15:25:37,267 - INFO - Collecting data for 2023-06-01T00:00:00Z - 2023-06-30T23:59:59Z
+2024-09-26 15:25:37,473 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:25:37,473 - INFO - Processing period: 2023-07-01T00:00:00Z - 2023-07-31T23:59:59Z
+2024-09-26 15:25:37,473 - INFO - Now in retrievespicedata
+2024-09-26 15:25:37,473 - INFO - Collecting data for 2023-07-01T00:00:00Z - 2023-07-31T23:59:59Z
+2024-09-26 15:25:37,676 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:25:37,677 - INFO - Processing period: 2023-08-01T00:00:00Z - 2023-08-31T23:59:59Z
+2024-09-26 15:25:37,677 - INFO - Now in retrievespicedata
+2024-09-26 15:25:37,677 - INFO - Collecting data for 2023-08-01T00:00:00Z - 2023-08-31T23:59:59Z
+2024-09-26 15:25:37,928 - INFO - Now transforming data for station type spice
+2024-09-26 15:25:37,940 - INFO - Now dumping data to file
+2024-09-26 15:25:37,951 - INFO - Processing period: 2023-09-01T00:00:00Z - 2023-09-30T23:59:59Z
+2024-09-26 15:25:37,951 - INFO - Now in retrievespicedata
+2024-09-26 15:25:37,951 - INFO - Collecting data for 2023-09-01T00:00:00Z - 2023-09-30T23:59:59Z
+2024-09-26 15:25:38,303 - INFO - Now transforming data for station type spice
+2024-09-26 15:25:38,316 - INFO - Now dumping data to file
+2024-09-26 15:25:38,321 - INFO - Processing period: 2023-10-01T00:00:00Z - 2023-10-31T23:59:59Z
+2024-09-26 15:25:38,321 - INFO - Now in retrievespicedata
+2024-09-26 15:25:38,321 - INFO - Collecting data for 2023-10-01T00:00:00Z - 2023-10-31T23:59:59Z
+2024-09-26 15:25:38,676 - INFO - Now transforming data for station type spice
+2024-09-26 15:25:38,682 - INFO - Now dumping data to file
+2024-09-26 15:25:38,687 - INFO - Processing period: 2023-11-01T00:00:00Z - 2023-11-30T23:59:59Z
+2024-09-26 15:25:38,687 - INFO - Now in retrievespicedata
+2024-09-26 15:25:38,687 - INFO - Collecting data for 2023-11-01T00:00:00Z - 2023-11-30T23:59:59Z
+2024-09-26 15:25:38,944 - INFO - Now transforming data for station type spice
+2024-09-26 15:25:38,951 - INFO - Now dumping data to file
+2024-09-26 15:25:38,956 - INFO - Processing period: 2023-12-01T00:00:00Z - 2023-12-31T23:59:59Z
+2024-09-26 15:25:38,956 - INFO - Now in retrievespicedata
+2024-09-26 15:25:38,956 - INFO - Collecting data for 2023-12-01T00:00:00Z - 2023-12-31T23:59:59Z
+2024-09-26 15:25:39,259 - INFO - Now transforming data for station type spice
+2024-09-26 15:25:39,274 - INFO - Now dumping data to file
+2024-09-26 15:25:39,280 - INFO - Processing period: 2024-01-01T00:00:00Z - 2024-01-31T23:59:59Z
+2024-09-26 15:25:39,280 - INFO - Now in retrievespicedata
+2024-09-26 15:25:39,280 - INFO - Collecting data for 2024-01-01T00:00:00Z - 2024-01-31T23:59:59Z
+2024-09-26 15:25:39,574 - INFO - Now transforming data for station type spice
+2024-09-26 15:25:39,589 - INFO - Now dumping data to file
+2024-09-26 15:25:39,595 - INFO - Processing period: 2024-02-01T00:00:00Z - 2024-02-29T23:59:59Z
+2024-09-26 15:25:39,595 - INFO - Now in retrievespicedata
+2024-09-26 15:25:39,595 - INFO - Collecting data for 2024-02-01T00:00:00Z - 2024-02-29T23:59:59Z
+2024-09-26 15:25:39,946 - INFO - Now transforming data for station type spice
+2024-09-26 15:25:39,960 - INFO - Now dumping data to file
+2024-09-26 15:25:39,966 - INFO - Processing period: 2024-03-01T00:00:00Z - 2024-03-31T23:59:59Z
+2024-09-26 15:25:39,966 - INFO - Now in retrievespicedata
+2024-09-26 15:25:39,966 - INFO - Collecting data for 2024-03-01T00:00:00Z - 2024-03-31T23:59:59Z
+2024-09-26 15:25:40,315 - INFO - Now transforming data for station type spice
+2024-09-26 15:25:40,329 - INFO - Now dumping data to file
+2024-09-26 15:25:40,335 - INFO - Processing period: 2024-04-01T00:00:00Z - 2024-04-30T23:59:59Z
+2024-09-26 15:25:40,335 - INFO - Now in retrievespicedata
+2024-09-26 15:25:40,335 - INFO - Collecting data for 2024-04-01T00:00:00Z - 2024-04-30T23:59:59Z
+2024-09-26 15:25:40,735 - INFO - Now transforming data for station type spice
+2024-09-26 15:25:40,749 - INFO - Now dumping data to file
+2024-09-26 15:25:40,755 - INFO - Processing period: 2024-05-01T00:00:00Z - 2024-05-31T23:59:59Z
+2024-09-26 15:25:40,755 - INFO - Now in retrievespicedata
+2024-09-26 15:25:40,755 - INFO - Collecting data for 2024-05-01T00:00:00Z - 2024-05-31T23:59:59Z
+2024-09-26 15:25:41,114 - INFO - Now transforming data for station type spice
+2024-09-26 15:25:41,129 - INFO - Now dumping data to file
+2024-09-26 15:25:41,135 - INFO - Processing period: 2024-06-01T00:00:00Z - 2024-06-30T23:59:59Z
+2024-09-26 15:25:41,135 - INFO - Now in retrievespicedata
+2024-09-26 15:25:41,135 - INFO - Collecting data for 2024-06-01T00:00:00Z - 2024-06-30T23:59:59Z
+2024-09-26 15:25:41,492 - INFO - Now transforming data for station type spice
+2024-09-26 15:25:41,507 - INFO - Now dumping data to file
+2024-09-26 15:25:41,512 - INFO - Processing period: 2024-07-01T00:00:00Z - 2024-07-31T23:59:59Z
+2024-09-26 15:25:41,512 - INFO - Now in retrievespicedata
+2024-09-26 15:25:41,513 - INFO - Collecting data for 2024-07-01T00:00:00Z - 2024-07-31T23:59:59Z
+2024-09-26 15:25:41,872 - INFO - Now transforming data for station type spice
+2024-09-26 15:25:41,887 - INFO - Now dumping data to file
+2024-09-26 15:25:41,893 - INFO - Processing period: 2024-08-01T00:00:00Z - 2024-08-31T23:59:59Z
+2024-09-26 15:25:41,893 - INFO - Now in retrievespicedata
+2024-09-26 15:25:41,893 - INFO - Collecting data for 2024-08-01T00:00:00Z - 2024-08-31T23:59:59Z
+2024-09-26 15:25:42,261 - INFO - Now transforming data for station type spice
+2024-09-26 15:25:42,274 - INFO - Now dumping data to file
+2024-09-26 15:25:42,280 - INFO - Processing period: 2024-09-01T00:00:00Z - 2024-09-30T23:59:59Z
+2024-09-26 15:25:42,280 - INFO - Now in retrievespicedata
+2024-09-26 15:25:42,280 - INFO - Collecting data for 2024-09-01T00:00:00Z - 2024-09-30T23:59:59Z
+2024-09-26 15:25:42,631 - INFO - Now transforming data for station type spice
+2024-09-26 15:25:42,646 - INFO - Now dumping data to file
+2024-09-26 15:25:42,652 - INFO - 
+2024-09-26 15:25:42,652 - INFO - Processing station: SPICE35
+2024-09-26 15:25:42,652 - INFO - Processing period: 2023-01-01T00:00:00Z - 2023-01-31T23:59:59Z
+2024-09-26 15:25:42,652 - INFO - Now in retrievespicedata
+2024-09-26 15:25:42,652 - INFO - Collecting data for 2023-01-01T00:00:00Z - 2023-01-31T23:59:59Z
+2024-09-26 15:25:42,854 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:25:42,855 - INFO - Processing period: 2023-02-01T00:00:00Z - 2023-02-28T23:59:59Z
+2024-09-26 15:25:42,855 - INFO - Now in retrievespicedata
+2024-09-26 15:25:42,855 - INFO - Collecting data for 2023-02-01T00:00:00Z - 2023-02-28T23:59:59Z
+2024-09-26 15:25:43,058 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:25:43,059 - INFO - Processing period: 2023-03-01T00:00:00Z - 2023-03-31T23:59:59Z
+2024-09-26 15:25:43,059 - INFO - Now in retrievespicedata
+2024-09-26 15:25:43,059 - INFO - Collecting data for 2023-03-01T00:00:00Z - 2023-03-31T23:59:59Z
+2024-09-26 15:25:43,267 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:25:43,267 - INFO - Processing period: 2023-04-01T00:00:00Z - 2023-04-30T23:59:59Z
+2024-09-26 15:25:43,267 - INFO - Now in retrievespicedata
+2024-09-26 15:25:43,267 - INFO - Collecting data for 2023-04-01T00:00:00Z - 2023-04-30T23:59:59Z
+2024-09-26 15:25:43,474 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:25:43,474 - INFO - Processing period: 2023-05-01T00:00:00Z - 2023-05-31T23:59:59Z
+2024-09-26 15:25:43,474 - INFO - Now in retrievespicedata
+2024-09-26 15:25:43,474 - INFO - Collecting data for 2023-05-01T00:00:00Z - 2023-05-31T23:59:59Z
+2024-09-26 15:25:43,674 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:25:43,675 - INFO - Processing period: 2023-06-01T00:00:00Z - 2023-06-30T23:59:59Z
+2024-09-26 15:25:43,675 - INFO - Now in retrievespicedata
+2024-09-26 15:25:43,675 - INFO - Collecting data for 2023-06-01T00:00:00Z - 2023-06-30T23:59:59Z
+2024-09-26 15:25:43,880 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:25:43,881 - INFO - Processing period: 2023-07-01T00:00:00Z - 2023-07-31T23:59:59Z
+2024-09-26 15:25:43,881 - INFO - Now in retrievespicedata
+2024-09-26 15:25:43,881 - INFO - Collecting data for 2023-07-01T00:00:00Z - 2023-07-31T23:59:59Z
+2024-09-26 15:25:44,096 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:25:44,096 - INFO - Processing period: 2023-08-01T00:00:00Z - 2023-08-31T23:59:59Z
+2024-09-26 15:25:44,096 - INFO - Now in retrievespicedata
+2024-09-26 15:25:44,097 - INFO - Collecting data for 2023-08-01T00:00:00Z - 2023-08-31T23:59:59Z
+2024-09-26 15:25:44,302 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:25:44,303 - INFO - Processing period: 2023-09-01T00:00:00Z - 2023-09-30T23:59:59Z
+2024-09-26 15:25:44,303 - INFO - Now in retrievespicedata
+2024-09-26 15:25:44,303 - INFO - Collecting data for 2023-09-01T00:00:00Z - 2023-09-30T23:59:59Z
+2024-09-26 15:25:44,508 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:25:44,509 - INFO - Processing period: 2023-10-01T00:00:00Z - 2023-10-31T23:59:59Z
+2024-09-26 15:25:44,509 - INFO - Now in retrievespicedata
+2024-09-26 15:25:44,509 - INFO - Collecting data for 2023-10-01T00:00:00Z - 2023-10-31T23:59:59Z
+2024-09-26 15:25:44,704 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:25:44,705 - INFO - Processing period: 2023-11-01T00:00:00Z - 2023-11-30T23:59:59Z
+2024-09-26 15:25:44,705 - INFO - Now in retrievespicedata
+2024-09-26 15:25:44,705 - INFO - Collecting data for 2023-11-01T00:00:00Z - 2023-11-30T23:59:59Z
+2024-09-26 15:25:44,905 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:25:44,906 - INFO - Processing period: 2023-12-01T00:00:00Z - 2023-12-31T23:59:59Z
+2024-09-26 15:25:44,906 - INFO - Now in retrievespicedata
+2024-09-26 15:25:44,906 - INFO - Collecting data for 2023-12-01T00:00:00Z - 2023-12-31T23:59:59Z
+2024-09-26 15:25:45,112 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:25:45,113 - INFO - Processing period: 2024-01-01T00:00:00Z - 2024-01-31T23:59:59Z
+2024-09-26 15:25:45,113 - INFO - Now in retrievespicedata
+2024-09-26 15:25:45,113 - INFO - Collecting data for 2024-01-01T00:00:00Z - 2024-01-31T23:59:59Z
+2024-09-26 15:25:45,318 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:25:45,319 - INFO - Processing period: 2024-02-01T00:00:00Z - 2024-02-29T23:59:59Z
+2024-09-26 15:25:45,319 - INFO - Now in retrievespicedata
+2024-09-26 15:25:45,319 - INFO - Collecting data for 2024-02-01T00:00:00Z - 2024-02-29T23:59:59Z
+2024-09-26 15:25:45,525 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:25:45,526 - INFO - Processing period: 2024-03-01T00:00:00Z - 2024-03-31T23:59:59Z
+2024-09-26 15:25:45,526 - INFO - Now in retrievespicedata
+2024-09-26 15:25:45,526 - INFO - Collecting data for 2024-03-01T00:00:00Z - 2024-03-31T23:59:59Z
+2024-09-26 15:25:45,730 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:25:45,731 - INFO - Processing period: 2024-04-01T00:00:00Z - 2024-04-30T23:59:59Z
+2024-09-26 15:25:45,731 - INFO - Now in retrievespicedata
+2024-09-26 15:25:45,731 - INFO - Collecting data for 2024-04-01T00:00:00Z - 2024-04-30T23:59:59Z
+2024-09-26 15:25:46,124 - INFO - Now transforming data for station type spice
+2024-09-26 15:25:46,139 - INFO - Now dumping data to file
+2024-09-26 15:25:46,144 - INFO - Processing period: 2024-05-01T00:00:00Z - 2024-05-31T23:59:59Z
+2024-09-26 15:25:46,144 - INFO - Now in retrievespicedata
+2024-09-26 15:25:46,144 - INFO - Collecting data for 2024-05-01T00:00:00Z - 2024-05-31T23:59:59Z
+2024-09-26 15:25:46,530 - INFO - Now transforming data for station type spice
+2024-09-26 15:25:46,535 - INFO - Now dumping data to file
+2024-09-26 15:25:46,539 - INFO - Processing period: 2024-06-01T00:00:00Z - 2024-06-30T23:59:59Z
+2024-09-26 15:25:46,539 - INFO - Now in retrievespicedata
+2024-09-26 15:25:46,539 - INFO - Collecting data for 2024-06-01T00:00:00Z - 2024-06-30T23:59:59Z
+2024-09-26 15:25:46,841 - INFO - Now transforming data for station type spice
+2024-09-26 15:25:46,856 - INFO - Now dumping data to file
+2024-09-26 15:25:46,862 - INFO - Processing period: 2024-07-01T00:00:00Z - 2024-07-31T23:59:59Z
+2024-09-26 15:25:46,862 - INFO - Now in retrievespicedata
+2024-09-26 15:25:46,862 - INFO - Collecting data for 2024-07-01T00:00:00Z - 2024-07-31T23:59:59Z
+2024-09-26 15:25:47,062 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:25:47,063 - INFO - Processing period: 2024-08-01T00:00:00Z - 2024-08-31T23:59:59Z
+2024-09-26 15:25:47,064 - INFO - Now in retrievespicedata
+2024-09-26 15:25:47,064 - INFO - Collecting data for 2024-08-01T00:00:00Z - 2024-08-31T23:59:59Z
+2024-09-26 15:25:47,258 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:25:47,259 - INFO - Processing period: 2024-09-01T00:00:00Z - 2024-09-30T23:59:59Z
+2024-09-26 15:25:47,259 - INFO - Now in retrievespicedata
+2024-09-26 15:25:47,259 - INFO - Collecting data for 2024-09-01T00:00:00Z - 2024-09-30T23:59:59Z
+2024-09-26 15:25:47,469 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:25:47,469 - INFO - 
+2024-09-26 15:25:47,469 - INFO - Processing station: SPICE36
+2024-09-26 15:25:47,469 - INFO - Processing period: 2023-01-01T00:00:00Z - 2023-01-31T23:59:59Z
+2024-09-26 15:25:47,470 - INFO - Now in retrievespicedata
+2024-09-26 15:25:47,470 - INFO - Collecting data for 2023-01-01T00:00:00Z - 2023-01-31T23:59:59Z
+2024-09-26 15:25:47,675 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:25:47,675 - INFO - Processing period: 2023-02-01T00:00:00Z - 2023-02-28T23:59:59Z
+2024-09-26 15:25:47,675 - INFO - Now in retrievespicedata
+2024-09-26 15:25:47,675 - INFO - Collecting data for 2023-02-01T00:00:00Z - 2023-02-28T23:59:59Z
+2024-09-26 15:25:47,868 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:25:47,869 - INFO - Processing period: 2023-03-01T00:00:00Z - 2023-03-31T23:59:59Z
+2024-09-26 15:25:47,869 - INFO - Now in retrievespicedata
+2024-09-26 15:25:47,869 - INFO - Collecting data for 2023-03-01T00:00:00Z - 2023-03-31T23:59:59Z
+2024-09-26 15:25:48,074 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:25:48,075 - INFO - Processing period: 2023-04-01T00:00:00Z - 2023-04-30T23:59:59Z
+2024-09-26 15:25:48,075 - INFO - Now in retrievespicedata
+2024-09-26 15:25:48,075 - INFO - Collecting data for 2023-04-01T00:00:00Z - 2023-04-30T23:59:59Z
+2024-09-26 15:25:48,266 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:25:48,267 - INFO - Processing period: 2023-05-01T00:00:00Z - 2023-05-31T23:59:59Z
+2024-09-26 15:25:48,267 - INFO - Now in retrievespicedata
+2024-09-26 15:25:48,267 - INFO - Collecting data for 2023-05-01T00:00:00Z - 2023-05-31T23:59:59Z
+2024-09-26 15:25:48,475 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:25:48,476 - INFO - Processing period: 2023-06-01T00:00:00Z - 2023-06-30T23:59:59Z
+2024-09-26 15:25:48,476 - INFO - Now in retrievespicedata
+2024-09-26 15:25:48,476 - INFO - Collecting data for 2023-06-01T00:00:00Z - 2023-06-30T23:59:59Z
+2024-09-26 15:25:48,680 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:25:48,681 - INFO - Processing period: 2023-07-01T00:00:00Z - 2023-07-31T23:59:59Z
+2024-09-26 15:25:48,681 - INFO - Now in retrievespicedata
+2024-09-26 15:25:48,681 - INFO - Collecting data for 2023-07-01T00:00:00Z - 2023-07-31T23:59:59Z
+2024-09-26 15:25:48,890 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:25:48,891 - INFO - Processing period: 2023-08-01T00:00:00Z - 2023-08-31T23:59:59Z
+2024-09-26 15:25:48,891 - INFO - Now in retrievespicedata
+2024-09-26 15:25:48,891 - INFO - Collecting data for 2023-08-01T00:00:00Z - 2023-08-31T23:59:59Z
+2024-09-26 15:25:49,098 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:25:49,099 - INFO - Processing period: 2023-09-01T00:00:00Z - 2023-09-30T23:59:59Z
+2024-09-26 15:25:49,099 - INFO - Now in retrievespicedata
+2024-09-26 15:25:49,099 - INFO - Collecting data for 2023-09-01T00:00:00Z - 2023-09-30T23:59:59Z
+2024-09-26 15:25:49,304 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:25:49,305 - INFO - Processing period: 2023-10-01T00:00:00Z - 2023-10-31T23:59:59Z
+2024-09-26 15:25:49,305 - INFO - Now in retrievespicedata
+2024-09-26 15:25:49,305 - INFO - Collecting data for 2023-10-01T00:00:00Z - 2023-10-31T23:59:59Z
+2024-09-26 15:25:49,507 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:25:49,508 - INFO - Processing period: 2023-11-01T00:00:00Z - 2023-11-30T23:59:59Z
+2024-09-26 15:25:49,508 - INFO - Now in retrievespicedata
+2024-09-26 15:25:49,508 - INFO - Collecting data for 2023-11-01T00:00:00Z - 2023-11-30T23:59:59Z
+2024-09-26 15:25:49,716 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:25:49,716 - INFO - Processing period: 2023-12-01T00:00:00Z - 2023-12-31T23:59:59Z
+2024-09-26 15:25:49,716 - INFO - Now in retrievespicedata
+2024-09-26 15:25:49,716 - INFO - Collecting data for 2023-12-01T00:00:00Z - 2023-12-31T23:59:59Z
+2024-09-26 15:25:49,919 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:25:49,920 - INFO - Processing period: 2024-01-01T00:00:00Z - 2024-01-31T23:59:59Z
+2024-09-26 15:25:49,920 - INFO - Now in retrievespicedata
+2024-09-26 15:25:49,920 - INFO - Collecting data for 2024-01-01T00:00:00Z - 2024-01-31T23:59:59Z
+2024-09-26 15:25:50,123 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:25:50,124 - INFO - Processing period: 2024-02-01T00:00:00Z - 2024-02-29T23:59:59Z
+2024-09-26 15:25:50,124 - INFO - Now in retrievespicedata
+2024-09-26 15:25:50,124 - INFO - Collecting data for 2024-02-01T00:00:00Z - 2024-02-29T23:59:59Z
+2024-09-26 15:25:50,326 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:25:50,327 - INFO - Processing period: 2024-03-01T00:00:00Z - 2024-03-31T23:59:59Z
+2024-09-26 15:25:50,327 - INFO - Now in retrievespicedata
+2024-09-26 15:25:50,327 - INFO - Collecting data for 2024-03-01T00:00:00Z - 2024-03-31T23:59:59Z
+2024-09-26 15:25:50,533 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:25:50,534 - INFO - Processing period: 2024-04-01T00:00:00Z - 2024-04-30T23:59:59Z
+2024-09-26 15:25:50,534 - INFO - Now in retrievespicedata
+2024-09-26 15:25:50,534 - INFO - Collecting data for 2024-04-01T00:00:00Z - 2024-04-30T23:59:59Z
+2024-09-26 15:25:50,818 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:25:50,818 - INFO - Processing period: 2024-05-01T00:00:00Z - 2024-05-31T23:59:59Z
+2024-09-26 15:25:50,818 - INFO - Now in retrievespicedata
+2024-09-26 15:25:50,818 - INFO - Collecting data for 2024-05-01T00:00:00Z - 2024-05-31T23:59:59Z
+2024-09-26 15:25:51,028 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:25:51,029 - INFO - Processing period: 2024-06-01T00:00:00Z - 2024-06-30T23:59:59Z
+2024-09-26 15:25:51,029 - INFO - Now in retrievespicedata
+2024-09-26 15:25:51,029 - INFO - Collecting data for 2024-06-01T00:00:00Z - 2024-06-30T23:59:59Z
+2024-09-26 15:25:51,232 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:25:51,233 - INFO - Processing period: 2024-07-01T00:00:00Z - 2024-07-31T23:59:59Z
+2024-09-26 15:25:51,233 - INFO - Now in retrievespicedata
+2024-09-26 15:25:51,233 - INFO - Collecting data for 2024-07-01T00:00:00Z - 2024-07-31T23:59:59Z
+2024-09-26 15:25:51,541 - INFO - Now transforming data for station type spice
+2024-09-26 15:25:51,556 - INFO - Now dumping data to file
+2024-09-26 15:25:51,562 - INFO - Processing period: 2024-08-01T00:00:00Z - 2024-08-31T23:59:59Z
+2024-09-26 15:25:51,562 - INFO - Now in retrievespicedata
+2024-09-26 15:25:51,562 - INFO - Collecting data for 2024-08-01T00:00:00Z - 2024-08-31T23:59:59Z
+2024-09-26 15:25:51,917 - INFO - Now transforming data for station type spice
+2024-09-26 15:25:51,930 - INFO - Now dumping data to file
+2024-09-26 15:25:51,936 - INFO - Processing period: 2024-09-01T00:00:00Z - 2024-09-30T23:59:59Z
+2024-09-26 15:25:51,936 - INFO - Now in retrievespicedata
+2024-09-26 15:25:51,936 - INFO - Collecting data for 2024-09-01T00:00:00Z - 2024-09-30T23:59:59Z
+2024-09-26 15:25:52,177 - INFO - Now transforming data for station type spice
+2024-09-26 15:25:52,182 - INFO - Now dumping data to file
+2024-09-26 15:25:52,188 - INFO - 
+2024-09-26 15:25:52,188 - INFO - Processing station: SPICE37
+2024-09-26 15:25:52,188 - INFO - Processing period: 2023-01-01T00:00:00Z - 2023-01-31T23:59:59Z
+2024-09-26 15:25:52,188 - INFO - Now in retrievespicedata
+2024-09-26 15:25:52,188 - INFO - Collecting data for 2023-01-01T00:00:00Z - 2023-01-31T23:59:59Z
+2024-09-26 15:25:52,389 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:25:52,390 - INFO - Processing period: 2023-02-01T00:00:00Z - 2023-02-28T23:59:59Z
+2024-09-26 15:25:52,390 - INFO - Now in retrievespicedata
+2024-09-26 15:25:52,390 - INFO - Collecting data for 2023-02-01T00:00:00Z - 2023-02-28T23:59:59Z
+2024-09-26 15:25:52,593 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:25:52,594 - INFO - Processing period: 2023-03-01T00:00:00Z - 2023-03-31T23:59:59Z
+2024-09-26 15:25:52,594 - INFO - Now in retrievespicedata
+2024-09-26 15:25:52,594 - INFO - Collecting data for 2023-03-01T00:00:00Z - 2023-03-31T23:59:59Z
+2024-09-26 15:25:52,801 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:25:52,802 - INFO - Processing period: 2023-04-01T00:00:00Z - 2023-04-30T23:59:59Z
+2024-09-26 15:25:52,802 - INFO - Now in retrievespicedata
+2024-09-26 15:25:52,802 - INFO - Collecting data for 2023-04-01T00:00:00Z - 2023-04-30T23:59:59Z
+2024-09-26 15:25:53,003 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:25:53,004 - INFO - Processing period: 2023-05-01T00:00:00Z - 2023-05-31T23:59:59Z
+2024-09-26 15:25:53,004 - INFO - Now in retrievespicedata
+2024-09-26 15:25:53,004 - INFO - Collecting data for 2023-05-01T00:00:00Z - 2023-05-31T23:59:59Z
+2024-09-26 15:25:53,204 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:25:53,205 - INFO - Processing period: 2023-06-01T00:00:00Z - 2023-06-30T23:59:59Z
+2024-09-26 15:25:53,205 - INFO - Now in retrievespicedata
+2024-09-26 15:25:53,205 - INFO - Collecting data for 2023-06-01T00:00:00Z - 2023-06-30T23:59:59Z
+2024-09-26 15:25:53,411 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:25:53,412 - INFO - Processing period: 2023-07-01T00:00:00Z - 2023-07-31T23:59:59Z
+2024-09-26 15:25:53,412 - INFO - Now in retrievespicedata
+2024-09-26 15:25:53,412 - INFO - Collecting data for 2023-07-01T00:00:00Z - 2023-07-31T23:59:59Z
+2024-09-26 15:25:53,616 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:25:53,616 - INFO - Processing period: 2023-08-01T00:00:00Z - 2023-08-31T23:59:59Z
+2024-09-26 15:25:53,616 - INFO - Now in retrievespicedata
+2024-09-26 15:25:53,617 - INFO - Collecting data for 2023-08-01T00:00:00Z - 2023-08-31T23:59:59Z
+2024-09-26 15:25:53,831 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:25:53,831 - INFO - Processing period: 2023-09-01T00:00:00Z - 2023-09-30T23:59:59Z
+2024-09-26 15:25:53,831 - INFO - Now in retrievespicedata
+2024-09-26 15:25:53,832 - INFO - Collecting data for 2023-09-01T00:00:00Z - 2023-09-30T23:59:59Z
+2024-09-26 15:25:54,191 - INFO - Now transforming data for station type spice
+2024-09-26 15:25:54,197 - INFO - Now dumping data to file
+2024-09-26 15:25:54,202 - INFO - Processing period: 2023-10-01T00:00:00Z - 2023-10-31T23:59:59Z
+2024-09-26 15:25:54,202 - INFO - Now in retrievespicedata
+2024-09-26 15:25:54,202 - INFO - Collecting data for 2023-10-01T00:00:00Z - 2023-10-31T23:59:59Z
+2024-09-26 15:25:54,558 - INFO - Now transforming data for station type spice
+2024-09-26 15:25:54,565 - INFO - Now dumping data to file
+2024-09-26 15:25:54,571 - INFO - Processing period: 2023-11-01T00:00:00Z - 2023-11-30T23:59:59Z
+2024-09-26 15:25:54,571 - INFO - Now in retrievespicedata
+2024-09-26 15:25:54,571 - INFO - Collecting data for 2023-11-01T00:00:00Z - 2023-11-30T23:59:59Z
+2024-09-26 15:25:54,908 - INFO - Now transforming data for station type spice
+2024-09-26 15:25:54,921 - INFO - Now dumping data to file
+2024-09-26 15:25:54,927 - INFO - Processing period: 2023-12-01T00:00:00Z - 2023-12-31T23:59:59Z
+2024-09-26 15:25:54,927 - INFO - Now in retrievespicedata
+2024-09-26 15:25:54,927 - INFO - Collecting data for 2023-12-01T00:00:00Z - 2023-12-31T23:59:59Z
+2024-09-26 15:25:55,285 - INFO - Now transforming data for station type spice
+2024-09-26 15:25:55,299 - INFO - Now dumping data to file
+2024-09-26 15:25:55,305 - INFO - Processing period: 2024-01-01T00:00:00Z - 2024-01-31T23:59:59Z
+2024-09-26 15:25:55,305 - INFO - Now in retrievespicedata
+2024-09-26 15:25:55,305 - INFO - Collecting data for 2024-01-01T00:00:00Z - 2024-01-31T23:59:59Z
+2024-09-26 15:25:55,594 - INFO - Now transforming data for station type spice
+2024-09-26 15:25:55,605 - INFO - Now dumping data to file
+2024-09-26 15:25:55,612 - INFO - Processing period: 2024-02-01T00:00:00Z - 2024-02-29T23:59:59Z
+2024-09-26 15:25:55,612 - INFO - Now in retrievespicedata
+2024-09-26 15:25:55,612 - INFO - Collecting data for 2024-02-01T00:00:00Z - 2024-02-29T23:59:59Z
+2024-09-26 15:25:55,912 - INFO - Now transforming data for station type spice
+2024-09-26 15:25:55,918 - INFO - Now dumping data to file
+2024-09-26 15:25:55,923 - INFO - Processing period: 2024-03-01T00:00:00Z - 2024-03-31T23:59:59Z
+2024-09-26 15:25:55,923 - INFO - Now in retrievespicedata
+2024-09-26 15:25:55,924 - INFO - Collecting data for 2024-03-01T00:00:00Z - 2024-03-31T23:59:59Z
+2024-09-26 15:25:56,245 - INFO - Now transforming data for station type spice
+2024-09-26 15:25:56,256 - INFO - Now dumping data to file
+2024-09-26 15:25:56,261 - INFO - Processing period: 2024-04-01T00:00:00Z - 2024-04-30T23:59:59Z
+2024-09-26 15:25:56,261 - INFO - Now in retrievespicedata
+2024-09-26 15:25:56,262 - INFO - Collecting data for 2024-04-01T00:00:00Z - 2024-04-30T23:59:59Z
+2024-09-26 15:25:56,570 - INFO - Now transforming data for station type spice
+2024-09-26 15:25:56,585 - INFO - Now dumping data to file
+2024-09-26 15:25:56,591 - INFO - Processing period: 2024-05-01T00:00:00Z - 2024-05-31T23:59:59Z
+2024-09-26 15:25:56,591 - INFO - Now in retrievespicedata
+2024-09-26 15:25:56,591 - INFO - Collecting data for 2024-05-01T00:00:00Z - 2024-05-31T23:59:59Z
+2024-09-26 15:25:56,955 - INFO - Now transforming data for station type spice
+2024-09-26 15:25:56,967 - INFO - Now dumping data to file
+2024-09-26 15:25:56,973 - INFO - Processing period: 2024-06-01T00:00:00Z - 2024-06-30T23:59:59Z
+2024-09-26 15:25:56,973 - INFO - Now in retrievespicedata
+2024-09-26 15:25:56,973 - INFO - Collecting data for 2024-06-01T00:00:00Z - 2024-06-30T23:59:59Z
+2024-09-26 15:25:57,337 - INFO - Now transforming data for station type spice
+2024-09-26 15:25:57,349 - INFO - Now dumping data to file
+2024-09-26 15:25:57,355 - INFO - Processing period: 2024-07-01T00:00:00Z - 2024-07-31T23:59:59Z
+2024-09-26 15:25:57,355 - INFO - Now in retrievespicedata
+2024-09-26 15:25:57,355 - INFO - Collecting data for 2024-07-01T00:00:00Z - 2024-07-31T23:59:59Z
+2024-09-26 15:25:57,743 - INFO - Now transforming data for station type spice
+2024-09-26 15:25:57,757 - INFO - Now dumping data to file
+2024-09-26 15:25:57,762 - INFO - Processing period: 2024-08-01T00:00:00Z - 2024-08-31T23:59:59Z
+2024-09-26 15:25:57,762 - INFO - Now in retrievespicedata
+2024-09-26 15:25:57,762 - INFO - Collecting data for 2024-08-01T00:00:00Z - 2024-08-31T23:59:59Z
+2024-09-26 15:25:58,062 - INFO - Now transforming data for station type spice
+2024-09-26 15:25:58,077 - INFO - Now dumping data to file
+2024-09-26 15:25:58,082 - INFO - Processing period: 2024-09-01T00:00:00Z - 2024-09-30T23:59:59Z
+2024-09-26 15:25:58,083 - INFO - Now in retrievespicedata
+2024-09-26 15:25:58,083 - INFO - Collecting data for 2024-09-01T00:00:00Z - 2024-09-30T23:59:59Z
+2024-09-26 15:25:58,297 - INFO - Now transforming data for station type spice
+2024-09-26 15:25:58,304 - INFO - Now dumping data to file
+2024-09-26 15:25:58,309 - INFO - 
+2024-09-26 15:25:58,309 - INFO - Processing station: SPICE38
+2024-09-26 15:25:58,309 - INFO - Processing period: 2023-01-01T00:00:00Z - 2023-01-31T23:59:59Z
+2024-09-26 15:25:58,309 - INFO - Now in retrievespicedata
+2024-09-26 15:25:58,309 - INFO - Collecting data for 2023-01-01T00:00:00Z - 2023-01-31T23:59:59Z
+2024-09-26 15:25:58,510 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:25:58,511 - INFO - Processing period: 2023-02-01T00:00:00Z - 2023-02-28T23:59:59Z
+2024-09-26 15:25:58,511 - INFO - Now in retrievespicedata
+2024-09-26 15:25:58,511 - INFO - Collecting data for 2023-02-01T00:00:00Z - 2023-02-28T23:59:59Z
+2024-09-26 15:25:58,726 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:25:58,726 - INFO - Processing period: 2023-03-01T00:00:00Z - 2023-03-31T23:59:59Z
+2024-09-26 15:25:58,726 - INFO - Now in retrievespicedata
+2024-09-26 15:25:58,727 - INFO - Collecting data for 2023-03-01T00:00:00Z - 2023-03-31T23:59:59Z
+2024-09-26 15:25:58,935 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:25:58,935 - INFO - Processing period: 2023-04-01T00:00:00Z - 2023-04-30T23:59:59Z
+2024-09-26 15:25:58,935 - INFO - Now in retrievespicedata
+2024-09-26 15:25:58,935 - INFO - Collecting data for 2023-04-01T00:00:00Z - 2023-04-30T23:59:59Z
+2024-09-26 15:25:59,146 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:25:59,146 - INFO - Processing period: 2023-05-01T00:00:00Z - 2023-05-31T23:59:59Z
+2024-09-26 15:25:59,147 - INFO - Now in retrievespicedata
+2024-09-26 15:25:59,147 - INFO - Collecting data for 2023-05-01T00:00:00Z - 2023-05-31T23:59:59Z
+2024-09-26 15:25:59,352 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:25:59,353 - INFO - Processing period: 2023-06-01T00:00:00Z - 2023-06-30T23:59:59Z
+2024-09-26 15:25:59,353 - INFO - Now in retrievespicedata
+2024-09-26 15:25:59,353 - INFO - Collecting data for 2023-06-01T00:00:00Z - 2023-06-30T23:59:59Z
+2024-09-26 15:25:59,564 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:25:59,565 - INFO - Processing period: 2023-07-01T00:00:00Z - 2023-07-31T23:59:59Z
+2024-09-26 15:25:59,566 - INFO - Now in retrievespicedata
+2024-09-26 15:25:59,566 - INFO - Collecting data for 2023-07-01T00:00:00Z - 2023-07-31T23:59:59Z
+2024-09-26 15:25:59,774 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:25:59,774 - INFO - Processing period: 2023-08-01T00:00:00Z - 2023-08-31T23:59:59Z
+2024-09-26 15:25:59,774 - INFO - Now in retrievespicedata
+2024-09-26 15:25:59,774 - INFO - Collecting data for 2023-08-01T00:00:00Z - 2023-08-31T23:59:59Z
+2024-09-26 15:26:00,025 - INFO - Now transforming data for station type spice
+2024-09-26 15:26:00,040 - INFO - Now dumping data to file
+2024-09-26 15:26:00,049 - INFO - Processing period: 2023-09-01T00:00:00Z - 2023-09-30T23:59:59Z
+2024-09-26 15:26:00,049 - INFO - Now in retrievespicedata
+2024-09-26 15:26:00,049 - INFO - Collecting data for 2023-09-01T00:00:00Z - 2023-09-30T23:59:59Z
+2024-09-26 15:26:00,410 - INFO - Now transforming data for station type spice
+2024-09-26 15:26:00,424 - INFO - Now dumping data to file
+2024-09-26 15:26:00,430 - INFO - Processing period: 2023-10-01T00:00:00Z - 2023-10-31T23:59:59Z
+2024-09-26 15:26:00,430 - INFO - Now in retrievespicedata
+2024-09-26 15:26:00,430 - INFO - Collecting data for 2023-10-01T00:00:00Z - 2023-10-31T23:59:59Z
+2024-09-26 15:26:00,787 - INFO - Now transforming data for station type spice
+2024-09-26 15:26:00,801 - INFO - Now dumping data to file
+2024-09-26 15:26:00,807 - INFO - Processing period: 2023-11-01T00:00:00Z - 2023-11-30T23:59:59Z
+2024-09-26 15:26:00,807 - INFO - Now in retrievespicedata
+2024-09-26 15:26:00,807 - INFO - Collecting data for 2023-11-01T00:00:00Z - 2023-11-30T23:59:59Z
+2024-09-26 15:26:01,172 - INFO - Now transforming data for station type spice
+2024-09-26 15:26:01,186 - INFO - Now dumping data to file
+2024-09-26 15:26:01,191 - INFO - Processing period: 2023-12-01T00:00:00Z - 2023-12-31T23:59:59Z
+2024-09-26 15:26:01,191 - INFO - Now in retrievespicedata
+2024-09-26 15:26:01,191 - INFO - Collecting data for 2023-12-01T00:00:00Z - 2023-12-31T23:59:59Z
+2024-09-26 15:26:01,551 - INFO - Now transforming data for station type spice
+2024-09-26 15:26:01,565 - INFO - Now dumping data to file
+2024-09-26 15:26:01,570 - INFO - Processing period: 2024-01-01T00:00:00Z - 2024-01-31T23:59:59Z
+2024-09-26 15:26:01,570 - INFO - Now in retrievespicedata
+2024-09-26 15:26:01,570 - INFO - Collecting data for 2024-01-01T00:00:00Z - 2024-01-31T23:59:59Z
+2024-09-26 15:26:01,865 - INFO - Now transforming data for station type spice
+2024-09-26 15:26:01,879 - INFO - Now dumping data to file
+2024-09-26 15:26:01,884 - INFO - Processing period: 2024-02-01T00:00:00Z - 2024-02-29T23:59:59Z
+2024-09-26 15:26:01,884 - INFO - Now in retrievespicedata
+2024-09-26 15:26:01,884 - INFO - Collecting data for 2024-02-01T00:00:00Z - 2024-02-29T23:59:59Z
+2024-09-26 15:26:02,226 - INFO - Now transforming data for station type spice
+2024-09-26 15:26:02,240 - INFO - Now dumping data to file
+2024-09-26 15:26:02,246 - INFO - Processing period: 2024-03-01T00:00:00Z - 2024-03-31T23:59:59Z
+2024-09-26 15:26:02,246 - INFO - Now in retrievespicedata
+2024-09-26 15:26:02,246 - INFO - Collecting data for 2024-03-01T00:00:00Z - 2024-03-31T23:59:59Z
+2024-09-26 15:26:02,553 - INFO - Now transforming data for station type spice
+2024-09-26 15:26:02,567 - INFO - Now dumping data to file
+2024-09-26 15:26:02,573 - INFO - Processing period: 2024-04-01T00:00:00Z - 2024-04-30T23:59:59Z
+2024-09-26 15:26:02,573 - INFO - Now in retrievespicedata
+2024-09-26 15:26:02,573 - INFO - Collecting data for 2024-04-01T00:00:00Z - 2024-04-30T23:59:59Z
+2024-09-26 15:26:02,925 - INFO - Now transforming data for station type spice
+2024-09-26 15:26:02,930 - INFO - Now dumping data to file
+2024-09-26 15:26:02,937 - INFO - Processing period: 2024-05-01T00:00:00Z - 2024-05-31T23:59:59Z
+2024-09-26 15:26:02,938 - INFO - Now in retrievespicedata
+2024-09-26 15:26:02,938 - INFO - Collecting data for 2024-05-01T00:00:00Z - 2024-05-31T23:59:59Z
+2024-09-26 15:26:03,284 - INFO - Now transforming data for station type spice
+2024-09-26 15:26:03,290 - INFO - Now dumping data to file
+2024-09-26 15:26:03,295 - INFO - Processing period: 2024-06-01T00:00:00Z - 2024-06-30T23:59:59Z
+2024-09-26 15:26:03,295 - INFO - Now in retrievespicedata
+2024-09-26 15:26:03,295 - INFO - Collecting data for 2024-06-01T00:00:00Z - 2024-06-30T23:59:59Z
+2024-09-26 15:26:03,654 - INFO - Now transforming data for station type spice
+2024-09-26 15:26:03,667 - INFO - Now dumping data to file
+2024-09-26 15:26:03,672 - INFO - Processing period: 2024-07-01T00:00:00Z - 2024-07-31T23:59:59Z
+2024-09-26 15:26:03,672 - INFO - Now in retrievespicedata
+2024-09-26 15:26:03,672 - INFO - Collecting data for 2024-07-01T00:00:00Z - 2024-07-31T23:59:59Z
+2024-09-26 15:26:04,029 - INFO - Now transforming data for station type spice
+2024-09-26 15:26:04,042 - INFO - Now dumping data to file
+2024-09-26 15:26:04,047 - INFO - Processing period: 2024-08-01T00:00:00Z - 2024-08-31T23:59:59Z
+2024-09-26 15:26:04,047 - INFO - Now in retrievespicedata
+2024-09-26 15:26:04,047 - INFO - Collecting data for 2024-08-01T00:00:00Z - 2024-08-31T23:59:59Z
+2024-09-26 15:26:04,424 - INFO - Now transforming data for station type spice
+2024-09-26 15:26:04,429 - INFO - Now dumping data to file
+2024-09-26 15:26:04,434 - INFO - Processing period: 2024-09-01T00:00:00Z - 2024-09-30T23:59:59Z
+2024-09-26 15:26:04,435 - INFO - Now in retrievespicedata
+2024-09-26 15:26:04,435 - INFO - Collecting data for 2024-09-01T00:00:00Z - 2024-09-30T23:59:59Z
+2024-09-26 15:26:04,729 - INFO - Now transforming data for station type spice
+2024-09-26 15:26:04,737 - INFO - Now dumping data to file
+2024-09-26 15:26:13,713 - INFO - Configuration of logging is finished.
+2024-09-26 15:26:13,713 - INFO - Splitting requested time period into monthly segments
+2024-09-26 15:26:13,713 - INFO - 
+2024-09-26 15:26:13,714 - INFO - Processing station: SPICE34
+2024-09-26 15:26:13,714 - INFO - Processing period: 2023-01-01T00:00:00Z - 2023-01-31T23:59:59Z
+2024-09-26 15:26:13,714 - INFO - Now in retrievespicedata
+2024-09-26 15:26:13,714 - INFO - Collecting data for 2023-01-01T00:00:00Z - 2023-01-31T23:59:59Z
+2024-09-26 15:26:13,914 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:26:13,915 - INFO - Processing period: 2023-02-01T00:00:00Z - 2023-02-28T23:59:59Z
+2024-09-26 15:26:13,915 - INFO - Now in retrievespicedata
+2024-09-26 15:26:13,915 - INFO - Collecting data for 2023-02-01T00:00:00Z - 2023-02-28T23:59:59Z
+2024-09-26 15:26:14,118 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:26:14,119 - INFO - Processing period: 2023-03-01T00:00:00Z - 2023-03-31T23:59:59Z
+2024-09-26 15:26:14,119 - INFO - Now in retrievespicedata
+2024-09-26 15:26:14,119 - INFO - Collecting data for 2023-03-01T00:00:00Z - 2023-03-31T23:59:59Z
+2024-09-26 15:26:14,330 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:26:14,330 - INFO - Processing period: 2023-04-01T00:00:00Z - 2023-04-30T23:59:59Z
+2024-09-26 15:26:14,331 - INFO - Now in retrievespicedata
+2024-09-26 15:26:14,331 - INFO - Collecting data for 2023-04-01T00:00:00Z - 2023-04-30T23:59:59Z
+2024-09-26 15:26:14,530 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:26:14,531 - INFO - Processing period: 2023-05-01T00:00:00Z - 2023-05-31T23:59:59Z
+2024-09-26 15:26:14,531 - INFO - Now in retrievespicedata
+2024-09-26 15:26:14,531 - INFO - Collecting data for 2023-05-01T00:00:00Z - 2023-05-31T23:59:59Z
+2024-09-26 15:26:14,724 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:26:14,725 - INFO - Processing period: 2023-06-01T00:00:00Z - 2023-06-30T23:59:59Z
+2024-09-26 15:26:14,725 - INFO - Now in retrievespicedata
+2024-09-26 15:26:14,725 - INFO - Collecting data for 2023-06-01T00:00:00Z - 2023-06-30T23:59:59Z
+2024-09-26 15:26:14,932 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:26:14,933 - INFO - Processing period: 2023-07-01T00:00:00Z - 2023-07-31T23:59:59Z
+2024-09-26 15:26:14,933 - INFO - Now in retrievespicedata
+2024-09-26 15:26:14,933 - INFO - Collecting data for 2023-07-01T00:00:00Z - 2023-07-31T23:59:59Z
+2024-09-26 15:26:15,141 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:26:15,142 - INFO - Processing period: 2023-08-01T00:00:00Z - 2023-08-31T23:59:59Z
+2024-09-26 15:26:15,142 - INFO - Now in retrievespicedata
+2024-09-26 15:26:15,142 - INFO - Collecting data for 2023-08-01T00:00:00Z - 2023-08-31T23:59:59Z
+2024-09-26 15:26:15,393 - INFO - Now transforming data for station type spice
+2024-09-26 15:26:15,409 - INFO - Now dumping data to file
+2024-09-26 15:26:15,419 - INFO - Processing period: 2023-09-01T00:00:00Z - 2023-09-30T23:59:59Z
+2024-09-26 15:26:15,420 - INFO - Now in retrievespicedata
+2024-09-26 15:26:15,420 - INFO - Collecting data for 2023-09-01T00:00:00Z - 2023-09-30T23:59:59Z
+2024-09-26 15:26:15,778 - INFO - Now transforming data for station type spice
+2024-09-26 15:26:15,791 - INFO - Now dumping data to file
+2024-09-26 15:26:15,796 - INFO - Processing period: 2023-10-01T00:00:00Z - 2023-10-31T23:59:59Z
+2024-09-26 15:26:15,797 - INFO - Now in retrievespicedata
+2024-09-26 15:26:15,797 - INFO - Collecting data for 2023-10-01T00:00:00Z - 2023-10-31T23:59:59Z
+2024-09-26 15:26:16,156 - INFO - Now transforming data for station type spice
+2024-09-26 15:26:16,169 - INFO - Now dumping data to file
+2024-09-26 15:26:16,174 - INFO - Processing period: 2023-11-01T00:00:00Z - 2023-11-30T23:59:59Z
+2024-09-26 15:26:16,174 - INFO - Now in retrievespicedata
+2024-09-26 15:26:16,174 - INFO - Collecting data for 2023-11-01T00:00:00Z - 2023-11-30T23:59:59Z
+2024-09-26 15:26:16,432 - INFO - Now transforming data for station type spice
+2024-09-26 15:26:16,446 - INFO - Now dumping data to file
+2024-09-26 15:26:16,452 - INFO - Processing period: 2023-12-01T00:00:00Z - 2023-12-31T23:59:59Z
+2024-09-26 15:26:16,452 - INFO - Now in retrievespicedata
+2024-09-26 15:26:16,452 - INFO - Collecting data for 2023-12-01T00:00:00Z - 2023-12-31T23:59:59Z
+2024-09-26 15:26:16,759 - INFO - Now transforming data for station type spice
+2024-09-26 15:26:16,774 - INFO - Now dumping data to file
+2024-09-26 15:26:16,779 - INFO - Processing period: 2024-01-01T00:00:00Z - 2024-01-31T23:59:59Z
+2024-09-26 15:26:16,779 - INFO - Now in retrievespicedata
+2024-09-26 15:26:16,779 - INFO - Collecting data for 2024-01-01T00:00:00Z - 2024-01-31T23:59:59Z
+2024-09-26 15:26:17,070 - INFO - Now transforming data for station type spice
+2024-09-26 15:26:17,083 - INFO - Now dumping data to file
+2024-09-26 15:26:17,088 - INFO - Processing period: 2024-02-01T00:00:00Z - 2024-02-29T23:59:59Z
+2024-09-26 15:26:17,088 - INFO - Now in retrievespicedata
+2024-09-26 15:26:17,088 - INFO - Collecting data for 2024-02-01T00:00:00Z - 2024-02-29T23:59:59Z
+2024-09-26 15:26:17,439 - INFO - Now transforming data for station type spice
+2024-09-26 15:26:17,445 - INFO - Now dumping data to file
+2024-09-26 15:26:17,451 - INFO - Processing period: 2024-03-01T00:00:00Z - 2024-03-31T23:59:59Z
+2024-09-26 15:26:17,451 - INFO - Now in retrievespicedata
+2024-09-26 15:26:17,451 - INFO - Collecting data for 2024-03-01T00:00:00Z - 2024-03-31T23:59:59Z
+2024-09-26 15:26:17,790 - INFO - Now transforming data for station type spice
+2024-09-26 15:26:17,804 - INFO - Now dumping data to file
+2024-09-26 15:26:17,810 - INFO - Processing period: 2024-04-01T00:00:00Z - 2024-04-30T23:59:59Z
+2024-09-26 15:26:17,810 - INFO - Now in retrievespicedata
+2024-09-26 15:26:17,810 - INFO - Collecting data for 2024-04-01T00:00:00Z - 2024-04-30T23:59:59Z
+2024-09-26 15:26:18,201 - INFO - Now transforming data for station type spice
+2024-09-26 15:26:18,215 - INFO - Now dumping data to file
+2024-09-26 15:26:18,220 - INFO - Processing period: 2024-05-01T00:00:00Z - 2024-05-31T23:59:59Z
+2024-09-26 15:26:18,220 - INFO - Now in retrievespicedata
+2024-09-26 15:26:18,220 - INFO - Collecting data for 2024-05-01T00:00:00Z - 2024-05-31T23:59:59Z
+2024-09-26 15:26:18,579 - INFO - Now transforming data for station type spice
+2024-09-26 15:26:18,588 - INFO - Now dumping data to file
+2024-09-26 15:26:18,594 - INFO - Processing period: 2024-06-01T00:00:00Z - 2024-06-30T23:59:59Z
+2024-09-26 15:26:18,594 - INFO - Now in retrievespicedata
+2024-09-26 15:26:18,594 - INFO - Collecting data for 2024-06-01T00:00:00Z - 2024-06-30T23:59:59Z
+2024-09-26 15:26:18,944 - INFO - Now transforming data for station type spice
+2024-09-26 15:26:18,958 - INFO - Now dumping data to file
+2024-09-26 15:26:18,963 - INFO - Processing period: 2024-07-01T00:00:00Z - 2024-07-31T23:59:59Z
+2024-09-26 15:26:18,963 - INFO - Now in retrievespicedata
+2024-09-26 15:26:18,963 - INFO - Collecting data for 2024-07-01T00:00:00Z - 2024-07-31T23:59:59Z
+2024-09-26 15:26:19,320 - INFO - Now transforming data for station type spice
+2024-09-26 15:26:19,326 - INFO - Now dumping data to file
+2024-09-26 15:26:19,330 - INFO - Processing period: 2024-08-01T00:00:00Z - 2024-08-31T23:59:59Z
+2024-09-26 15:26:19,330 - INFO - Now in retrievespicedata
+2024-09-26 15:26:19,330 - INFO - Collecting data for 2024-08-01T00:00:00Z - 2024-08-31T23:59:59Z
+2024-09-26 15:26:19,695 - INFO - Now transforming data for station type spice
+2024-09-26 15:26:19,705 - INFO - Now dumping data to file
+2024-09-26 15:26:19,710 - INFO - Processing period: 2024-09-01T00:00:00Z - 2024-09-30T23:59:59Z
+2024-09-26 15:26:19,710 - INFO - Now in retrievespicedata
+2024-09-26 15:26:19,710 - INFO - Collecting data for 2024-09-01T00:00:00Z - 2024-09-30T23:59:59Z
+2024-09-26 15:26:20,064 - INFO - Now transforming data for station type spice
+2024-09-26 15:26:20,071 - INFO - Now dumping data to file
+2024-09-26 15:26:20,076 - INFO - 
+2024-09-26 15:26:20,076 - INFO - Processing station: SPICE35
+2024-09-26 15:26:20,076 - INFO - Processing period: 2023-01-01T00:00:00Z - 2023-01-31T23:59:59Z
+2024-09-26 15:26:20,076 - INFO - Now in retrievespicedata
+2024-09-26 15:26:20,076 - INFO - Collecting data for 2023-01-01T00:00:00Z - 2023-01-31T23:59:59Z
+2024-09-26 15:26:20,264 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:26:20,265 - INFO - Processing period: 2023-02-01T00:00:00Z - 2023-02-28T23:59:59Z
+2024-09-26 15:26:20,265 - INFO - Now in retrievespicedata
+2024-09-26 15:26:20,265 - INFO - Collecting data for 2023-02-01T00:00:00Z - 2023-02-28T23:59:59Z
+2024-09-26 15:26:20,458 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:26:20,459 - INFO - Processing period: 2023-03-01T00:00:00Z - 2023-03-31T23:59:59Z
+2024-09-26 15:26:20,459 - INFO - Now in retrievespicedata
+2024-09-26 15:26:20,459 - INFO - Collecting data for 2023-03-01T00:00:00Z - 2023-03-31T23:59:59Z
+2024-09-26 15:26:20,666 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:26:20,667 - INFO - Processing period: 2023-04-01T00:00:00Z - 2023-04-30T23:59:59Z
+2024-09-26 15:26:20,667 - INFO - Now in retrievespicedata
+2024-09-26 15:26:20,667 - INFO - Collecting data for 2023-04-01T00:00:00Z - 2023-04-30T23:59:59Z
+2024-09-26 15:26:20,875 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:26:20,876 - INFO - Processing period: 2023-05-01T00:00:00Z - 2023-05-31T23:59:59Z
+2024-09-26 15:26:20,876 - INFO - Now in retrievespicedata
+2024-09-26 15:26:20,876 - INFO - Collecting data for 2023-05-01T00:00:00Z - 2023-05-31T23:59:59Z
+2024-09-26 15:26:21,127 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:26:21,128 - INFO - Processing period: 2023-06-01T00:00:00Z - 2023-06-30T23:59:59Z
+2024-09-26 15:26:21,128 - INFO - Now in retrievespicedata
+2024-09-26 15:26:21,128 - INFO - Collecting data for 2023-06-01T00:00:00Z - 2023-06-30T23:59:59Z
+2024-09-26 15:26:21,331 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:26:21,332 - INFO - Processing period: 2023-07-01T00:00:00Z - 2023-07-31T23:59:59Z
+2024-09-26 15:26:21,332 - INFO - Now in retrievespicedata
+2024-09-26 15:26:21,332 - INFO - Collecting data for 2023-07-01T00:00:00Z - 2023-07-31T23:59:59Z
+2024-09-26 15:26:21,536 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:26:21,537 - INFO - Processing period: 2023-08-01T00:00:00Z - 2023-08-31T23:59:59Z
+2024-09-26 15:26:21,537 - INFO - Now in retrievespicedata
+2024-09-26 15:26:21,537 - INFO - Collecting data for 2023-08-01T00:00:00Z - 2023-08-31T23:59:59Z
+2024-09-26 15:26:21,725 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:26:21,726 - INFO - Processing period: 2023-09-01T00:00:00Z - 2023-09-30T23:59:59Z
+2024-09-26 15:26:21,726 - INFO - Now in retrievespicedata
+2024-09-26 15:26:21,726 - INFO - Collecting data for 2023-09-01T00:00:00Z - 2023-09-30T23:59:59Z
+2024-09-26 15:26:21,916 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:26:21,916 - INFO - Processing period: 2023-10-01T00:00:00Z - 2023-10-31T23:59:59Z
+2024-09-26 15:26:21,916 - INFO - Now in retrievespicedata
+2024-09-26 15:26:21,916 - INFO - Collecting data for 2023-10-01T00:00:00Z - 2023-10-31T23:59:59Z
+2024-09-26 15:26:22,102 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:26:22,103 - INFO - Processing period: 2023-11-01T00:00:00Z - 2023-11-30T23:59:59Z
+2024-09-26 15:26:22,103 - INFO - Now in retrievespicedata
+2024-09-26 15:26:22,103 - INFO - Collecting data for 2023-11-01T00:00:00Z - 2023-11-30T23:59:59Z
+2024-09-26 15:26:22,299 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:26:22,300 - INFO - Processing period: 2023-12-01T00:00:00Z - 2023-12-31T23:59:59Z
+2024-09-26 15:26:22,300 - INFO - Now in retrievespicedata
+2024-09-26 15:26:22,300 - INFO - Collecting data for 2023-12-01T00:00:00Z - 2023-12-31T23:59:59Z
+2024-09-26 15:26:22,507 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:26:22,508 - INFO - Processing period: 2024-01-01T00:00:00Z - 2024-01-31T23:59:59Z
+2024-09-26 15:26:22,508 - INFO - Now in retrievespicedata
+2024-09-26 15:26:22,508 - INFO - Collecting data for 2024-01-01T00:00:00Z - 2024-01-31T23:59:59Z
+2024-09-26 15:26:22,711 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:26:22,711 - INFO - Processing period: 2024-02-01T00:00:00Z - 2024-02-29T23:59:59Z
+2024-09-26 15:26:22,711 - INFO - Now in retrievespicedata
+2024-09-26 15:26:22,711 - INFO - Collecting data for 2024-02-01T00:00:00Z - 2024-02-29T23:59:59Z
+2024-09-26 15:26:22,913 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:26:22,914 - INFO - Processing period: 2024-03-01T00:00:00Z - 2024-03-31T23:59:59Z
+2024-09-26 15:26:22,914 - INFO - Now in retrievespicedata
+2024-09-26 15:26:22,914 - INFO - Collecting data for 2024-03-01T00:00:00Z - 2024-03-31T23:59:59Z
+2024-09-26 15:26:23,171 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:26:23,172 - INFO - Processing period: 2024-04-01T00:00:00Z - 2024-04-30T23:59:59Z
+2024-09-26 15:26:23,172 - INFO - Now in retrievespicedata
+2024-09-26 15:26:23,172 - INFO - Collecting data for 2024-04-01T00:00:00Z - 2024-04-30T23:59:59Z
+2024-09-26 15:26:23,570 - INFO - Now transforming data for station type spice
+2024-09-26 15:26:23,585 - INFO - Now dumping data to file
+2024-09-26 15:26:23,590 - INFO - Processing period: 2024-05-01T00:00:00Z - 2024-05-31T23:59:59Z
+2024-09-26 15:26:23,590 - INFO - Now in retrievespicedata
+2024-09-26 15:26:23,590 - INFO - Collecting data for 2024-05-01T00:00:00Z - 2024-05-31T23:59:59Z
+2024-09-26 15:26:23,967 - INFO - Now transforming data for station type spice
+2024-09-26 15:26:23,973 - INFO - Now dumping data to file
+2024-09-26 15:26:23,978 - INFO - Processing period: 2024-06-01T00:00:00Z - 2024-06-30T23:59:59Z
+2024-09-26 15:26:23,978 - INFO - Now in retrievespicedata
+2024-09-26 15:26:23,978 - INFO - Collecting data for 2024-06-01T00:00:00Z - 2024-06-30T23:59:59Z
+2024-09-26 15:26:24,279 - INFO - Now transforming data for station type spice
+2024-09-26 15:26:24,293 - INFO - Now dumping data to file
+2024-09-26 15:26:24,299 - INFO - Processing period: 2024-07-01T00:00:00Z - 2024-07-31T23:59:59Z
+2024-09-26 15:26:24,299 - INFO - Now in retrievespicedata
+2024-09-26 15:26:24,299 - INFO - Collecting data for 2024-07-01T00:00:00Z - 2024-07-31T23:59:59Z
+2024-09-26 15:26:24,502 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:26:24,503 - INFO - Processing period: 2024-08-01T00:00:00Z - 2024-08-31T23:59:59Z
+2024-09-26 15:26:24,503 - INFO - Now in retrievespicedata
+2024-09-26 15:26:24,503 - INFO - Collecting data for 2024-08-01T00:00:00Z - 2024-08-31T23:59:59Z
+2024-09-26 15:26:24,704 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:26:24,705 - INFO - Processing period: 2024-09-01T00:00:00Z - 2024-09-30T23:59:59Z
+2024-09-26 15:26:24,705 - INFO - Now in retrievespicedata
+2024-09-26 15:26:24,705 - INFO - Collecting data for 2024-09-01T00:00:00Z - 2024-09-30T23:59:59Z
+2024-09-26 15:26:24,902 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:26:24,903 - INFO - 
+2024-09-26 15:26:24,903 - INFO - Processing station: SPICE36
+2024-09-26 15:26:24,903 - INFO - Processing period: 2023-01-01T00:00:00Z - 2023-01-31T23:59:59Z
+2024-09-26 15:26:24,903 - INFO - Now in retrievespicedata
+2024-09-26 15:26:24,903 - INFO - Collecting data for 2023-01-01T00:00:00Z - 2023-01-31T23:59:59Z
+2024-09-26 15:26:25,108 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:26:25,109 - INFO - Processing period: 2023-02-01T00:00:00Z - 2023-02-28T23:59:59Z
+2024-09-26 15:26:25,109 - INFO - Now in retrievespicedata
+2024-09-26 15:26:25,109 - INFO - Collecting data for 2023-02-01T00:00:00Z - 2023-02-28T23:59:59Z
+2024-09-26 15:26:25,310 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:26:25,311 - INFO - Processing period: 2023-03-01T00:00:00Z - 2023-03-31T23:59:59Z
+2024-09-26 15:26:25,311 - INFO - Now in retrievespicedata
+2024-09-26 15:26:25,311 - INFO - Collecting data for 2023-03-01T00:00:00Z - 2023-03-31T23:59:59Z
+2024-09-26 15:26:25,516 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:26:25,516 - INFO - Processing period: 2023-04-01T00:00:00Z - 2023-04-30T23:59:59Z
+2024-09-26 15:26:25,517 - INFO - Now in retrievespicedata
+2024-09-26 15:26:25,517 - INFO - Collecting data for 2023-04-01T00:00:00Z - 2023-04-30T23:59:59Z
+2024-09-26 15:26:25,717 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:26:25,718 - INFO - Processing period: 2023-05-01T00:00:00Z - 2023-05-31T23:59:59Z
+2024-09-26 15:26:25,718 - INFO - Now in retrievespicedata
+2024-09-26 15:26:25,718 - INFO - Collecting data for 2023-05-01T00:00:00Z - 2023-05-31T23:59:59Z
+2024-09-26 15:26:25,920 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:26:25,921 - INFO - Processing period: 2023-06-01T00:00:00Z - 2023-06-30T23:59:59Z
+2024-09-26 15:26:25,921 - INFO - Now in retrievespicedata
+2024-09-26 15:26:25,921 - INFO - Collecting data for 2023-06-01T00:00:00Z - 2023-06-30T23:59:59Z
+2024-09-26 15:26:26,125 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:26:26,126 - INFO - Processing period: 2023-07-01T00:00:00Z - 2023-07-31T23:59:59Z
+2024-09-26 15:26:26,126 - INFO - Now in retrievespicedata
+2024-09-26 15:26:26,126 - INFO - Collecting data for 2023-07-01T00:00:00Z - 2023-07-31T23:59:59Z
+2024-09-26 15:26:26,327 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:26:26,327 - INFO - Processing period: 2023-08-01T00:00:00Z - 2023-08-31T23:59:59Z
+2024-09-26 15:26:26,328 - INFO - Now in retrievespicedata
+2024-09-26 15:26:26,328 - INFO - Collecting data for 2023-08-01T00:00:00Z - 2023-08-31T23:59:59Z
+2024-09-26 15:26:26,529 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:26:26,530 - INFO - Processing period: 2023-09-01T00:00:00Z - 2023-09-30T23:59:59Z
+2024-09-26 15:26:26,530 - INFO - Now in retrievespicedata
+2024-09-26 15:26:26,530 - INFO - Collecting data for 2023-09-01T00:00:00Z - 2023-09-30T23:59:59Z
+2024-09-26 15:26:26,732 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:26:26,733 - INFO - Processing period: 2023-10-01T00:00:00Z - 2023-10-31T23:59:59Z
+2024-09-26 15:26:26,733 - INFO - Now in retrievespicedata
+2024-09-26 15:26:26,733 - INFO - Collecting data for 2023-10-01T00:00:00Z - 2023-10-31T23:59:59Z
+2024-09-26 15:26:26,931 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:26:26,931 - INFO - Processing period: 2023-11-01T00:00:00Z - 2023-11-30T23:59:59Z
+2024-09-26 15:26:26,931 - INFO - Now in retrievespicedata
+2024-09-26 15:26:26,931 - INFO - Collecting data for 2023-11-01T00:00:00Z - 2023-11-30T23:59:59Z
+2024-09-26 15:26:27,133 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:26:27,134 - INFO - Processing period: 2023-12-01T00:00:00Z - 2023-12-31T23:59:59Z
+2024-09-26 15:26:27,134 - INFO - Now in retrievespicedata
+2024-09-26 15:26:27,134 - INFO - Collecting data for 2023-12-01T00:00:00Z - 2023-12-31T23:59:59Z
+2024-09-26 15:26:27,345 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:26:27,346 - INFO - Processing period: 2024-01-01T00:00:00Z - 2024-01-31T23:59:59Z
+2024-09-26 15:26:27,346 - INFO - Now in retrievespicedata
+2024-09-26 15:26:27,346 - INFO - Collecting data for 2024-01-01T00:00:00Z - 2024-01-31T23:59:59Z
+2024-09-26 15:26:27,553 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:26:27,554 - INFO - Processing period: 2024-02-01T00:00:00Z - 2024-02-29T23:59:59Z
+2024-09-26 15:26:27,554 - INFO - Now in retrievespicedata
+2024-09-26 15:26:27,554 - INFO - Collecting data for 2024-02-01T00:00:00Z - 2024-02-29T23:59:59Z
+2024-09-26 15:26:27,763 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:26:27,763 - INFO - Processing period: 2024-03-01T00:00:00Z - 2024-03-31T23:59:59Z
+2024-09-26 15:26:27,763 - INFO - Now in retrievespicedata
+2024-09-26 15:26:27,764 - INFO - Collecting data for 2024-03-01T00:00:00Z - 2024-03-31T23:59:59Z
+2024-09-26 15:26:27,955 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:26:27,956 - INFO - Processing period: 2024-04-01T00:00:00Z - 2024-04-30T23:59:59Z
+2024-09-26 15:26:27,956 - INFO - Now in retrievespicedata
+2024-09-26 15:26:27,956 - INFO - Collecting data for 2024-04-01T00:00:00Z - 2024-04-30T23:59:59Z
+2024-09-26 15:26:28,156 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:26:28,157 - INFO - Processing period: 2024-05-01T00:00:00Z - 2024-05-31T23:59:59Z
+2024-09-26 15:26:28,157 - INFO - Now in retrievespicedata
+2024-09-26 15:26:28,157 - INFO - Collecting data for 2024-05-01T00:00:00Z - 2024-05-31T23:59:59Z
+2024-09-26 15:26:28,354 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:26:28,355 - INFO - Processing period: 2024-06-01T00:00:00Z - 2024-06-30T23:59:59Z
+2024-09-26 15:26:28,355 - INFO - Now in retrievespicedata
+2024-09-26 15:26:28,355 - INFO - Collecting data for 2024-06-01T00:00:00Z - 2024-06-30T23:59:59Z
+2024-09-26 15:26:28,567 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:26:28,568 - INFO - Processing period: 2024-07-01T00:00:00Z - 2024-07-31T23:59:59Z
+2024-09-26 15:26:28,568 - INFO - Now in retrievespicedata
+2024-09-26 15:26:28,568 - INFO - Collecting data for 2024-07-01T00:00:00Z - 2024-07-31T23:59:59Z
+2024-09-26 15:26:28,875 - INFO - Now transforming data for station type spice
+2024-09-26 15:26:28,884 - INFO - Now dumping data to file
+2024-09-26 15:26:28,890 - INFO - Processing period: 2024-08-01T00:00:00Z - 2024-08-31T23:59:59Z
+2024-09-26 15:26:28,890 - INFO - Now in retrievespicedata
+2024-09-26 15:26:28,890 - INFO - Collecting data for 2024-08-01T00:00:00Z - 2024-08-31T23:59:59Z
+2024-09-26 15:26:29,263 - INFO - Now transforming data for station type spice
+2024-09-26 15:26:29,278 - INFO - Now dumping data to file
+2024-09-26 15:26:29,284 - INFO - Processing period: 2024-09-01T00:00:00Z - 2024-09-30T23:59:59Z
+2024-09-26 15:26:29,284 - INFO - Now in retrievespicedata
+2024-09-26 15:26:29,284 - INFO - Collecting data for 2024-09-01T00:00:00Z - 2024-09-30T23:59:59Z
+2024-09-26 15:26:29,529 - INFO - Now transforming data for station type spice
+2024-09-26 15:26:29,542 - INFO - Now dumping data to file
+2024-09-26 15:26:29,547 - INFO - 
+2024-09-26 15:26:29,548 - INFO - Processing station: SPICE37
+2024-09-26 15:26:29,548 - INFO - Processing period: 2023-01-01T00:00:00Z - 2023-01-31T23:59:59Z
+2024-09-26 15:26:29,548 - INFO - Now in retrievespicedata
+2024-09-26 15:26:29,548 - INFO - Collecting data for 2023-01-01T00:00:00Z - 2023-01-31T23:59:59Z
+2024-09-26 15:26:29,770 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:26:29,771 - INFO - Processing period: 2023-02-01T00:00:00Z - 2023-02-28T23:59:59Z
+2024-09-26 15:26:29,771 - INFO - Now in retrievespicedata
+2024-09-26 15:26:29,771 - INFO - Collecting data for 2023-02-01T00:00:00Z - 2023-02-28T23:59:59Z
+2024-09-26 15:26:29,969 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:26:29,969 - INFO - Processing period: 2023-03-01T00:00:00Z - 2023-03-31T23:59:59Z
+2024-09-26 15:26:29,969 - INFO - Now in retrievespicedata
+2024-09-26 15:26:29,969 - INFO - Collecting data for 2023-03-01T00:00:00Z - 2023-03-31T23:59:59Z
+2024-09-26 15:26:30,181 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:26:30,181 - INFO - Processing period: 2023-04-01T00:00:00Z - 2023-04-30T23:59:59Z
+2024-09-26 15:26:30,181 - INFO - Now in retrievespicedata
+2024-09-26 15:26:30,181 - INFO - Collecting data for 2023-04-01T00:00:00Z - 2023-04-30T23:59:59Z
+2024-09-26 15:26:30,385 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:26:30,386 - INFO - Processing period: 2023-05-01T00:00:00Z - 2023-05-31T23:59:59Z
+2024-09-26 15:26:30,386 - INFO - Now in retrievespicedata
+2024-09-26 15:26:30,386 - INFO - Collecting data for 2023-05-01T00:00:00Z - 2023-05-31T23:59:59Z
+2024-09-26 15:26:30,590 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:26:30,591 - INFO - Processing period: 2023-06-01T00:00:00Z - 2023-06-30T23:59:59Z
+2024-09-26 15:26:30,591 - INFO - Now in retrievespicedata
+2024-09-26 15:26:30,591 - INFO - Collecting data for 2023-06-01T00:00:00Z - 2023-06-30T23:59:59Z
+2024-09-26 15:26:30,795 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:26:30,796 - INFO - Processing period: 2023-07-01T00:00:00Z - 2023-07-31T23:59:59Z
+2024-09-26 15:26:30,796 - INFO - Now in retrievespicedata
+2024-09-26 15:26:30,796 - INFO - Collecting data for 2023-07-01T00:00:00Z - 2023-07-31T23:59:59Z
+2024-09-26 15:26:31,008 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:26:31,009 - INFO - Processing period: 2023-08-01T00:00:00Z - 2023-08-31T23:59:59Z
+2024-09-26 15:26:31,009 - INFO - Now in retrievespicedata
+2024-09-26 15:26:31,009 - INFO - Collecting data for 2023-08-01T00:00:00Z - 2023-08-31T23:59:59Z
+2024-09-26 15:26:31,212 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:26:31,213 - INFO - Processing period: 2023-09-01T00:00:00Z - 2023-09-30T23:59:59Z
+2024-09-26 15:26:31,213 - INFO - Now in retrievespicedata
+2024-09-26 15:26:31,213 - INFO - Collecting data for 2023-09-01T00:00:00Z - 2023-09-30T23:59:59Z
+2024-09-26 15:26:31,569 - INFO - Now transforming data for station type spice
+2024-09-26 15:26:31,580 - INFO - Now dumping data to file
+2024-09-26 15:26:31,586 - INFO - Processing period: 2023-10-01T00:00:00Z - 2023-10-31T23:59:59Z
+2024-09-26 15:26:31,586 - INFO - Now in retrievespicedata
+2024-09-26 15:26:31,586 - INFO - Collecting data for 2023-10-01T00:00:00Z - 2023-10-31T23:59:59Z
+2024-09-26 15:26:31,934 - INFO - Now transforming data for station type spice
+2024-09-26 15:26:31,948 - INFO - Now dumping data to file
+2024-09-26 15:26:31,954 - INFO - Processing period: 2023-11-01T00:00:00Z - 2023-11-30T23:59:59Z
+2024-09-26 15:26:31,954 - INFO - Now in retrievespicedata
+2024-09-26 15:26:31,954 - INFO - Collecting data for 2023-11-01T00:00:00Z - 2023-11-30T23:59:59Z
+2024-09-26 15:26:32,299 - INFO - Now transforming data for station type spice
+2024-09-26 15:26:32,314 - INFO - Now dumping data to file
+2024-09-26 15:26:32,320 - INFO - Processing period: 2023-12-01T00:00:00Z - 2023-12-31T23:59:59Z
+2024-09-26 15:26:32,320 - INFO - Now in retrievespicedata
+2024-09-26 15:26:32,320 - INFO - Collecting data for 2023-12-01T00:00:00Z - 2023-12-31T23:59:59Z
+2024-09-26 15:26:32,675 - INFO - Now transforming data for station type spice
+2024-09-26 15:26:32,689 - INFO - Now dumping data to file
+2024-09-26 15:26:32,695 - INFO - Processing period: 2024-01-01T00:00:00Z - 2024-01-31T23:59:59Z
+2024-09-26 15:26:32,695 - INFO - Now in retrievespicedata
+2024-09-26 15:26:32,695 - INFO - Collecting data for 2024-01-01T00:00:00Z - 2024-01-31T23:59:59Z
+2024-09-26 15:26:32,997 - INFO - Now transforming data for station type spice
+2024-09-26 15:26:33,003 - INFO - Now dumping data to file
+2024-09-26 15:26:33,008 - INFO - Processing period: 2024-02-01T00:00:00Z - 2024-02-29T23:59:59Z
+2024-09-26 15:26:33,008 - INFO - Now in retrievespicedata
+2024-09-26 15:26:33,008 - INFO - Collecting data for 2024-02-01T00:00:00Z - 2024-02-29T23:59:59Z
+2024-09-26 15:26:33,296 - INFO - Now transforming data for station type spice
+2024-09-26 15:26:33,302 - INFO - Now dumping data to file
+2024-09-26 15:26:33,307 - INFO - Processing period: 2024-03-01T00:00:00Z - 2024-03-31T23:59:59Z
+2024-09-26 15:26:33,307 - INFO - Now in retrievespicedata
+2024-09-26 15:26:33,307 - INFO - Collecting data for 2024-03-01T00:00:00Z - 2024-03-31T23:59:59Z
+2024-09-26 15:26:33,553 - INFO - Now transforming data for station type spice
+2024-09-26 15:26:33,561 - INFO - Now dumping data to file
+2024-09-26 15:26:33,568 - INFO - Processing period: 2024-04-01T00:00:00Z - 2024-04-30T23:59:59Z
+2024-09-26 15:26:33,568 - INFO - Now in retrievespicedata
+2024-09-26 15:26:33,568 - INFO - Collecting data for 2024-04-01T00:00:00Z - 2024-04-30T23:59:59Z
+2024-09-26 15:26:33,892 - INFO - Now transforming data for station type spice
+2024-09-26 15:26:33,898 - INFO - Now dumping data to file
+2024-09-26 15:26:33,903 - INFO - Processing period: 2024-05-01T00:00:00Z - 2024-05-31T23:59:59Z
+2024-09-26 15:26:33,903 - INFO - Now in retrievespicedata
+2024-09-26 15:26:33,903 - INFO - Collecting data for 2024-05-01T00:00:00Z - 2024-05-31T23:59:59Z
+2024-09-26 15:26:34,261 - INFO - Now transforming data for station type spice
+2024-09-26 15:26:34,267 - INFO - Now dumping data to file
+2024-09-26 15:26:34,272 - INFO - Processing period: 2024-06-01T00:00:00Z - 2024-06-30T23:59:59Z
+2024-09-26 15:26:34,272 - INFO - Now in retrievespicedata
+2024-09-26 15:26:34,272 - INFO - Collecting data for 2024-06-01T00:00:00Z - 2024-06-30T23:59:59Z
+2024-09-26 15:26:34,717 - INFO - Now transforming data for station type spice
+2024-09-26 15:26:34,726 - INFO - Now dumping data to file
+2024-09-26 15:26:34,731 - INFO - Processing period: 2024-07-01T00:00:00Z - 2024-07-31T23:59:59Z
+2024-09-26 15:26:34,731 - INFO - Now in retrievespicedata
+2024-09-26 15:26:34,731 - INFO - Collecting data for 2024-07-01T00:00:00Z - 2024-07-31T23:59:59Z
+2024-09-26 15:26:35,083 - INFO - Now transforming data for station type spice
+2024-09-26 15:26:35,097 - INFO - Now dumping data to file
+2024-09-26 15:26:35,103 - INFO - Processing period: 2024-08-01T00:00:00Z - 2024-08-31T23:59:59Z
+2024-09-26 15:26:35,103 - INFO - Now in retrievespicedata
+2024-09-26 15:26:35,103 - INFO - Collecting data for 2024-08-01T00:00:00Z - 2024-08-31T23:59:59Z
+2024-09-26 15:26:35,409 - INFO - Now transforming data for station type spice
+2024-09-26 15:26:35,424 - INFO - Now dumping data to file
+2024-09-26 15:26:35,429 - INFO - Processing period: 2024-09-01T00:00:00Z - 2024-09-30T23:59:59Z
+2024-09-26 15:26:35,430 - INFO - Now in retrievespicedata
+2024-09-26 15:26:35,430 - INFO - Collecting data for 2024-09-01T00:00:00Z - 2024-09-30T23:59:59Z
+2024-09-26 15:26:35,649 - INFO - Now transforming data for station type spice
+2024-09-26 15:26:35,654 - INFO - Now dumping data to file
+2024-09-26 15:26:35,659 - INFO - 
+2024-09-26 15:26:35,659 - INFO - Processing station: SPICE38
+2024-09-26 15:26:35,659 - INFO - Processing period: 2023-01-01T00:00:00Z - 2023-01-31T23:59:59Z
+2024-09-26 15:26:35,659 - INFO - Now in retrievespicedata
+2024-09-26 15:26:35,659 - INFO - Collecting data for 2023-01-01T00:00:00Z - 2023-01-31T23:59:59Z
+2024-09-26 15:26:35,852 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:26:35,853 - INFO - Processing period: 2023-02-01T00:00:00Z - 2023-02-28T23:59:59Z
+2024-09-26 15:26:35,853 - INFO - Now in retrievespicedata
+2024-09-26 15:26:35,853 - INFO - Collecting data for 2023-02-01T00:00:00Z - 2023-02-28T23:59:59Z
+2024-09-26 15:26:36,061 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:26:36,062 - INFO - Processing period: 2023-03-01T00:00:00Z - 2023-03-31T23:59:59Z
+2024-09-26 15:26:36,062 - INFO - Now in retrievespicedata
+2024-09-26 15:26:36,062 - INFO - Collecting data for 2023-03-01T00:00:00Z - 2023-03-31T23:59:59Z
+2024-09-26 15:26:36,255 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:26:36,256 - INFO - Processing period: 2023-04-01T00:00:00Z - 2023-04-30T23:59:59Z
+2024-09-26 15:26:36,256 - INFO - Now in retrievespicedata
+2024-09-26 15:26:36,256 - INFO - Collecting data for 2023-04-01T00:00:00Z - 2023-04-30T23:59:59Z
+2024-09-26 15:26:36,562 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:26:36,563 - INFO - Processing period: 2023-05-01T00:00:00Z - 2023-05-31T23:59:59Z
+2024-09-26 15:26:36,563 - INFO - Now in retrievespicedata
+2024-09-26 15:26:36,563 - INFO - Collecting data for 2023-05-01T00:00:00Z - 2023-05-31T23:59:59Z
+2024-09-26 15:26:36,772 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:26:36,772 - INFO - Processing period: 2023-06-01T00:00:00Z - 2023-06-30T23:59:59Z
+2024-09-26 15:26:36,772 - INFO - Now in retrievespicedata
+2024-09-26 15:26:36,772 - INFO - Collecting data for 2023-06-01T00:00:00Z - 2023-06-30T23:59:59Z
+2024-09-26 15:26:36,983 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:26:36,984 - INFO - Processing period: 2023-07-01T00:00:00Z - 2023-07-31T23:59:59Z
+2024-09-26 15:26:36,984 - INFO - Now in retrievespicedata
+2024-09-26 15:26:36,984 - INFO - Collecting data for 2023-07-01T00:00:00Z - 2023-07-31T23:59:59Z
+2024-09-26 15:26:37,187 - WARNING - This station does not seem to have any data for the time period specified.
+2024-09-26 15:26:37,188 - INFO - Processing period: 2023-08-01T00:00:00Z - 2023-08-31T23:59:59Z
+2024-09-26 15:26:37,188 - INFO - Now in retrievespicedata
+2024-09-26 15:26:37,188 - INFO - Collecting data for 2023-08-01T00:00:00Z - 2023-08-31T23:59:59Z
+2024-09-26 15:26:37,434 - INFO - Now transforming data for station type spice
+2024-09-26 15:26:37,450 - INFO - Now dumping data to file
+2024-09-26 15:26:37,456 - INFO - Processing period: 2023-09-01T00:00:00Z - 2023-09-30T23:59:59Z
+2024-09-26 15:26:37,457 - INFO - Now in retrievespicedata
+2024-09-26 15:26:37,457 - INFO - Collecting data for 2023-09-01T00:00:00Z - 2023-09-30T23:59:59Z
+2024-09-26 15:26:37,808 - INFO - Now transforming data for station type spice
+2024-09-26 15:26:37,818 - INFO - Now dumping data to file
+2024-09-26 15:26:37,825 - INFO - Processing period: 2023-10-01T00:00:00Z - 2023-10-31T23:59:59Z
+2024-09-26 15:26:37,825 - INFO - Now in retrievespicedata
+2024-09-26 15:26:37,825 - INFO - Collecting data for 2023-10-01T00:00:00Z - 2023-10-31T23:59:59Z
+2024-09-26 15:26:38,187 - INFO - Now transforming data for station type spice
+2024-09-26 15:26:38,201 - INFO - Now dumping data to file
+2024-09-26 15:26:38,207 - INFO - Processing period: 2023-11-01T00:00:00Z - 2023-11-30T23:59:59Z
+2024-09-26 15:26:38,207 - INFO - Now in retrievespicedata
+2024-09-26 15:26:38,207 - INFO - Collecting data for 2023-11-01T00:00:00Z - 2023-11-30T23:59:59Z
+2024-09-26 15:26:38,566 - INFO - Now transforming data for station type spice
+2024-09-26 15:26:38,580 - INFO - Now dumping data to file
+2024-09-26 15:26:38,586 - INFO - Processing period: 2023-12-01T00:00:00Z - 2023-12-31T23:59:59Z
+2024-09-26 15:26:38,586 - INFO - Now in retrievespicedata
+2024-09-26 15:26:38,586 - INFO - Collecting data for 2023-12-01T00:00:00Z - 2023-12-31T23:59:59Z
+2024-09-26 15:26:38,944 - INFO - Now transforming data for station type spice
+2024-09-26 15:26:38,958 - INFO - Now dumping data to file
+2024-09-26 15:26:38,964 - INFO - Processing period: 2024-01-01T00:00:00Z - 2024-01-31T23:59:59Z
+2024-09-26 15:26:38,964 - INFO - Now in retrievespicedata
+2024-09-26 15:26:38,964 - INFO - Collecting data for 2024-01-01T00:00:00Z - 2024-01-31T23:59:59Z
+2024-09-26 15:26:39,270 - INFO - Now transforming data for station type spice
+2024-09-26 15:26:39,275 - INFO - Now dumping data to file
+2024-09-26 15:26:39,281 - INFO - Processing period: 2024-02-01T00:00:00Z - 2024-02-29T23:59:59Z
+2024-09-26 15:26:39,281 - INFO - Now in retrievespicedata
+2024-09-26 15:26:39,281 - INFO - Collecting data for 2024-02-01T00:00:00Z - 2024-02-29T23:59:59Z
+2024-09-26 15:26:39,624 - INFO - Now transforming data for station type spice
+2024-09-26 15:26:39,639 - INFO - Now dumping data to file
+2024-09-26 15:26:39,645 - INFO - Processing period: 2024-03-01T00:00:00Z - 2024-03-31T23:59:59Z
+2024-09-26 15:26:39,645 - INFO - Now in retrievespicedata
+2024-09-26 15:26:39,645 - INFO - Collecting data for 2024-03-01T00:00:00Z - 2024-03-31T23:59:59Z
+2024-09-26 15:26:39,952 - INFO - Now transforming data for station type spice
+2024-09-26 15:26:39,967 - INFO - Now dumping data to file
+2024-09-26 15:26:39,973 - INFO - Processing period: 2024-04-01T00:00:00Z - 2024-04-30T23:59:59Z
+2024-09-26 15:26:39,973 - INFO - Now in retrievespicedata
+2024-09-26 15:26:39,973 - INFO - Collecting data for 2024-04-01T00:00:00Z - 2024-04-30T23:59:59Z
+2024-09-26 15:26:40,338 - INFO - Now transforming data for station type spice
+2024-09-26 15:26:40,353 - INFO - Now dumping data to file
+2024-09-26 15:26:40,359 - INFO - Processing period: 2024-05-01T00:00:00Z - 2024-05-31T23:59:59Z
+2024-09-26 15:26:40,359 - INFO - Now in retrievespicedata
+2024-09-26 15:26:40,359 - INFO - Collecting data for 2024-05-01T00:00:00Z - 2024-05-31T23:59:59Z
+2024-09-26 15:26:40,718 - INFO - Now transforming data for station type spice
+2024-09-26 15:26:40,732 - INFO - Now dumping data to file
+2024-09-26 15:26:40,738 - INFO - Processing period: 2024-06-01T00:00:00Z - 2024-06-30T23:59:59Z
+2024-09-26 15:26:40,738 - INFO - Now in retrievespicedata
+2024-09-26 15:26:40,738 - INFO - Collecting data for 2024-06-01T00:00:00Z - 2024-06-30T23:59:59Z
+2024-09-26 15:26:41,102 - INFO - Now transforming data for station type spice
+2024-09-26 15:26:41,117 - INFO - Now dumping data to file
+2024-09-26 15:26:41,124 - INFO - Processing period: 2024-07-01T00:00:00Z - 2024-07-31T23:59:59Z
+2024-09-26 15:26:41,124 - INFO - Now in retrievespicedata
+2024-09-26 15:26:41,124 - INFO - Collecting data for 2024-07-01T00:00:00Z - 2024-07-31T23:59:59Z
+2024-09-26 15:26:41,486 - INFO - Now transforming data for station type spice
+2024-09-26 15:26:41,492 - INFO - Now dumping data to file
+2024-09-26 15:26:41,497 - INFO - Processing period: 2024-08-01T00:00:00Z - 2024-08-31T23:59:59Z
+2024-09-26 15:26:41,497 - INFO - Now in retrievespicedata
+2024-09-26 15:26:41,497 - INFO - Collecting data for 2024-08-01T00:00:00Z - 2024-08-31T23:59:59Z
+2024-09-26 15:26:41,859 - INFO - Now transforming data for station type spice
+2024-09-26 15:26:41,874 - INFO - Now dumping data to file
+2024-09-26 15:26:41,880 - INFO - Processing period: 2024-09-01T00:00:00Z - 2024-09-30T23:59:59Z
+2024-09-26 15:26:41,880 - INFO - Now in retrievespicedata
+2024-09-26 15:26:41,880 - INFO - Collecting data for 2024-09-01T00:00:00Z - 2024-09-30T23:59:59Z
+2024-09-26 15:26:42,190 - INFO - Now transforming data for station type spice
+2024-09-26 15:26:42,205 - INFO - Now dumping data to file

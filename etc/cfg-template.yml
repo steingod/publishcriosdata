@@ -1,0 +1,38 @@
+criosapicfg:
+  sttype: 
+  endpoint: 
+  stations:
+    SPICE37: 
+      geospatial_lat_min: -999.
+      geospatial_lat_max: -999.
+      geospatial_lon_min: -999.
+      geospatial_lon_max: -999.
+
+output:
+  logfile: 
+  destdir: 
+  default_metadata:
+    title: 
+    project: 
+    summary:
+    keywords:
+    keywords_vocabulary: GCMDSK:GCMD Science Keywords
+    creator_type: 
+    creator_institution: 
+    creator_name: 
+    creator_email: 
+    creator_url: 
+    license: https://spdx.org/licenses/CC-BY-4.0 (CC-BY-4.0)
+    iso_topic_category: 
+    activity_type: In Situ Land-based station
+    operational_status: Not available
+    featureType: timeSeries
+    contributor_name: 
+    contributor_email: 
+    contributor_institution: 
+    publisher_name: 
+    publisher_email: 
+    publisher_url: 
+    publisher_institution: 
+    Conventions: ACDD, CF-1.11
+    source: 
