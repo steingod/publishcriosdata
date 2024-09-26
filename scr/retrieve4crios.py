@@ -15,6 +15,7 @@ import yaml
 import logging
 import logging.handlers
 from calendar import monthrange
+import uuid
 
 def parse_arguments():
     """
@@ -266,6 +267,7 @@ def spice2ds(mylog, json_data, md):
     creationtime = datetime.datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ")
     # TODO: check whether attributes are OK.
     ds.attrs = {}
+    # id is set when writing to file
     if 'title' in md['md'].keys():
         ds.attrs['title'] = md['md']['title']
     else:
@@ -356,13 +358,58 @@ def spice2ds(mylog, json_data, md):
 
     return {'ds': ds, 'enc': encoding}
 
+def createMETuuid(infile):
+    """
+    Create a unique identifier for the dataset. Here we use the approach from mdharvest with data centre MET/ADC since data are published there
+    """
+    # Prepare creation of UUID
+    filename = "https://arcticdata.met.no/ds/"+os.path.basename(infile)+"-"
+    filename += datetime.datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')
+
+    # Create UUID
+    myuuid = uuid.uuid5(uuid.NAMESPACE_URL,filename)
+    # Add namespace
+    myidentifier = 'no.met.adc:'+str(myuuid)
+
+    return myidentifier
+
 def ds2netcdf(mylog, ds, filename):
     mylog.info('Now dumping data to file')
+    # First check if file already exists
+    oldhist = None
+    oldid = None
+    if os.path.isfile(filename):
+        mylog.info("%s exists, will retrieve existing identifier", filename)
+        # The open the file and retrieve existing identifier
+        try:
+            oldds = xr.open_dataset(filename)
+        except Exception as e:
+            mylog.warning("Could not open old dataset: %s", e)
+            mylog.warning("Overwriting...")
+        if 'id' in oldds.attrs.keys():
+            oldid = oldds.attrs['id']
+        else:
+            mylog.info('No id found, adding one')
+        if 'history' in oldds.attrs.keys():
+            oldhist = oldds.attrs['history']
+        oldds.close()
+    # Add the identifier
+    if oldid:
+        ds['ds'].attrs['id'] = oldid
+    else:
+        ds['ds'].attrs['id'] = createMETuuid(filename)
+    # Fix the history
+    if oldhist:
+        ds['ds'].attrs['history'] = oldhist+'\n'+datetime.datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')+': Updated'
+    # Dump the data
     try:
-        ds['ds'].to_netcdf(filename, encoding=ds['enc'], unlimited_dims='time')
+        ds['ds'].to_netcdf(filename, encoding=ds['enc'], unlimited_dims='time', mode="w")
     except Exception as e:
         mylog.warning('Something failed when creating NetCDF file: %s', e)
         raise Exception('Something failed when creating NetCDF file')
+    mylog.info("%s is created", filename)
+
+    return
 
 if __name__ == '__main__':
 
