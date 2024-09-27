@@ -631,8 +631,7 @@ if __name__ == '__main__':
         except Exception as e:
             mylog.warning("Something failed in transformdata")
         if myds is None:
-            mylog.error("transformdata failed, myds is None. Exiting.")
-            sys.exit(1)
+            mylog.error("transformdata failed, myds is None.")
         # Write to file
         try:
             ds2netcdf(mylog, myds, args.output)
