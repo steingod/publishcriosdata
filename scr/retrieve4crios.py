@@ -214,12 +214,171 @@ def transformdata(mylog, station_type, myjson, md):
 
     return mydata
 
+
 def aws2ds(mylog, json_data, md):
     """
     Convert AWS data to XARRAY dataset
     """
 
-    return
+    # Variable specifications and conversions
+    variables = (
+            'solar_radiation',
+            'solar_radiation_1',
+            'solar_radiation_2',
+            'air_temperature',
+            'wind_speed',
+            'relative_humidity',
+            'gust_speed',
+            'wind_direction',
+            'air_pressure',
+            'precipitation'
+            ) 
+    long_names = {
+            'solar_radiation': 'solar radiation measured at station',
+            'solar_radiation_1': 'solar radiation 1 measured at station',
+            'solar_radiation_2': 'solar radiation 2 measured at station',
+            'air_temperature': 'air temperature measured at station',
+            'wind_speed': 'wind speed measured at station',
+            'relative_humidity': 'relative humidity measured at station',
+            'gust_speed': 'gust speed measured at station',
+            'wind_direction': 'wind direction measured at station',
+            'air_pressure': 'air_pressure measured at station',
+            'precipitation': 'precipitation measured at station'
+            }
+    data_arrays = {}
+
+    for variable in variables:
+        # Must read time in second precision to get correct values, and then convert to nanosecond precision to
+        # silence xarray warning about non-nanosecond precision.
+        time = np.array([item['t'] for item in json_data[variable]], dtype='datetime64[s]').astype('datetime64[ns]')
+        data = np.array([item['v'] for item in json_data[variable]], dtype=float)
+
+        data_arrays[variable] = xr.DataArray(data=data,
+                dims=['time'],
+                coords=dict(time=time),
+                attrs=dict(long_name=long_names[variable],
+                    standard_name=variable,
+                    units=json_data['metadata'][variable]['v']['units'],
+                    coverage_content_type='physicalMeasurement'))
+
+        try:
+            _FillValue = json_data['metadata'][variable]['v']['_FillValue']
+        except KeyError:
+            pass
+        else:
+            # Replace any null values with _FillValue if it exists.
+            data_arrays[variable] = data_arrays[variable].where(data_arrays[variable].notnull(), _FillValue)
+            data_arrays[variable].attrs['_FillValue'] = _FillValue
+
+    ds = xr.Dataset(data_vars=data_arrays)
+    ds['time'].attrs = {'standard_name': 'time', 'long_name': 'time of observation'}
+
+    # Positions of the stations. 
+    lat = md['md']['geospatial_lat_min']
+    lon = md['md']['geospatial_lon_min']
+
+    ds = ds.assign(lat=lat)
+    ds['lat'].attrs = {'units': 'degree_north', 'standard_name': 'latitude'}
+
+    ds = ds.assign(lon=lon)
+    ds['lon'].attrs = {'units': 'degree_east', 'standard_name': 'longitude'}
+
+    # Prepare attributes
+    creationtime = datetime.datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ")
+    ds.attrs = {}
+    # id is set when writing to file
+    if 'title' in md['md'].keys():
+        ds.attrs['summary'] = md['md']['summary']
+    else:
+        ds.attrs['title'] = f'Measurement data from {md["stid"]} station'
+    if 'summary' in md['md'].keys():
+        ds.attrs['summary'] = md['md']['summary']
+    else:
+        ds.attrs['summary'] = ('Data from AWS stations includes solar radiation measurements, surface temperature, wind speed, wind direction, relative humidity, atmospheric pressure, and precipitation. These stations and their data are a part of the CRIOS project.')
+    if 'keywords' in md['md'].keys():
+        ds.attrs['keywords'] = md['md']['keywords']
+    else:
+        ds.attrs['keywords'] = ('GCMDSK:EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC RADIATION > SOLAR RADIATION,'  +
+        'GCMDSK:EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC TEMPERATURE > SURFACE TEMPERATURE > AIR TEMPERATURE,' +
+        'GCMDSK:EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC WINDS > SURFACE WINDS > WIND SPEED,' + 
+        'GCMDSK:EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC WINDS > SURFACE WINDS > WIND DIRECTION,' +
+        'GCMDSK:EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC WATER VAPOR > WATER VAPOR INDICATORS > HUMIDITY > RELATIVE HUMIDITY,' +
+        'GCMDSK:EARTH SCIENCE > ATMOSPHERE > PRECIPITATION,' +
+        'GCMDSK:EARTH SCIENCE > ATMOSPHERE > ATMOSPHERIC PRESSURE > ATMOSPHERIC PRESSURE MEASUREMENTS')
+    if 'keywords_vocabulary' in md['md'].keys():
+        ds.attrs['keywords_vocabulary'] = md['md']['keywords_vocabulary']
+    else:
+        ds.attrs['keywords_vocabulary'] = 'GCMDSK: GCMD Science Keywords'
+    if 'geospatial_lat_min' in md['md'].keys():
+        ds.attrs['geospatial_lat_min'] = md['md']['geospatial_lat_min']
+    else:
+        ds.attrs['geospatial_lat_min'] = str(lat)
+    if 'geospatial_lat_max' in md['md'].keys():
+        ds.attrs['geospatial_lat_max'] = md['md']['geospatial_lat_max']
+    else:
+        ds.attrs['geospatial_lat_max'] = str(lat)
+    if 'geospatial_lon_min' in md['md'].keys():
+        ds.attrs['geospatial_lon_min'] = md['md']['geospatial_lon_min']
+    else:
+        ds.attrs['geospatial_lon_min'] = str(lon)
+    if 'geospatial_lon_max' in md['md'].keys():
+        ds.attrs['geospatial_lon_max'] = md['md']['geospatial_lon_max']
+    else:
+        ds.attrs['geospatial_lon_max'] = str(lon)
+    ds.attrs['Conventions'] = 'CF-1.11, ACDD-1.3'
+    if 'creator_type' in md['md'].keys():
+        ds.attrs['creator_type'] = md['md']['creator_type']
+    else:
+        ds.attrs['creator_type'] = 'person'
+    if 'creator_institution' in md['md'].keys():
+        ds.attrs['creator_institution'] = md['md']['creator_institution']
+    else:
+        ds.attrs['creator_institution'] = 'University of Silesia'
+    if 'creator_name' in md['md'].keys():
+        ds.attrs['creator_name'] = np.array(md['md']['creator_name'].encode("utf-8"))
+    else:
+        ds.attrs['creator_name'] = np.array('Łukasz Małarzewski'.encode("utf-8"))
+    if 'creator_email' in md['md'].keys():
+        ds.attrs['creator_email'] = md['md']['creator_email']
+    else:
+        ds.attrs['creator_email'] = 'lukasz.malarzewski@us.edu.pl'
+    if 'creator_url' in md['md'].keys():
+        ds.attrs['creator_url'] = md['md']['creator_url']
+    else:
+        ds.attrs['creator_url'] = 'https://us.edu.pl/instytut/inoz/en/osoby/malarzewski-lukasz/'
+    if 'project' in md['md'].keys():
+        ds.attrs['project'] = md['md']['project']
+    else:
+        ds.attrs['project'] = 'CRIOS'
+    if 'license' in md['md'].keys():
+        ds.attrs['license'] = md['md']['license']
+    else:
+        ds.attrs['license'] = 'https://spdx.org/licenses/CC-BY-4.0 (CC-BY-4.0)'
+    ds.attrs['iso_topic_category'] = 'climatologyMeteorologyAtmosphere'
+    ds.attrs['activity_type'] = 'In Situ Land-based station'
+    if 'operational_status' in md['md'].keys():
+        ds.attrs['operational_status'] = md['md']['operational_status']
+    else:
+        ds.attrs['operational_status'] = 'Not available'
+    ds.attrs['time_coverage_start'] = np.datetime_as_string(ds.time[0], timezone='UTC', unit='s')
+    ds.attrs['time_coverage_end'] = np.datetime_as_string(ds.time[-1], timezone='UTC', unit='s')
+    ds.attrs['history'] = creationtime + ': created file'
+    ds.attrs['date_created'] = creationtime
+    ds.attrs['featureType'] = 'timeSeries'
+
+    #print(json.dumps(ds.attrs, indent=2))
+    float_type = {'dtype': 'float32'}
+    integer_type = {'dtype': 'int32'}
+
+    encoding = {'time': integer_type,
+                'surface_snow_thickness': float_type,
+                'air_temperature': float_type,
+                'relative_humidity': float_type,
+                'air_pressure': float_type,
+                'lat': float_type,
+                'lon': float_type}
+
+    return {'ds': ds, 'enc': encoding}
 
 def spice2ds(mylog, json_data, md):
     """
@@ -466,10 +625,14 @@ if __name__ == '__main__':
         except Exception as e:
             raise SystemExit("Retrival and conversion didn't work", e)
         # Transform to Dataset
+        myds = None
         try:
             myds = transformdata(mylog, sttype, mydata)
         except Exception as e:
             mylog.warning("Something failed in transformdata")
+        if myds is None:
+            mylog.error("transformdata failed, myds is None. Exiting.")
+            sys.exit(1)
         # Write to file
         try:
             ds2netcdf(mylog, myds, args.output)
@@ -509,10 +672,15 @@ if __name__ == '__main__':
                     if mydata == None:
                         continue
                     # Transform to Dataset
+                    myds = None   # Set myds = None before the transformdata() call
                     try:
                         myds = transformdata(mylog, sttype, mydata, mymd)
                     except Exception as e:
-                        mylog.warning("Something failed in transformdata")
+                        error_message = f"Exception type: {type(e).__name__}, Message: {str(e)}"
+                        mylog.warning("Something failed in transformdata: %s", error_message)
+                    if myds is None:
+                        mylog.error("transformdata failed, myds is None. Skipping this period.")
+                        continue
                     # Write to file
                     outfile = cfgstr['output']['destdir']+'/'+mystation+'-'+datetime.datetime.strptime(p['start'],'%Y-%m-%dT%H:%M:%SZ').strftime('%Y%m')+'.nc'
                     try:
