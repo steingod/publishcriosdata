@@ -117,7 +117,7 @@ def check_last_updated(outputdir):
 
 def split_period(mylog, start_ts, end_ts):
     """
-    Split the requested time period into monthly sections for better granularity in the file system.
+    Split the requested time period into monthly sections for better granularity in the file system. Assumes datetime strings as input.
     """
 
     mylog.info("Splitting requested time period into monthly segments")
@@ -388,10 +388,15 @@ def createMETuuid(infile):
     return myidentifier
 
 def ds2netcdf(mylog, ds, filename):
+    """
+    Dump data to CF-NetCDF. If the file already exist, concatenate unless explicitly asking for overwrite (not implemented yet).
+    """
     mylog.info('Now dumping data to file')
     # First check if file already exists
     oldhist = None
     oldid = None
+    uds = None
+    myappend = False
     if os.path.isfile(filename):
         mylog.info("%s exists, will retrieve existing identifier", filename)
         # The open the file and retrieve existing identifier
@@ -407,6 +412,13 @@ def ds2netcdf(mylog, ds, filename):
         if 'history' in oldds.attrs.keys():
             oldhist = oldds.attrs['history']
         oldds.close()
+        # Merge datasets if needed FIXME - check carefully
+        uds = xr.concat([oldds, ds['ds']], dim='time', coords='minimal', compat="override")
+        #sys.exit()
+        uds.attrs['time_coverage_end'] = ds['ds'].attrs['time_coverage_end']
+        #uds.attrs['history'] = oldds.attrs['history']+'\n'+datetime.datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')+': Updated'
+        ds['ds'] = uds
+        myappend = True
     # Add the identifier
     if oldid:
         ds['ds'].attrs['id'] = oldid
@@ -416,6 +428,12 @@ def ds2netcdf(mylog, ds, filename):
     if oldhist:
         ds['ds'].attrs['history'] = oldhist+'\n'+datetime.datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')+': Updated'
     # Dump the data
+    xr.backends.file_manager.FILE_CACHE.clear()
+    print('>>>> ', filename)
+    print(ds)
+    # FIXME may not be needed, issues may be caused by dataset object...
+    if myappend:
+        os.remove(filename)
     try:
         ds['ds'].to_netcdf(filename, encoding=ds['enc'], unlimited_dims='time', mode="w")
     except Exception as e:
@@ -481,7 +499,7 @@ if __name__ == '__main__':
             # If start time is not provided, get it from last generated files
             # FIXME
             if 'start_ts' not in vars(myargs):
-                start_ts = check_last_updated(cfgstr['output']['destdir'])
+                start_ts = check_last_updated(cfgstr['output']['destdir']).strftime('%Y-%m-%dT%H:%M:%SZ')
             else:
                 start_ts = myargs.start_ts
             # Split requested time period into monthly periods
