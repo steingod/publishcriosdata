@@ -159,20 +159,21 @@ def retrievedata(mylog, station_type, endpoint, station, start_ts, end_ts):
     Connect to the remote API, download data and return these as JSON
     """
 
-    mylog.info("Now in retrievespicedata")
+    mylog.info("Now in retrievedata")
     mylog.info("Collecting data for %s - %s", start_ts, end_ts)
 
     # Set up the request depending on station type
     if station_type == 'aws':
-        return
+        mylog.info('Accessing AWS station: %s', station)
         myrequest = endpoint + '?id='+station+'&startTs='+start_ts+'&endTs='+end_ts+'&meta=yes&awsId=yes&time=yes&setf=no'
+        print(myrequest)
     elif station_type == 'spice':
+        mylog.info('Accessing SPICE station: %s', station)
         myrequest = endpoint + '?spice='+station+'&startTs='+start_ts+'&endTs='+end_ts+'&meta=yes&spiceId=yes&time=yes'
     else:
         mylog.error('The station_type is not supported %s', station_type)
         raise Exception('Unsupported station type')
 
-    #print(myrequest)
     try:
         response = requests.get(myrequest)
     except Exception as e:
@@ -219,6 +220,7 @@ def aws2ds(mylog, json_data, md):
     """
     Convert AWS data to XARRAY dataset
     """
+    mylog.info('aws2ds')
 
     # Variable specifications and conversions
     variables = (
@@ -247,6 +249,7 @@ def aws2ds(mylog, json_data, md):
             }
     data_arrays = {}
 
+    # FIXME something odd in block below...
     for variable in variables:
         # Must read time in second precision to get correct values, and then convert to nanosecond precision to
         # silence xarray warning about non-nanosecond precision.
@@ -270,6 +273,9 @@ def aws2ds(mylog, json_data, md):
             data_arrays[variable] = data_arrays[variable].where(data_arrays[variable].notnull(), _FillValue)
             data_arrays[variable].attrs['_FillValue'] = _FillValue
 
+
+    print('So far so good...')
+    sys.exit()
     ds = xr.Dataset(data_vars=data_arrays)
     ds['time'].attrs = {'standard_name': 'time', 'long_name': 'time of observation'}
 
@@ -384,6 +390,8 @@ def spice2ds(mylog, json_data, md):
     """
     Convert SPICE data to XARRAY dataset
     """
+
+    mylog.info('spice2ds')
 
     # Variable specifications and conversions
     variables = (
@@ -682,7 +690,6 @@ if __name__ == '__main__':
     else:
         if 'stations' in cfgstr['criosapicfg']:
             # If start time is not provided, get it from last generated files
-            # FIXME
             if 'start_ts' not in vars(myargs):
                 start_ts = check_last_updated(cfgstr['output']['destdir']).strftime('%Y-%m-%dT%H:%M:%SZ')
             else:
@@ -705,6 +712,7 @@ if __name__ == '__main__':
                 for p in myperiods:
                     mylog.info("Processing period: %s - %s", p['start'], p['end'])
                     # Retrieve data
+                    mydata = None
                     try:
                         mydata = retrievedata(mylog, sttype, endpoint, mystation, p['start'], p['end'])
                     except Exception as e:
