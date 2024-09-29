@@ -558,21 +558,43 @@ def ds2netcdf(mylog, ds, filename):
     myappend = False
     if os.path.isfile(filename):
         mylog.info("%s exists, will retrieve existing identifier", filename)
-        # The open the file and retrieve existing identifier
+        # The open the file
         try:
             oldds = xr.open_dataset(filename)
         except Exception as e:
             mylog.warning("Could not open old dataset: %s", e)
             mylog.warning("Overwriting...")
+        # Retrieve existing identifier
         if 'id' in oldds.attrs.keys():
             oldid = oldds.attrs['id']
         else:
             mylog.info('No id found, adding one')
+        # Get the original history statement for amendment
         if 'history' in oldds.attrs.keys():
             oldhist = oldds.attrs['history']
+        # Get the last time step handled for clean merging
+        lastobs = oldds['time'].values[-1]
+        """
+        print('>>>> oldds: ', oldds)
+        print('>>>> newds: ', ds['ds'])
+        """
+        print('>>>> lastobs: ', lastobs)
+        print('>>>> newest: ', ds['ds']['time'].values[-1])
+        """
+        print('>>>> cleands 1: ', ds['ds'].isel(time=ds['ds'].time.isin([lastobs+np.timedelta64(1,'D'), ds['ds'].time.values[-1]])))
+        print('>>>> cleands 2: ', ds['ds'].where(ds['ds'].time > lastobs))
+        """
         oldds.close()
+        # Drop new values that are already covered in the file
+        # FIXME
+        ## sample: df2 = df.where(df.time.dt.hour == 12, drop=True)
+        cleanew = ds['ds'].where(ds['ds'].time > lastobs)
+        # 
         # Merge datasets if needed FIXME - check carefully
-        uds = xr.concat([oldds, ds['ds']], dim='time', coords='minimal', compat="override")
+        # the duplicate times are added
+        uds = xr.concat([oldds, cleanew], dim='time', coords='minimal', compat="no_conflicts")
+        print(uds)
+        print(uds['time'].values)
         #sys.exit()
         uds.attrs['time_coverage_end'] = ds['ds'].attrs['time_coverage_end']
         #uds.attrs['history'] = oldds.attrs['history']+'\n'+datetime.datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')+': Updated'
@@ -587,9 +609,10 @@ def ds2netcdf(mylog, ds, filename):
     if oldhist:
         ds['ds'].attrs['history'] = oldhist+'\n'+datetime.datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')+': Updated'
     # Dump the data
+    # FIXME check if needed
     xr.backends.file_manager.FILE_CACHE.clear()
     print('>>>> ', filename)
-    print(ds)
+    print(ds['ds'])
     # FIXME may not be needed, issues may be caused by dataset object...
     if myappend:
         os.remove(filename)
