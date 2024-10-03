@@ -16,6 +16,7 @@ import logging
 import logging.handlers
 from calendar import monthrange
 import uuid
+import re
 
 def parse_arguments():
     """
@@ -223,22 +224,18 @@ def aws2ds(mylog, json_data, md):
     mylog.info('aws2ds')
 
     # Variable specifications and conversions
-    variables = (
-            'solar_radiation',
-            'solar_radiation_1',
-            'solar_radiation_2',
-            'air_temperature',
-            'wind_speed',
-            'relative_humidity',
-            'gust_speed',
-            'wind_direction',
-            'air_pressure',
-            'precipitation'
-            ) 
+    stdname = {
+            'Solar_Radiation': 'solar_radiation',
+            'Temperature': 'air_temperature',
+            'RH': 'relative_humidity',
+            'Gust_speed': 'gust_speed',
+            'Wind_Direction': 'wind_direction',
+            'Wind_Speed': 'wind_speed',
+            'Pressure': 'air_pressure',
+            'Rain': 'precipitation',
+            } 
     long_names = {
             'solar_radiation': 'solar radiation measured at station',
-            'solar_radiation_1': 'solar radiation 1 measured at station',
-            'solar_radiation_2': 'solar radiation 2 measured at station',
             'air_temperature': 'air temperature measured at station',
             'wind_speed': 'wind speed measured at station',
             'relative_humidity': 'relative humidity measured at station',
@@ -249,32 +246,43 @@ def aws2ds(mylog, json_data, md):
             }
     data_arrays = {}
 
-    # FIXME something odd in block below...
-    for variable in variables:
+    # Identify data variables in stream
+    myvarlist = list(json_data.keys())
+    for k in ['metadata', 'time']:
+        if k in myvarlist:
+            myvarlist.remove(k)
+    print(myvarlist)
+
+    # Loop data variables
+    # Does not work FIXME
+    for myvariable in myvarlist:
+        mylog.info('Extracting %s', myvariable)
+        myvariablenoinst = re.sub('_\d{8}$','', myvariable)
+
         # Must read time in second precision to get correct values, and then convert to nanosecond precision to
         # silence xarray warning about non-nanosecond precision.
-        time = np.array([item['t'] for item in json_data[variable]], dtype='datetime64[s]').astype('datetime64[ns]')
-        data = np.array([item['v'] for item in json_data[variable]], dtype=float)
+        time = np.array([item['t'] for item in json_data[myvariable]], dtype='datetime64[s]').astype('datetime64[ns]')
+        data = np.array([item['v'] for item in json_data[myvariable]], dtype=float)
 
-        data_arrays[variable] = xr.DataArray(data=data,
+        data_arrays[myvariable] = xr.DataArray(data=data,
                 dims=['time'],
                 coords=dict(time=time),
-                attrs=dict(long_name=long_names[variable],
-                    standard_name=variable,
-                    units=json_data['metadata'][variable]['v']['units'],
+                attrs=dict(long_name=long_names[stdname[myvariablenoinst]],
+                    standard_name=myvariable,
+                    units=json_data['metadata'][stdname[myvariablenoinst]]['v']['units'],
                     coverage_content_type='physicalMeasurement'))
 
         try:
-            _FillValue = json_data['metadata'][variable]['v']['_FillValue']
+            _FillValue = json_data['metadata'][stdname[myvariablenoinst]]['v']['_FillValue']
         except KeyError:
             pass
         else:
             # Replace any null values with _FillValue if it exists.
-            data_arrays[variable] = data_arrays[variable].where(data_arrays[variable].notnull(), _FillValue)
-            data_arrays[variable].attrs['_FillValue'] = _FillValue
+            data_arrays[myvariable] = data_arrays[myvariable].where(data_arrays[myvariable].notnull(), _FillValue)
+            data_arrays[myvariable].attrs['_FillValue'] = _FillValue
 
 
-    print('So far so good...')
+    print('So far so good2...')
     sys.exit()
     ds = xr.Dataset(data_vars=data_arrays)
     ds['time'].attrs = {'standard_name': 'time', 'long_name': 'time of observation'}
@@ -731,6 +739,14 @@ if __name__ == '__main__':
                         continue
                     # Write to file
                     outfile = cfgstr['output']['destdir']+'/'+mystation+'-'+datetime.datetime.strptime(p['start'],'%Y-%m-%dT%H:%M:%SZ').strftime('%Y%m')+'.nc'
+                    outputfolder = '/'.join(cfgstr['output']['destdir'], mystation)
+                    if not os.path.isdir(outputfolder):
+                        mylog.info('Creating new destination folder: %s', mystation)
+                        try:
+                            os.mkdir(outputfolder)
+                        except Exception as e:
+                            mylog.error('Could not create folder: %s', e)
+                            raise Exception(e)
                     try:
                         ds2netcdf(mylog, myds, outfile)
                     except Exception as e:
