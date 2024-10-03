@@ -738,7 +738,7 @@ if __name__ == '__main__':
                         mylog.error("transformdata failed, myds is None. Skipping this period.")
                         continue
                     # Write to file
-                    outfile = cfgstr['output']['destdir']+'/'+mystation+'-'+datetime.datetime.strptime(p['start'],'%Y-%m-%dT%H:%M:%SZ').strftime('%Y%m')+'.nc'
+                    outfile = cfgstr['output']['destdir']+'/'+mystation+'/'+mystation+'-'+datetime.datetime.strptime(p['start'],'%Y-%m-%dT%H:%M:%SZ').strftime('%Y%m')+'.nc'
                     outputfolder = '/'.join([cfgstr['output']['destdir'], mystation])
                     if not os.path.isdir(outputfolder):
                         mylog.info('Creating new destination folder: %s', mystation)
