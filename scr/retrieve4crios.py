@@ -739,7 +739,7 @@ if __name__ == '__main__':
                         continue
                     # Write to file
                     outfile = cfgstr['output']['destdir']+'/'+mystation+'-'+datetime.datetime.strptime(p['start'],'%Y-%m-%dT%H:%M:%SZ').strftime('%Y%m')+'.nc'
-                    outputfolder = '/'.join(cfgstr['output']['destdir'], mystation)
+                    outputfolder = '/'.join([cfgstr['output']['destdir'], mystation])
                     if not os.path.isdir(outputfolder):
                         mylog.info('Creating new destination folder: %s', mystation)
                         try:
