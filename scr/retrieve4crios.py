@@ -102,16 +102,26 @@ def initialise_logger(outputfile = './log'):
 
     return(mylog)
 
-def check_last_updated(outputdir):
+def check_last_updated(mylog, outputdir):
     """
-    Check the folder where results are dumped, get the last timestamp, substract 3 minutes and create timestamp to use for running updates.
+    Check the folder where results are dumped, get the last timestamp, subtract 3 minutes and create timestamp to use for running updates.
+    Assuming files are separated by station, not separation by year.
     """
+    mylog.info("No start datetime was provided, setting one from the last updated file.")
     last_update = 0
-    for myfile in os.listdir(outputdir):
+    for item in os.listdir(outputdir):
+        item2test = '/'.join([outputdir, item])
         if myfile.endswith('.nc'):
-            tmptime = os.path.getmtime(outputdir+'/'+myfile)
+            tmptime = os.path.getmtime(item2test)
             if tmptime > last_update:
                 last_update = tmptime
+        elif os.path.isdir(item2test):
+            fold2check = '/'.join([outputdir,item])
+            for myfile in os.listdir(fold2check)
+                if myfile.endswith('.nc'):
+                    tmptime = os.path.getmtime(item2test)
+                    if tmptime > last_update:
+                        last_update = tmptime
 
     #print(datetime.datetime.fromtimestamp(last_update))
     return datetime.datetime.fromtimestamp(last_update)-datetime.timedelta(hours=0, minutes=1)
