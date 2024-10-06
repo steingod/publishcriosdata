@@ -117,7 +117,7 @@ def check_last_updated(mylog, outputdir):
                 last_update = tmptime
         elif os.path.isdir(item2test):
             fold2check = '/'.join([outputdir,item])
-            for myfile in os.listdir(fold2check)
+            for myfile in os.listdir(fold2check):
                 if myfile.endswith('.nc'):
                     tmptime = os.path.getmtime(item2test)
                     if tmptime > last_update:
@@ -394,7 +394,7 @@ def aws2ds(mylog, json_data, md):
     float_type = {'dtype': 'float32'}
     integer_type = {'dtype': 'int32'}
 
-    encoding = {'time': integer_type,
+    encoding = {'time': {'dtype': 'int32', 'units': 'seconds since 1970 00:00:00 +0:00'},
                 'surface_snow_thickness': float_type,
                 'air_temperature': float_type,
                 'relative_humidity': float_type,
@@ -547,7 +547,7 @@ def spice2ds(mylog, json_data, md):
     float_type = {'dtype': 'float32'}
     integer_type = {'dtype': 'int32'}
 
-    encoding = {'time': integer_type,
+    encoding = {'time': {'dtype': 'int32', 'units': 'seconds since 1970-01-01 00:00:00 +0:00'},
                 'surface_snow_thickness': float_type,
                 'air_temperature': float_type,
                 'relative_humidity': float_type,
@@ -619,8 +619,10 @@ def ds2netcdf(mylog, ds, filename):
         # Merge datasets if needed FIXME - check carefully
         # the duplicate times are added
         uds = xr.concat([oldds, cleanew], dim='time', coords='minimal', compat="no_conflicts")
+        """
         print(uds)
         print(uds['time'].values)
+        """
         #sys.exit()
         uds.attrs['time_coverage_end'] = ds['ds'].attrs['time_coverage_end']
         #uds.attrs['history'] = oldds.attrs['history']+'\n'+datetime.datetime.utcnow().strftime('%Y-%m-%dT%H:%M:%SZ')+': Updated'
@@ -637,8 +639,6 @@ def ds2netcdf(mylog, ds, filename):
     # Dump the data
     # FIXME check if needed
     xr.backends.file_manager.FILE_CACHE.clear()
-    print('>>>> ', filename)
-    print(ds['ds'])
     # FIXME may not be needed, issues may be caused by dataset object...
     if myappend:
         os.remove(filename)
