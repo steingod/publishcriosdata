@@ -86,14 +86,15 @@ def initialise_logger(outputfile = './log'):
 
 def traverse_structure(myfolder):
     """
-    Assuming data from one station is organised in a single folder and with sub folders for each year. This function loops through all stations.
+    Assuming data from one station is organised in a single folder. 
+    This function loops through all stations.
     """
 
     for item in os.listdir(myfolder):
         mydir = '/'.join([myfolder,item])
         if not os.path.isdir(mydir):
             continue
-        if not item.startswith('SN'):
+        if not item.startswith('SPICE') or not item.startswith('AWS'):
             mylog.warning('Apparently this is not a station folder.')
             continue
         mylog.info('Processing folder: %s', mydir)
@@ -135,78 +136,6 @@ def update_variables(ncds, missingvar):
 
     return
 
-def update_vertlev(myfile, ncds, vertcoord, vertvalues):
-    """
-    Check vertical levels and make these consistent across files.
-    """
-
-    # List variables that typically are presented as profiles
-    myvars = ['soil_temperature']
-    mylog.info('Now in update_vertlev')
-
-    # Create new dataset
-    try:
-        newncds = Dataset(myfile, mode='w', diskless=True, Persist=True)
-    except Exception as e:
-        mylog.error('Could not create new diskless dataset: %s', e)
-        raise
-    # Create dimensions
-    newncds.createDimension('time', size=ncds['time'].size)
-    newncds.createDimension(vertcoord, size=len(vertvalues))
-    # Create variables
-    newtime = newncds.createVariable('time', datatype='i4', dimensions=('time'))
-    newtime.standard_name = ncds['time'].standard_name
-    newtime.long_name = ncds['time'].long_name
-    newtime.units = ncds['time'].units
-    newncds.variables['time'][:] = ncds['time'][:]
-    newdepth = newncds.createVariable(vertcoord, datatype='f4', dimensions=(vertcoord), fill_value=ncds[vertcoord]._FillValue)
-    newdepth.standard_name = ncds[vertcoord].standard_name
-    newdepth.long_name = ncds[vertcoord].long_name
-    newdepth.units = ncds[vertcoord].units
-    newdepth.coordinates = ncds[vertcoord].coordinates
-    newdepth.performance_category = ncds[vertcoord].performance_category
-    newncds.variables[vertcoord][:] = vertvalues[:]
-    # Add global attributes
-
-    myvertvalues = ncds[vertcoord][:]
-    mydata = dict()
-    mytimedim = ncds['time'].size
-    for el in myvars:
-        tmparr = numpy.ma.getdata(ncds[el][:])
-        # Create temporary array
-        tmparr2 = numpy.full(shape=(mytimedim,len(vertvalues)), fill_value=ncds[el]._FillValue, dtype=float)
-        # Fill temporary array
-        for i in range(0,mytimedim):
-            for j in range(0,len(vertvalues)):
-                myindex = numpy.where(numpy.isclose(myvertvalues,[vertvalues[j]]))
-                if len(myindex[0]) != 0:
-                    tmparr2[i][j] = tmparr[i][myindex[0][0]]
-        mydata[el] = tmparr2
-        newvar = newncds.createVariable(el, datatype = ncds[el].dtype,dimensions=('time',vertcoord))
-    print(ncds)
-    print(newncds)
-
-    """
-    print(tmparr2)
-    print(vertvalues)
-    print(tmparr2[0])
-    print(mydata)
-    """
-
-    """
-    print(type(myvertvalues))
-    print(myvertvalues.ndim)
-    print(myvertvalues[0])
-    mydata = ncds['soil_temperature'].dimensions)
-    print(numpy.ma.getmask(myvertvalues))
-    print(type(numpy.ma.getdata(myvertvalues)))
-    print((numpy.ma.getdata(myvertvalues)))
-    """
-
-    sys.exit()
-
-    return
-
 def check_netcdf(stdir):
     """
     Check the individual files in the folder for each station. If some files miss variables that have been added later, these are added to the respective files and set to all missing values. This function works backwards under the assumption that there is a larger probability for variables to be added than removed.
@@ -223,85 +152,56 @@ def check_netcdf(stdir):
     myzsize = None
     myvertvalues = list()
     for item in sorted(os.listdir(stdir), reverse=True):
-        # Check content of yearly folder
-        curdir = '/'.join([stdir,item])
-        if os.path.isdir(curdir):
-            # Process files for each year and extract list of variables
-            for item2 in sorted(os.listdir(curdir), reverse=True):
-                myfile = '/'.join([curdir,item2])
-                # Only process NetCDF files and check content
-                if myfile.endswith('.nc'):
-                    mylog.info('Processing file: %s', myfile)
-                    myncds = Dataset(myfile, 'r+')
-                    tmpvars = list(myncds.variables.keys())
-                    # TODO fix this!!
-                    try:
-                        featureType = myncds.getncattr('featureType')
-                    except Exception as e:
-                        mylog.error('This file does not have featureType.')
-                        raise(e)
-                    if featureType == 'timeSeriesProfile':
-                        if 'soil_temperature' in tmpvars:
-                            mydim = myncds['soil_temperature'].dimensions
-                            if len(mydim) > 2:
-                                mylog.error('Cannot handle more than 2 dimensions.')
-                                raise
-                            for i in mydim:
-                                print(i)
-                                if i in myvertcoord:
-                                    myvert = i
-                        if not myzsize:
-                            myzsize = myncds[myvert].size
-                            myvertvalues = myncds[myvert][:]
-                        else:
-                            if myncds[myvert].size != myzsize:
-                                print(myvertvalues)
-                                print(myncds[myvert][:])
-                                mylog.warning('This sequence of tiles have varying vertical levels preventing aggregation in time.\n%d\n%d', myncds[myvert].size, myzsize)
-                                try:
-                                    update_vertlev(myfile, myncds, myvert, myvertvalues)
-                                except Exception as e:
-                                    raise Exception('This sequence of tiles have varying vertical levels preventing aggregation in time.')
-                        print(myvert, myzsize)
-                    if len(list(myvariables.keys())) == 0:
-                        for el in tmpvars:
-                            tmpdict = dict()
-                            tmpdict['name'] = el 
-                            tmpdict['stdname'] = myncds[el].getncattr('standard_name') 
-                            tmpdict['lngname'] = myncds[el].getncattr('long_name')
-                            tmpdict['units'] = myncds[el].getncattr('units')
-                            tmpdict['dtype'] = str(myncds[el].dtype)
-                            if el != 'time':
-                                tmpdict['missing'] = str(myncds[el]._FillValue)
-                            else:
-                                tmpdict['missing'] = ""
-                            myvariables[el] = tmpdict
-                            """
-                            print(json.dumps(myvariables, indent=2))
-                            print(len(myvariables.keys()))
-                            """
-                        continue
-                    """
-                    print('#### ',myvariables, len(myvariables))
-                    print('#### ',tmpvars, len(tmpvars))
-                    print('#### ', compare_varlists(tmpvars, myvariables))
-                    if len(tmpvars) != len(myvariables):
-                        sys.exit()
-                    """
-                    if compare_varlists(tmpvars, list(myvariables.keys())) == False:
-                        mylog.warning('This file has different variables than others\nReference: %s (%d)\nFile: %s (%d)',list(myvariables.keys()),len(list(myvariables.keys())), tmpvars, len(tmpvars))
-                        for el in list(myvariables.keys()):
-                            # If variable is missing add it...
-                            if el not in tmpvars:
-                                try:
-                                    update_variables(myncds, myvariables[el])
-                                except Exception as e:
-                                    mylog.error('Something failed when updating file.')
+        myfile = '/'.join([curdir,item])
+        # Only process NetCDF files and check content
+        if myfile.endswith('.nc'):
+            mylog.info('Processing file: %s', myfile)
+            myncds = Dataset(myfile, 'r+')
+            tmpvars = list(myncds.variables.keys())
+            # TODO fix this!!
+            try:
+                featureType = myncds.getncattr('featureType')
+            except Exception as e:
+                mylog.error('This file does not have featureType.')
+                raise(e)
+            if len(list(myvariables.keys())) == 0:
+                for el in tmpvars:
+                    tmpdict = dict()
+                    tmpdict['name'] = el 
+                    tmpdict['stdname'] = myncds[el].getncattr('standard_name') 
+                    tmpdict['lngname'] = myncds[el].getncattr('long_name')
+                    tmpdict['units'] = myncds[el].getncattr('units')
+                    tmpdict['dtype'] = str(myncds[el].dtype)
+                    if el != 'time':
+                        tmpdict['missing'] = str(myncds[el]._FillValue)
                     else:
-                        mylog.info('This file has the same variables as other files, continuing.')
-                    myncds.close()
-                    #sys.exit() # while testing
-        #print('lats\n#### ', missingvars)
+                        tmpdict['missing'] = ""
+                    myvariables[el] = tmpdict
+                    """
+                    print(json.dumps(myvariables, indent=2))
+                    print(len(myvariables.keys()))
+                    """
+                continue
+            """
+            print('#### ',myvariables, len(myvariables))
+            print('#### ',tmpvars, len(tmpvars))
+            print('#### ', compare_varlists(tmpvars, myvariables))
+            if len(tmpvars) != len(myvariables):
+                sys.exit()
+            """
+            if compare_varlists(tmpvars, list(myvariables.keys())) == False:
+                mylog.warning('This file has different variables than others\nReference: %s (%d)\nFile: %s (%d)',list(myvariables.keys()),len(list(myvariables.keys())), tmpvars, len(tmpvars))
+                for el in list(myvariables.keys()):
+                    # If variable is missing add it...
+                    if el not in tmpvars:
+                        try:
+                            update_variables(myncds, myvariables[el])
+                        except Exception as e:
+                            mylog.error('Something failed when updating file.')
+            else:
+                mylog.info('This file has the same variables as other files, continuing.')
+            myncds.close()
+    return
 
 if __name__ == '__main__':
     
