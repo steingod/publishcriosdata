@@ -94,7 +94,7 @@ def traverse_structure(myfolder):
         mydir = '/'.join([myfolder,item])
         if not os.path.isdir(mydir):
             continue
-        if not item.startswith('SPICE') or not item.startswith('AWS'):
+        if not item.startswith('SPICE') and not item.startswith('AWS'):
             mylog.warning('Apparently this is not a station folder.')
             continue
         mylog.info('Processing folder: %s', mydir)
