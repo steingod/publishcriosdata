@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Generate NCML files for aggregation of CF-NetCDF files containing data from Frost.
+Generate NCML files for aggregation of CF-NetCDF files containing data from CRIOS.
 """
 __author__ = "Øystein Godøy"
 #__copyright__ = "Copyright Info"
@@ -83,9 +83,6 @@ def traverse_structure(myfolder):
         mydir = '/'.join([myfolder,item])
         if not os.path.isdir(mydir):
             continue
-        if not item.startswith('SN'):
-            mylog.warn('Apparently this is not a station folder.')
-            continue
         mylog.info('Processing folder: %s', mydir)
         myncmlfile = '/'.join([mydir,item])+'-aggregated.ncml'
         try:
@@ -149,9 +146,6 @@ if __name__ == '__main__':
         args = parse_arguments()
     except:
         raise SystemExit('Command line arguments didn\'t parse correctly.')
-
-    # Parse configuration file
-    #cfgstr = parse_cfg(args.cfgfile)
 
     # Initialise logging
     #output_dir = cfgstr['output']
