@@ -80,6 +80,9 @@ def initialise_logger(outputfile = './log'):
 def traverse_structure(myfolder):
 
     for item in os.listdir(myfolder):
+        """
+        Loop through station folders
+        """
         mydir = '/'.join([myfolder,item])
         if not os.path.isdir(mydir):
             continue
@@ -92,6 +95,9 @@ def traverse_structure(myfolder):
             raise
 
 def create_ncml(myncmlfile, aggdir):
+    """
+    Check files in station folder and generate NCML
+    """
     # Check if NCML already exist
     if os.path.isfile(myncmlfile) and not args.overwrite:
         mylog.warning("%s already exists, won't do anything", myncmlfile)
@@ -104,33 +110,22 @@ def create_ncml(myncmlfile, aggdir):
     aggel.set('dimName','time')
     aggel.set('type','joinExisting')
     aggel.set('recheckEvery','1 day')
-    """
-    Removed in favor of listing fo files
-    scanel = ET.SubElement(aggel, ET.QName('scan'))
-    scanel.set('location', aggdir)
-    scanel.set('suffix','.nc')
-    """
-    # Set up specific files to include, assuming data stored in years
-    # Set a time stamp into the future...
+    # Set up specific files to include
+    # Set a time stamp into the future and change this based on content in folder...
     mystarttime = 4000000000 
     for item in sorted(os.listdir(aggdir)):
-        curdir = '/'.join([aggdir,item])
-        # Check content of yearly folder
-        if os.path.isdir(curdir):
-            # Process files
-            for item2 in sorted(os.listdir(curdir)):
-                myfile = '/'.join([curdir,item2])
-                # Open NetCDF and check content
-                if myfile.endswith('.nc'):
-                    myncds = Dataset(myfile)
-                    tmp = myncds.variables['time'][:]
-                    if min(tmp) < mystarttime:
-                        mystarttime = min(tmp)
-                    tmpstring = ' '.join(str(num) for num in tmp)
-                    netcdf = ET.SubElement(aggel, ET.QName('netcdf'))
-                    netcdf.set('location',myfile)
-                    netcdf.set('coordValue', tmpstring)
-                    myncds.close()
+        myfile = '/'.join([aggdir,item])
+        # Open NetCDF and check content
+        if myfile.endswith('.nc'):
+            myncds = Dataset(myfile)
+            tmp = myncds.variables['time'][:]
+            if min(tmp) < mystarttime:
+                mystarttime = min(tmp)
+            tmpstring = ' '.join(str(num) for num in tmp)
+            netcdf = ET.SubElement(aggel, ET.QName('netcdf'))
+            netcdf.set('location',myfile)
+            netcdf.set('coordValue', tmpstring)
+            myncds.close()
     mymeta = ET.SubElement(root, ET.QName('attribute'))
     mymeta.set('name', 'time_coverage_start')
     mymeta.set('value', datetime.fromtimestamp(mystarttime).astimezone(pytz.timezone('UTC')).strftime("%Y-%m-%dT%H:%M:%S%z"))
