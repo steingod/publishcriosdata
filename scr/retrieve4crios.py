@@ -709,7 +709,7 @@ if __name__ == '__main__':
         if 'stations' in cfgstr['criosapicfg']:
             # If start time is not provided, get it from last generated files
             if 'start_ts' not in vars(myargs):
-                start_ts = check_last_updated(cfgstr['output']['destdir']).strftime('%Y-%m-%dT%H:%M:%SZ')
+                start_ts = check_last_updated(mylog, cfgstr['output']['destdir']).strftime('%Y-%m-%dT%H:%M:%SZ')
             else:
                 start_ts = myargs.start_ts
             # Split requested time period into monthly periods
