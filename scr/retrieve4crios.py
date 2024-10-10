@@ -111,7 +111,7 @@ def check_last_updated(mylog, outputdir):
     last_update = 0
     for item in os.listdir(outputdir):
         item2test = '/'.join([outputdir, item])
-        if myfile.endswith('.nc'):
+        if item.endswith('.nc'):
             tmptime = os.path.getmtime(item2test)
             if tmptime > last_update:
                 last_update = tmptime
